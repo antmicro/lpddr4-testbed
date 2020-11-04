@@ -1820,4 +1820,10 @@ Wire Notes Line
 	1125 5200 1125 3325
 Wire Notes Line
 	1150 6825 1150 5600
+$Sheet
+S 5250 10050 2075 825 
+U 60A07818
+F0 "Data Resistors" 50
+F1 "data_resistors.sch" 50
+$EndSheet
 $EndSCHEMATC
