@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -1825,5 +1825,11 @@ S 5250 10050 2075 825
 U 60A07818
 F0 "Data Resistors" 50
 F1 "data_resistors.sch" 50
+$EndSheet
+$Sheet
+S 1975 10125 2150 875 
+U 5FABECC5
+F0 "Power Filtering" 50
+F1 "power_filtering.sch" 50
 $EndSheet
 $EndSCHEMATC

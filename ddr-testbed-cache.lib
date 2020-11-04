@@ -37,6 +37,24 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroCapacitors0402_C_1u_0402
+#
+DEF antmicroCapacitors0402_C_1u_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0402_C_1u_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
+F5 "C1005X6S1A105K050BC" 200 300 60 H I L CNN "MPN"
+F6 "1u" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroCapacitors0402_C_3p_0402
 #
 DEF antmicroCapacitors0402_C_3p_0402 C 0 0 Y Y 1 F N
@@ -47,6 +65,24 @@ F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
 F5 "MC0402N3R0C500CT" 200 300 60 H I L CNN "MPN"
 F6 "3p" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroCapacitors0603_C_10u_0603
+#
+DEF antmicroCapacitors0603_C_10u_0603 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0603_C_10u_0603" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Murata" 200 400 60 H I L CNN "Manufacturer"
+F5 "GRM188R61A106KE69D" 200 300 60 H I L CNN "MPN"
+F6 "10u" 0 -100 50 H V C CNN "Val"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
