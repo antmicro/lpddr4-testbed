@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -35,30 +35,8 @@ F 3 "" H 15025 5850 50  0001 L BNN
 	2    14025 5750
 	1    0    0    -1  
 $EndComp
-$Comp
-L antmicroMemory:MT53E256M16D1 U1
-U 2 1 602BF408
-P 3750 8150
-F 0 "U1" H 3200 9525 50  0000 C CNN
-F 1 "MT53E256M16D1" H 3300 6775 50  0000 C CNN
-F 2 "antmicro-footprints:BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm" H 3800 6250 50  0001 C CNN
-F 3 "" H 3650 6950 50  0001 C CNN
-	2    3750 8150
-	1    0    0    -1  
-$EndComp
 Text Notes 8125 1175 0    98   ~ 20
 Connector
-$Comp
-L antmicroMemory:MT53E256M16D1 U1
-U 1 1 602BB4A5
-P 4025 3600
-F 0 "U1" H 3500 4975 50  0000 C CNN
-F 1 "MT53E256M16D1" H 3575 2225 50  0000 C CNN
-F 2 "antmicro-footprints:BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm" H 4075 1700 50  0001 C CNN
-F 3 "" H 3925 2400 50  0001 C CNN
-	1    4025 3600
-	1    0    0    -1  
-$EndComp
 Text Label 8425 2875 0    50   ~ 0
 DQ01
 Wire Wire Line
@@ -92,84 +70,67 @@ DQ07
 Text Label 11025 2875 2    50   ~ 0
 DQ00
 Wire Wire Line
-	3925 2100 3925 1950
+	2800 1800 2800 1650
 Wire Wire Line
-	4300 1950 4300 1800
+	3175 1650 3175 1500
 Wire Wire Line
-	4125 2100 4125 1950
-Connection ~ 4125 1950
+	3000 1800 3000 1650
+Connection ~ 3000 1650
 Wire Wire Line
-	4125 1950 4300 1950
+	3000 1650 3175 1650
 Wire Wire Line
-	4025 2100 4025 1950
+	2900 1800 2900 1650
 Wire Wire Line
-	3925 1950 4025 1950
-Connection ~ 4025 1950
+	2800 1650 2900 1650
+Connection ~ 2900 1650
 Wire Wire Line
-	4025 1950 4125 1950
+	2900 1650 3000 1650
 Wire Wire Line
-	4025 5100 4025 5400
+	2900 4800 2900 5100
 $Comp
 L power:GND #PWR0101
 U 1 1 6041895C
-P 4025 5400
-F 0 "#PWR0101" H 4025 5150 50  0001 C CNN
-F 1 "GND" H 4030 5227 50  0000 C CNN
-F 2 "" H 4025 5400 50  0001 C CNN
-F 3 "" H 4025 5400 50  0001 C CNN
-	1    4025 5400
+P 2900 5100
+F 0 "#PWR0101" H 2900 4850 50  0001 C CNN
+F 1 "GND" H 2905 4927 50  0000 C CNN
+F 2 "" H 2900 5100 50  0001 C CNN
+F 3 "" H 2900 5100 50  0001 C CNN
+	1    2900 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 9650 3750 9950
+	2925 9175 2925 9475
 $Comp
 L power:GND #PWR0102
 U 1 1 6042116F
-P 3750 9950
-F 0 "#PWR0102" H 3750 9700 50  0001 C CNN
-F 1 "GND" H 3755 9777 50  0000 C CNN
-F 2 "" H 3750 9950 50  0001 C CNN
-F 3 "" H 3750 9950 50  0001 C CNN
-	1    3750 9950
+P 2925 9475
+F 0 "#PWR0102" H 2925 9225 50  0001 C CNN
+F 1 "GND" H 2930 9302 50  0000 C CNN
+F 2 "" H 2925 9475 50  0001 C CNN
+F 3 "" H 2925 9475 50  0001 C CNN
+	1    2925 9475
 	1    0    0    -1  
 $EndComp
-Text GLabel 4300 1800 1    50   Input ~ 0
+Text GLabel 3175 1500 1    50   Input ~ 0
 DDRVCC
 Wire Wire Line
-	3650 6650 3650 6500
+	2825 6175 2825 6025
 Wire Wire Line
-	4025 6500 4025 6350
+	3200 6025 3200 5875
 Wire Wire Line
-	3850 6650 3850 6500
-Connection ~ 3850 6500
+	3025 6175 3025 6025
+Connection ~ 3025 6025
 Wire Wire Line
-	3850 6500 4025 6500
+	3025 6025 3200 6025
 Wire Wire Line
-	3750 6650 3750 6500
+	2925 6175 2925 6025
 Wire Wire Line
-	3650 6500 3750 6500
-Connection ~ 3750 6500
+	2825 6025 2925 6025
+Connection ~ 2925 6025
 Wire Wire Line
-	3750 6500 3850 6500
-Text GLabel 4025 6350 1    50   Input ~ 0
+	2925 6025 3025 6025
+Text GLabel 3200 5875 1    50   Input ~ 0
 DDRVCC
-NoConn ~ 4550 8550
-NoConn ~ 4550 8650
-NoConn ~ 4550 8750
-NoConn ~ 4550 8850
-NoConn ~ 4550 8950
-NoConn ~ 4550 9050
-NoConn ~ 4550 9150
-NoConn ~ 4550 9250
-NoConn ~ 2950 9250
-NoConn ~ 2950 9150
-NoConn ~ 2950 9050
-NoConn ~ 2950 8950
-NoConn ~ 2950 8850
-NoConn ~ 2950 8750
-NoConn ~ 2950 8650
-NoConn ~ 2950 8550
-NoConn ~ 2350 2775
 Wire Wire Line
 	9225 2575 9100 2575
 Wire Wire Line
@@ -450,69 +411,69 @@ F 3 "" H 10350 9425 50  0001 C CNN
 	1    10350 9425
 	1    0    0    -1  
 $EndComp
-Text Label 2425 4100 0    50   ~ 0
+Text Label 1300 3800 0    50   ~ 0
 DQ01R
 Wire Wire Line
-	2425 4100 3225 4100
+	1300 3800 2100 3800
 Wire Wire Line
-	2425 4300 3225 4300
+	1300 4000 2100 4000
 Wire Wire Line
-	2425 4500 3225 4500
+	1300 4200 2100 4200
 Wire Wire Line
-	3225 4700 2425 4700
-Text Label 2425 4300 0    50   ~ 0
+	2100 4400 1300 4400
+Text Label 1300 4000 0    50   ~ 0
 DQ03R
-Text Label 2425 4500 0    50   ~ 0
+Text Label 1300 4200 0    50   ~ 0
 DQ05R
-Text Label 2425 4700 0    50   ~ 0
+Text Label 1300 4400 0    50   ~ 0
 DQ07R
 Wire Wire Line
-	3225 4000 2425 4000
+	2100 3700 1300 3700
 Wire Wire Line
-	3225 4200 2425 4200
+	2100 3900 1300 3900
 Wire Wire Line
-	3225 4400 2425 4400
+	2100 4100 1300 4100
 Wire Wire Line
-	3225 4600 2425 4600
-Text Label 2425 4200 0    50   ~ 0
+	2100 4300 1300 4300
+Text Label 1300 3900 0    50   ~ 0
 DQ02R
-Text Label 2425 4400 0    50   ~ 0
+Text Label 1300 4100 0    50   ~ 0
 DQ04R
-Text Label 2425 4600 0    50   ~ 0
+Text Label 1300 4300 0    50   ~ 0
 DQ06R
-Text Label 2425 4000 0    50   ~ 0
+Text Label 1300 3700 0    50   ~ 0
 DQ00R
-Text Label 5625 4600 2    50   ~ 0
+Text Label 4500 4300 2    50   ~ 0
 DQ14R
 Wire Wire Line
-	5625 4600 4825 4600
+	4500 4300 3700 4300
 Wire Wire Line
-	5625 4400 4825 4400
+	4500 4100 3700 4100
 Wire Wire Line
-	5625 4200 4825 4200
+	4500 3900 3700 3900
 Wire Wire Line
-	4825 4000 5625 4000
-Text Label 5625 4400 2    50   ~ 0
+	3700 3700 4500 3700
+Text Label 4500 4100 2    50   ~ 0
 DQ12R
-Text Label 5625 4200 2    50   ~ 0
+Text Label 4500 3900 2    50   ~ 0
 DQ10R
-Text Label 5625 4000 2    50   ~ 0
+Text Label 4500 3700 2    50   ~ 0
 DQ08R
 Wire Wire Line
-	4825 4700 5625 4700
+	3700 4400 4500 4400
 Wire Wire Line
-	4825 4500 5625 4500
+	3700 4200 4500 4200
 Wire Wire Line
-	4825 4300 5625 4300
+	3700 4000 4500 4000
 Wire Wire Line
-	4825 4100 5625 4100
-Text Label 5625 4500 2    50   ~ 0
+	3700 3800 4500 3800
+Text Label 4500 4200 2    50   ~ 0
 DQ13R
-Text Label 5625 4300 2    50   ~ 0
+Text Label 4500 4000 2    50   ~ 0
 DQ11R
-Text Label 5625 4100 2    50   ~ 0
+Text Label 4500 3800 2    50   ~ 0
 DQ09R
-Text Label 5625 4700 2    50   ~ 0
+Text Label 4500 4400 2    50   ~ 0
 DQ15R
 Text Label 11025 4375 2    50   ~ 0
 DQ14
@@ -571,52 +532,49 @@ Wire Wire Line
 Text Label 8425 4175 0    50   ~ 0
 DM1_N
 Wire Wire Line
-	2425 3800 3225 3800
+	1300 3500 2100 3500
 Wire Wire Line
-	3225 3900 2425 3900
-Text Label 2425 3900 0    50   ~ 0
+	2100 3600 1300 3600
+Text Label 1300 3600 0    50   ~ 0
 DQS0R_C
-Text Label 2425 3800 0    50   ~ 0
+Text Label 1300 3500 0    50   ~ 0
 DQS0R_T
 Wire Wire Line
-	5625 3800 4825 3800
+	4500 3500 3700 3500
 Wire Wire Line
-	4825 3900 5625 3900
-Text Label 5625 3900 2    50   ~ 0
+	3700 3600 4500 3600
+Text Label 4500 3600 2    50   ~ 0
 DQS1R_C
 Wire Wire Line
-	3225 4800 2425 4800
-Text Label 2425 4800 0    50   ~ 0
+	2100 4500 1300 4500
+Text Label 1300 4500 0    50   ~ 0
 DM0R_N
 Wire Wire Line
-	4825 4800 5625 4800
-Text Label 5625 4800 2    50   ~ 0
+	3700 4500 4500 4500
+Text Label 4500 4500 2    50   ~ 0
 DM1R_N
 Wire Wire Line
-	2425 2400 3225 2400
+	1300 2100 2100 2100
 Wire Wire Line
-	3225 2500 2425 2500
-Text Label 2425 2400 0    50   ~ 0
-CK0_T
-Text Label 2425 2500 0    50   ~ 0
-CK0_C
+	2100 2200 1300 2200
+Text Label 1300 2100 0    50   ~ 0
+CK0_T_A
+Text Label 1300 2200 0    50   ~ 0
+CK0_C_A
 Wire Wire Line
-	3225 2600 2425 2600
-Text Label 2425 2600 0    50   ~ 0
-CS0_N
+	2100 2300 1300 2300
+Text Label 1300 2300 0    50   ~ 0
+CS0_N_A
 Wire Wire Line
-	4825 2400 5625 2400
-Text Label 5625 2400 2    50   ~ 0
-ODT0
-Text Label 5625 3800 2    50   ~ 0
+	3700 2100 4500 2100
+Text Label 4500 2100 2    50   ~ 0
+ODT0_A
+Text Label 4500 3500 2    50   ~ 0
 DQS1R_T
 Wire Wire Line
-	3225 3500 2425 3500
-Text Label 2425 3500 0    50   ~ 0
-CKE0
-NoConn ~ 3225 2900
-NoConn ~ 3225 3000
-NoConn ~ 3225 3100
+	2100 3200 1300 3200
+Text Label 1300 3200 0    50   ~ 0
+CKE0_A
 NoConn ~ 9225 7775
 NoConn ~ 9225 7575
 NoConn ~ 9225 7375
@@ -648,43 +606,37 @@ Wire Wire Line
 $Comp
 L antmicroResistors0402:R_240R_0402 R?
 U 1 1 60BB1B24
-P 4825 7150
-F 0 "R?" H 4650 7200 60  0000 C CNN
-F 1 "R_240R_0402" H 4825 7000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5025 7350 60  0001 L CNN
-F 3 "" H 4825 7150 50  0001 C CNN
-F 4 "PANASONIC" H 5025 7550 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GEJ241X" H 5025 7450 60  0001 L CNN "MPN"
-F 6 "240R" H 5025 7100 50  0000 C CNN "Val"
-	1    4825 7150
+P 4000 6675
+F 0 "R?" H 3825 6725 60  0000 C CNN
+F 1 "R_240R_0402" H 4000 6525 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4200 6875 60  0001 L CNN
+F 3 "" H 4000 6675 50  0001 C CNN
+F 4 "PANASONIC" H 4200 7075 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ241X" H 4200 6975 60  0001 L CNN "MPN"
+F 6 "240R" H 4200 6625 50  0000 C CNN "Val"
+	1    4000 6675
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 7150 4675 7150
+	3725 6675 3850 6675
 Wire Wire Line
-	4975 7150 5175 7150
+	4150 6675 4350 6675
 $Comp
 L power:GND #PWR?
 U 1 1 60BD0F55
-P 5175 7250
-F 0 "#PWR?" H 5175 7000 50  0001 C CNN
-F 1 "GND" H 5180 7077 50  0000 C CNN
-F 2 "" H 5175 7250 50  0001 C CNN
-F 3 "" H 5175 7250 50  0001 C CNN
-	1    5175 7250
+P 4350 6775
+F 0 "#PWR?" H 4350 6525 50  0001 C CNN
+F 1 "GND" H 4355 6602 50  0000 C CNN
+F 2 "" H 4350 6775 50  0001 C CNN
+F 3 "" H 4350 6775 50  0001 C CNN
+	1    4350 6775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5175 7150 5175 7250
-NoConn ~ 2950 8350
-NoConn ~ 2950 8450
-NoConn ~ 2950 9350
-NoConn ~ 4550 9350
-NoConn ~ 4550 8450
-NoConn ~ 4550 8350
+	4350 6675 4350 6775
 Wire Wire Line
-	4550 7050 5350 7050
-Text Label 5350 7050 2    50   ~ 0
+	3725 6575 4525 6575
+Text Label 4525 6575 2    50   ~ 0
 MEMRST_N
 Wire Wire Line
 	10225 7875 11675 7875
@@ -1136,31 +1088,31 @@ Wire Notes Line
 Wire Notes Line
 	8100 4625 8100 2225
 Text Notes 8150 2200 0    50   ~ 0
-Single LPDDR Chip
+Single LPDDR4 die
 Wire Wire Line
 	14525 2650 15325 2650
 Text Label 15325 2650 2    50   ~ 0
 EVENT_N
 Wire Wire Line
-	13525 3150 12550 3150
-Text Label 12550 3150 0    50   ~ 0
+	13525 3150 12725 3150
+Text Label 12725 3150 0    50   ~ 0
 PARITY
 Wire Wire Line
-	13525 3750 12550 3750
-Text Label 12550 3750 0    50   ~ 0
+	13525 3750 12725 3750
+Text Label 12725 3750 0    50   ~ 0
 ODT0
 Wire Wire Line
-	13525 2950 12550 2950
-Text Label 12550 2950 0    50   ~ 0
+	13525 2950 12725 2950
+Text Label 12725 2950 0    50   ~ 0
 CK0_C
-Text Label 12550 2850 0    50   ~ 0
+Text Label 12725 2850 0    50   ~ 0
 CK0_T
 Wire Wire Line
-	13525 3450 12550 3450
-Text Label 12550 3450 0    50   ~ 0
+	13525 3450 12725 3450
+Text Label 12725 3450 0    50   ~ 0
 CS0_N
 Wire Wire Line
-	12550 2850 13525 2850
+	12725 2850 13525 2850
 Wire Wire Line
 	13525 8650 12550 8650
 Text Label 12550 8650 0    50   ~ 0
@@ -1207,12 +1159,12 @@ $EndComp
 Text Notes 13550 1100 0    50   ~ 0
 TODO: Replace with C_3p3
 Wire Wire Line
-	14525 2850 15500 2850
-Text Label 15500 2850 2    50   ~ 0
+	14525 2850 15325 2850
+Text Label 15325 2850 2    50   ~ 0
 CK1_T
 Wire Wire Line
-	15500 2950 14525 2950
-Text Label 15500 2950 2    50   ~ 0
+	15325 2950 14525 2950
+Text Label 15325 2950 2    50   ~ 0
 CK1_C
 Wire Wire Line
 	13875 1700 12900 1700
@@ -1238,6 +1190,634 @@ F 6 "75R" H 14200 1650 50  0000 C CNN "Val"
 $EndComp
 Text Notes 13575 1925 0    50   ~ 0
 TODO: Replace with 0402
-Text Notes 2200 1325 0    98   ~ 20
+Text Notes 1075 1025 0    98   ~ 20
 LPDDR4
+$Comp
+L antmicroMemory:MT53E256M16D1 U1
+U 1 1 602BB4A5
+P 2900 3300
+F 0 "U1" H 2375 4675 50  0000 C CNN
+F 1 "MT53E256M16D1" H 2450 1925 50  0000 C CNN
+F 2 "antmicro-footprints:BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm" H 2950 1400 50  0001 C CNN
+F 3 "" H 2800 2100 50  0001 C CNN
+	1    2900 3300
+	1    0    0    -1  
+$EndComp
+Text Label 1325 8175 0    50   ~ 0
+DQ17R
+Wire Wire Line
+	1325 8175 2125 8175
+Wire Wire Line
+	1325 8375 2125 8375
+Wire Wire Line
+	1325 8575 2125 8575
+Wire Wire Line
+	2125 8775 1325 8775
+Text Label 1325 8375 0    50   ~ 0
+DQ19R
+Text Label 1325 8575 0    50   ~ 0
+DQ21R
+Text Label 1325 8775 0    50   ~ 0
+DQ23R
+Wire Wire Line
+	2125 8075 1325 8075
+Wire Wire Line
+	2125 8275 1325 8275
+Wire Wire Line
+	2125 8475 1325 8475
+Wire Wire Line
+	2125 8675 1325 8675
+Text Label 1325 8275 0    50   ~ 0
+DQ18R
+Text Label 1325 8475 0    50   ~ 0
+DQ20R
+Text Label 1325 8675 0    50   ~ 0
+DQ22R
+Text Label 1325 8075 0    50   ~ 0
+DQ16R
+Wire Wire Line
+	1325 7875 2125 7875
+Wire Wire Line
+	2125 7975 1325 7975
+Text Label 1325 7975 0    50   ~ 0
+DQS2R_C
+Text Label 1325 7875 0    50   ~ 0
+DQS2R_T
+Wire Wire Line
+	2125 8875 1325 8875
+Text Label 1325 8875 0    50   ~ 0
+DM2R_N
+Text Label 4525 8675 2    50   ~ 0
+DQ30R
+Wire Wire Line
+	4525 8675 3725 8675
+Wire Wire Line
+	4525 8475 3725 8475
+Wire Wire Line
+	4525 8275 3725 8275
+Wire Wire Line
+	3725 8075 4525 8075
+Text Label 4525 8475 2    50   ~ 0
+DQ28R
+Text Label 4525 8275 2    50   ~ 0
+DQ26R
+Text Label 4525 8075 2    50   ~ 0
+DQ24R
+Wire Wire Line
+	3725 8775 4525 8775
+Wire Wire Line
+	3725 8575 4525 8575
+Wire Wire Line
+	3725 8375 4525 8375
+Wire Wire Line
+	3725 8175 4525 8175
+Text Label 4525 8575 2    50   ~ 0
+DQ29R
+Text Label 4525 8375 2    50   ~ 0
+DQ27R
+Text Label 4525 8175 2    50   ~ 0
+DQ25R
+Text Label 4525 8775 2    50   ~ 0
+DQ31R
+Wire Wire Line
+	4525 7875 3725 7875
+Wire Wire Line
+	3725 7975 4525 7975
+Text Label 4525 7975 2    50   ~ 0
+DQS3R_C
+Wire Wire Line
+	3725 8875 4525 8875
+Text Label 4525 8875 2    50   ~ 0
+DM3R_N
+Text Label 4525 7875 2    50   ~ 0
+DQS3R_T
+$Comp
+L antmicroMemory:MT53E256M16D1 U1
+U 2 1 602BF408
+P 2925 7675
+F 0 "U1" H 2375 9050 50  0000 C CNN
+F 1 "MT53E256M16D1" H 2475 6300 50  0000 C CNN
+F 2 "antmicro-footprints:BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm" H 2975 5775 50  0001 C CNN
+F 3 "" H 2825 6475 50  0001 C CNN
+	2    2925 7675
+	1    0    0    -1  
+$EndComp
+Text Label 8425 4975 0    50   ~ 0
+DQ17
+Wire Wire Line
+	8425 4975 9225 4975
+Wire Wire Line
+	8425 5675 9225 5675
+Wire Wire Line
+	8425 4775 9225 4775
+Wire Wire Line
+	9225 5475 8425 5475
+Text Label 8425 5675 0    50   ~ 0
+DQ19
+Text Label 8425 4775 0    50   ~ 0
+DQ21
+Text Label 8425 5475 0    50   ~ 0
+DQ23
+Wire Wire Line
+	8425 6675 9225 6675
+Text Label 8425 6675 0    50   ~ 0
+DQ26
+Wire Wire Line
+	9225 6475 8425 6475
+Wire Wire Line
+	9225 5875 8425 5875
+Wire Wire Line
+	9225 6075 8425 6075
+Text Label 8425 5875 0    50   ~ 0
+DQ29
+Text Label 8425 6075 0    50   ~ 0
+DQ25
+Text Label 8425 6475 0    50   ~ 0
+DQ30
+Wire Wire Line
+	8425 5275 9225 5275
+Wire Wire Line
+	9225 5175 8425 5175
+Text Label 8425 5175 0    50   ~ 0
+DQS2_C
+Text Label 8425 5275 0    50   ~ 0
+DQS2_T
+Wire Wire Line
+	9225 6275 8425 6275
+Text Label 8425 6275 0    50   ~ 0
+DM3_N
+Wire Wire Line
+	10225 4975 11025 4975
+Wire Wire Line
+	10225 5575 11025 5575
+Wire Wire Line
+	10225 4775 11025 4775
+Wire Wire Line
+	10225 5375 11025 5375
+Text Label 11025 5575 2    50   ~ 0
+DQ18
+Text Label 11025 4775 2    50   ~ 0
+DQ20
+Text Label 11025 5375 2    50   ~ 0
+DQ22
+Text Label 11025 4975 2    50   ~ 0
+DQ16
+Text Label 11025 6475 2    50   ~ 0
+DQ31
+Wire Wire Line
+	11025 6475 10225 6475
+Wire Wire Line
+	11025 5775 10225 5775
+Wire Wire Line
+	10225 5975 11025 5975
+Text Label 11025 5775 2    50   ~ 0
+DQ28
+Text Label 11025 5975 2    50   ~ 0
+DQ24
+Wire Wire Line
+	10225 6675 11025 6675
+Text Label 11025 6675 2    50   ~ 0
+DQ27
+Wire Wire Line
+	10225 5175 11025 5175
+Text Label 11025 5175 2    50   ~ 0
+DM2_N
+Wire Wire Line
+	11025 6275 10225 6275
+Wire Wire Line
+	10225 6175 11025 6175
+Text Label 11025 6175 2    50   ~ 0
+DQS3_C
+Text Label 11025 6275 2    50   ~ 0
+DQS3_T
+Wire Notes Line
+	8100 4675 11250 4675
+Wire Notes Line
+	11250 7075 8100 7075
+Wire Notes Line
+	8100 7075 8100 4675
+Text Notes 7350 4750 0    50   ~ 0
+Second LPDDR4 die
+Wire Notes Line
+	11250 4675 11250 7075
+Wire Wire Line
+	1325 6475 2125 6475
+Wire Wire Line
+	2125 6575 1325 6575
+Text Label 1325 6475 0    50   ~ 0
+CK0_T_B
+Text Label 1325 6575 0    50   ~ 0
+CK0_C_B
+Wire Wire Line
+	2125 6675 1325 6675
+Text Label 1325 6675 0    50   ~ 0
+CS0_N_B
+Wire Wire Line
+	3725 6475 4525 6475
+Text Label 4525 6475 2    50   ~ 0
+ODT0_B
+Wire Wire Line
+	2125 7575 1325 7575
+Text Label 1325 7575 0    50   ~ 0
+CKE0_B
+Wire Wire Line
+	2100 2600 1300 2600
+Text Label 1300 2600 0    50   ~ 0
+CA0_A
+Text Label 1300 2700 0    50   ~ 0
+CA1_A
+Text Label 1300 2800 0    50   ~ 0
+CA2_A
+Text Label 1300 2900 0    50   ~ 0
+CA3_A
+Text Label 1300 3000 0    50   ~ 0
+CA4_A
+Text Label 1300 3100 0    50   ~ 0
+CA5_A
+Wire Wire Line
+	2100 2700 1300 2700
+Wire Wire Line
+	2100 2800 1300 2800
+Wire Wire Line
+	2100 2900 1300 2900
+Wire Wire Line
+	2100 3000 1300 3000
+Wire Wire Line
+	2100 3100 1300 3100
+Wire Wire Line
+	2125 6975 1325 6975
+Text Label 1325 6975 0    50   ~ 0
+CA0_B
+Text Label 1325 7075 0    50   ~ 0
+CA1_B
+Text Label 1325 7175 0    50   ~ 0
+CA2_B
+Text Label 1325 7275 0    50   ~ 0
+CA3_B
+Text Label 1325 7375 0    50   ~ 0
+CA4_B
+Text Label 1325 7475 0    50   ~ 0
+CA5_B
+Wire Wire Line
+	2125 7075 1325 7075
+Wire Wire Line
+	2125 7175 1325 7175
+Wire Wire Line
+	2125 7275 1325 7275
+Wire Wire Line
+	2125 7375 1325 7375
+Wire Wire Line
+	2125 7475 1325 7475
+Wire Wire Line
+	14525 3150 15325 3150
+Text Label 15325 3150 2    50   ~ 0
+CA0_A
+Wire Wire Line
+	13525 2650 12725 2650
+Text Label 12725 2650 0    50   ~ 0
+CA1_A
+Wire Wire Line
+	13525 2550 12725 2550
+Text Label 12725 2550 0    50   ~ 0
+CA3_A
+Wire Wire Line
+	14525 2550 15325 2550
+Text Label 15325 2550 2    50   ~ 0
+CA2_A
+Wire Wire Line
+	10225 8875 11025 8875
+Text Label 11025 8875 2    50   ~ 0
+CA4_A
+Wire Wire Line
+	10225 8775 11025 8775
+Text Label 11025 8775 2    50   ~ 0
+CA5_A
+Wire Wire Line
+	9225 8775 8425 8775
+Text Label 8425 8775 0    50   ~ 0
+CA2_B
+Wire Wire Line
+	9225 8875 8425 8875
+Text Label 8425 8875 0    50   ~ 0
+CA0_B
+Wire Wire Line
+	10225 8575 11025 8575
+Text Label 11025 8575 2    50   ~ 0
+CA1_B
+Wire Wire Line
+	9225 8575 8425 8575
+Text Label 8425 8575 0    50   ~ 0
+CA3_B
+Wire Wire Line
+	14525 3250 15325 3250
+Text Label 15325 3250 2    50   ~ 0
+CA4_B
+Wire Wire Line
+	10225 8475 11025 8475
+Text Label 11025 8475 2    50   ~ 0
+CA5_B
+NoConn ~ 10225 7975
+NoConn ~ 10225 7675
+NoConn ~ 10225 7475
+NoConn ~ 10225 7275
+NoConn ~ 10225 7075
+NoConn ~ 10225 6875
+Wire Wire Line
+	9225 8175 8425 8175
+Text Label 8425 8175 0    50   ~ 0
+BG0
+Wire Wire Line
+	9225 8275 8425 8275
+Text Label 8425 8275 0    50   ~ 0
+BG1
+Text Notes 8350 8175 0    50   ~ 0
+?
+Text Notes 8350 8275 0    50   ~ 0
+?
+Wire Wire Line
+	14525 3450 15325 3450
+Text Label 15325 3450 2    50   ~ 0
+BA0
+Wire Wire Line
+	13525 3250 12725 3250
+Text Label 12725 3250 0    50   ~ 0
+BA1
+Text Notes 15400 3450 2    50   ~ 0
+?
+Text Notes 12650 3250 0    50   ~ 0
+?
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 606E0DCE
+P 1150 2600
+F 0 "R?" H 950 2650 60  0000 C CNN
+F 1 "R_33R_0402" H 1150 2450 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1350 2800 60  0001 L CNN
+F 3 "" H 1150 2600 50  0001 C CNN
+F 4 "Vishay" H 1350 3000 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1350 2900 60  0001 L CNN "MPN"
+F 6 "33R" H 1150 2600 50  0000 C CNN "Val"
+	1    1150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 606E57EF
+P 1150 2700
+F 0 "R?" H 950 2750 60  0000 C CNN
+F 1 "R_33R_0402" H 1150 2550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1350 2900 60  0001 L CNN
+F 3 "" H 1150 2700 50  0001 C CNN
+F 4 "Vishay" H 1350 3100 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1350 3000 60  0001 L CNN "MPN"
+F 6 "33R" H 1150 2700 50  0000 C CNN "Val"
+	1    1150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 606E5BB0
+P 1150 2800
+F 0 "R?" H 950 2850 60  0000 C CNN
+F 1 "R_33R_0402" H 1150 2650 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1350 3000 60  0001 L CNN
+F 3 "" H 1150 2800 50  0001 C CNN
+F 4 "Vishay" H 1350 3200 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1350 3100 60  0001 L CNN "MPN"
+F 6 "33R" H 1150 2800 50  0000 C CNN "Val"
+	1    1150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 606E604D
+P 1150 2900
+F 0 "R?" H 950 2950 60  0000 C CNN
+F 1 "R_33R_0402" H 1150 2750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1350 3100 60  0001 L CNN
+F 3 "" H 1150 2900 50  0001 C CNN
+F 4 "Vishay" H 1350 3300 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1350 3200 60  0001 L CNN "MPN"
+F 6 "33R" H 1150 2900 50  0000 C CNN "Val"
+	1    1150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 606E6456
+P 1150 3000
+F 0 "R?" H 950 3050 60  0000 C CNN
+F 1 "R_33R_0402" H 1150 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1350 3200 60  0001 L CNN
+F 3 "" H 1150 3000 50  0001 C CNN
+F 4 "Vishay" H 1350 3400 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1350 3300 60  0001 L CNN "MPN"
+F 6 "33R" H 1150 3000 50  0000 C CNN "Val"
+	1    1150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 606E683B
+P 1150 3100
+F 0 "R?" H 950 3150 60  0000 C CNN
+F 1 "R_33R_0402" H 1150 2950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1350 3300 60  0001 L CNN
+F 3 "" H 1150 3100 50  0001 C CNN
+F 4 "Vishay" H 1350 3500 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1350 3400 60  0001 L CNN "MPN"
+F 6 "33R" H 1150 3100 50  0000 C CNN "Val"
+	1    1150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 606E6C14
+P 1150 3200
+F 0 "R?" H 950 3250 60  0000 C CNN
+F 1 "R_33R_0402" H 1150 3050 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1350 3400 60  0001 L CNN
+F 3 "" H 1150 3200 50  0001 C CNN
+F 4 "Vishay" H 1350 3600 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1350 3500 60  0001 L CNN "MPN"
+F 6 "33R" H 1150 3200 50  0000 C CNN "Val"
+	1    1150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 6071F56E
+P 1175 6975
+F 0 "R?" H 975 7025 60  0000 C CNN
+F 1 "R_33R_0402" H 1175 6825 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1375 7175 60  0001 L CNN
+F 3 "" H 1175 6975 50  0001 C CNN
+F 4 "Vishay" H 1375 7375 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1375 7275 60  0001 L CNN "MPN"
+F 6 "33R" H 1175 6975 50  0000 C CNN "Val"
+	1    1175 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 6071F577
+P 1175 7075
+F 0 "R?" H 975 7125 60  0000 C CNN
+F 1 "R_33R_0402" H 1175 6925 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1375 7275 60  0001 L CNN
+F 3 "" H 1175 7075 50  0001 C CNN
+F 4 "Vishay" H 1375 7475 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1375 7375 60  0001 L CNN "MPN"
+F 6 "33R" H 1175 7075 50  0000 C CNN "Val"
+	1    1175 7075
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 6071F580
+P 1175 7175
+F 0 "R?" H 975 7225 60  0000 C CNN
+F 1 "R_33R_0402" H 1175 7025 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1375 7375 60  0001 L CNN
+F 3 "" H 1175 7175 50  0001 C CNN
+F 4 "Vishay" H 1375 7575 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1375 7475 60  0001 L CNN "MPN"
+F 6 "33R" H 1175 7175 50  0000 C CNN "Val"
+	1    1175 7175
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 6071F589
+P 1175 7275
+F 0 "R?" H 975 7325 60  0000 C CNN
+F 1 "R_33R_0402" H 1175 7125 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1375 7475 60  0001 L CNN
+F 3 "" H 1175 7275 50  0001 C CNN
+F 4 "Vishay" H 1375 7675 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1375 7575 60  0001 L CNN "MPN"
+F 6 "33R" H 1175 7275 50  0000 C CNN "Val"
+	1    1175 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 6071F592
+P 1175 7375
+F 0 "R?" H 975 7425 60  0000 C CNN
+F 1 "R_33R_0402" H 1175 7225 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1375 7575 60  0001 L CNN
+F 3 "" H 1175 7375 50  0001 C CNN
+F 4 "Vishay" H 1375 7775 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1375 7675 60  0001 L CNN "MPN"
+F 6 "33R" H 1175 7375 50  0000 C CNN "Val"
+	1    1175 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 6071F59B
+P 1175 7475
+F 0 "R?" H 975 7525 60  0000 C CNN
+F 1 "R_33R_0402" H 1175 7325 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1375 7675 60  0001 L CNN
+F 3 "" H 1175 7475 50  0001 C CNN
+F 4 "Vishay" H 1375 7875 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1375 7775 60  0001 L CNN "MPN"
+F 6 "33R" H 1175 7475 50  0000 C CNN "Val"
+	1    1175 7475
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_33R_0402 R?
+U 1 1 6071F5A4
+P 1175 7575
+F 0 "R?" H 975 7625 60  0000 C CNN
+F 1 "R_33R_0402" H 1175 7425 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1375 7775 60  0001 L CNN
+F 3 "" H 1175 7575 50  0001 C CNN
+F 4 "Vishay" H 1375 7975 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040233R0FKED" H 1375 7875 60  0001 L CNN "MPN"
+F 6 "33R" H 1175 7575 50  0000 C CNN "Val"
+	1    1175 7575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1025 7575 825  7575
+Wire Wire Line
+	825  7575 825  7475
+Wire Wire Line
+	1025 6975 825  6975
+Connection ~ 825  6975
+Wire Wire Line
+	825  6975 825  6850
+Wire Wire Line
+	1025 7075 825  7075
+Connection ~ 825  7075
+Wire Wire Line
+	825  7075 825  6975
+Wire Wire Line
+	1025 7175 825  7175
+Connection ~ 825  7175
+Wire Wire Line
+	825  7175 825  7075
+Connection ~ 825  7275
+Wire Wire Line
+	825  7275 825  7175
+Wire Wire Line
+	825  7275 1025 7275
+Wire Wire Line
+	1025 7375 825  7375
+Connection ~ 825  7375
+Wire Wire Line
+	825  7375 825  7275
+Wire Wire Line
+	1025 7475 825  7475
+Connection ~ 825  7475
+Wire Wire Line
+	825  7475 825  7375
+Text GLabel 825  6850 1    50   Input ~ 0
+VTT
+Wire Wire Line
+	1000 3200 800  3200
+Wire Wire Line
+	800  3200 800  3100
+Wire Wire Line
+	1000 2600 800  2600
+Connection ~ 800  2600
+Wire Wire Line
+	800  2600 800  2475
+Wire Wire Line
+	1000 2700 800  2700
+Connection ~ 800  2700
+Wire Wire Line
+	800  2700 800  2600
+Wire Wire Line
+	1000 2800 800  2800
+Connection ~ 800  2800
+Wire Wire Line
+	800  2800 800  2700
+Connection ~ 800  2900
+Wire Wire Line
+	800  2900 800  2800
+Wire Wire Line
+	800  2900 1000 2900
+Wire Wire Line
+	1000 3000 800  3000
+Connection ~ 800  3000
+Wire Wire Line
+	800  3000 800  2900
+Wire Wire Line
+	1000 3100 800  3100
+Connection ~ 800  3100
+Wire Wire Line
+	800  3100 800  3000
+Text GLabel 800  2475 1    50   Input ~ 0
+VTT
+Text Notes 725  5475 0    50   ~ 0
+TODO: Replace with R_36
+Wire Notes Line
+	1125 5200 1125 3325
+Wire Notes Line
+	1150 6825 1150 5600
 $EndSCHEMATC
