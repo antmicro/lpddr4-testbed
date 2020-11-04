@@ -1821,15 +1821,15 @@ Wire Notes Line
 Wire Notes Line
 	1150 6825 1150 5600
 $Sheet
-S 5250 10050 2075 825 
-U 60A07818
-F0 "Data Resistors" 50
-F1 "data_resistors.sch" 50
-$EndSheet
-$Sheet
 S 1975 10125 2150 875 
 U 5FABECC5
 F0 "Power Filtering" 50
 F1 "power_filtering.sch" 50
+$EndSheet
+$Sheet
+S 5250 10050 2075 825 
+U 60A07818
+F0 "Data Resistors" 50
+F1 "data_resistors.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -27,7 +27,7 @@ F 6 "15R" H 3725 1200 50  0000 C CNN "Val"
 	1    3500 1275
 	1    0    0    -1  
 $EndComp
-Text Label 2550 1875 0    50   ~ 0
+Text GLabel 2550 1875 0    50   Input ~ 0
 DQ01R
 Wire Wire Line
 	2550 1875 3350 1875
@@ -37,11 +37,11 @@ Wire Wire Line
 	2550 2675 3350 2675
 Wire Wire Line
 	3350 3075 2550 3075
-Text Label 2550 2275 0    50   ~ 0
+Text GLabel 2550 2275 0    50   Input ~ 0
 DQ03R
-Text Label 2550 2675 0    50   ~ 0
+Text GLabel 2550 2675 0    50   Input ~ 0
 DQ05R
-Text Label 2550 3075 0    50   ~ 0
+Text GLabel 2550 3075 0    50   Input ~ 0
 DQ07R
 Wire Wire Line
 	3350 2075 2550 2075
@@ -49,17 +49,15 @@ Wire Wire Line
 	3350 2475 2550 2475
 Wire Wire Line
 	3350 2875 2550 2875
-Text Label 2550 2075 0    50   ~ 0
+Text GLabel 2550 2075 0    50   Input ~ 0
 DQ02R
-Text Label 2550 2475 0    50   ~ 0
+Text GLabel 2550 2475 0    50   Input ~ 0
 DQ04R
-Text Label 2550 2875 0    50   ~ 0
+Text GLabel 2550 2875 0    50   Input ~ 0
 DQ06R
-Text Label 2550 1675 0    50   ~ 0
-DQ00R
 Wire Wire Line
 	3350 3275 2550 3275
-Text Label 2550 3275 0    50   ~ 0
+Text GLabel 2550 3275 0    50   Input ~ 0
 DM0R_N
 Wire Wire Line
 	2550 1675 3350 1675
@@ -67,157 +65,153 @@ Wire Wire Line
 	2550 1275 3350 1275
 Wire Wire Line
 	3350 1475 2550 1475
-Text Label 2550 1475 0    50   ~ 0
-DQS0R_C
-Text Label 2550 1275 0    50   ~ 0
-DQS0R_T
 Wire Wire Line
 	3650 3075 4450 3075
-Text Label 4500 4950 2    50   ~ 0
+Text GLabel 4500 4950 2    50   Input ~ 0
 DQ10
-Text Label 4500 5550 2    50   ~ 0
+Text GLabel 4500 5550 2    50   Input ~ 0
 DQ13
-Text Label 4500 4750 2    50   ~ 0
+Text GLabel 4500 4750 2    50   Input ~ 0
 DQ09
-Text Label 4500 5950 2    50   ~ 0
+Text GLabel 4500 5950 2    50   Input ~ 0
 DQ15
 Wire Wire Line
 	4450 1275 3650 1275
 Wire Wire Line
 	3650 1475 4450 1475
-Text Label 4450 1475 2    50   ~ 0
+Text GLabel 4450 1475 2    50   Input ~ 0
 DQS0_C
-Text Label 4450 1275 2    50   ~ 0
+Text GLabel 4450 1275 2    50   Input ~ 0
 DQS0_T
-Text Label 4500 6150 2    50   ~ 0
+Text GLabel 4500 6150 2    50   Input ~ 0
 DM1_N
-Text Label 8950 1925 2    50   ~ 0
+Text GLabel 8950 1925 2    50   Input ~ 0
 DQ17
-Text Label 8950 2325 2    50   ~ 0
+Text GLabel 8950 2325 2    50   Input ~ 0
 DQ19
-Text Label 8950 2725 2    50   ~ 0
+Text GLabel 8950 2725 2    50   Input ~ 0
 DQ21
-Text Label 8950 3125 2    50   ~ 0
+Text GLabel 8950 3125 2    50   Input ~ 0
 DQ23
-Text Label 9000 5075 2    50   ~ 0
+Text GLabel 9000 5075 2    50   Input ~ 0
 DQ26
-Text Label 9000 5675 2    50   ~ 0
+Text GLabel 9000 5675 2    50   Input ~ 0
 DQ29
-Text Label 9000 4875 2    50   ~ 0
+Text GLabel 9000 4875 2    50   Input ~ 0
 DQ25
-Text Label 9000 5875 2    50   ~ 0
+Text GLabel 9000 5875 2    50   Input ~ 0
 DQ30
-Text Label 8950 1525 2    50   ~ 0
+Text GLabel 8950 1525 2    50   Input ~ 0
 DQS2_C
-Text Label 8950 1325 2    50   ~ 0
+Text GLabel 8950 1325 2    50   Input ~ 0
 DQS2_T
-Text Label 9000 6275 2    50   ~ 0
+Text GLabel 9000 6275 2    50   Input ~ 0
 DM3_N
-Text Label 4500 5750 2    50   ~ 0
+Text GLabel 4500 5750 2    50   Input ~ 0
 DQ14
-Text Label 4500 5350 2    50   ~ 0
+Text GLabel 4500 5350 2    50   Input ~ 0
 DQ12
-Text Label 4500 4550 2    50   ~ 0
+Text GLabel 4500 4550 2    50   Input ~ 0
 DQ08
-Text Label 4500 5150 2    50   ~ 0
+Text GLabel 4500 5150 2    50   Input ~ 0
 DQ11
 Wire Wire Line
 	3650 3275 4450 3275
-Text Label 4450 3275 2    50   ~ 0
+Text GLabel 4450 3275 2    50   Input ~ 0
 DM0_N
-Text Label 4500 4350 2    50   ~ 0
+Text GLabel 4500 4350 2    50   Input ~ 0
 DQS1_C
-Text Label 4500 4150 2    50   ~ 0
+Text GLabel 4500 4150 2    50   Input ~ 0
 DQS1_T
-Text Label 8950 2125 2    50   ~ 0
+Text GLabel 8950 2125 2    50   Input ~ 0
 DQ18
-Text Label 8950 2525 2    50   ~ 0
+Text GLabel 8950 2525 2    50   Input ~ 0
 DQ20
-Text Label 8950 2925 2    50   ~ 0
+Text GLabel 8950 2925 2    50   Input ~ 0
 DQ22
-Text Label 8950 1725 2    50   ~ 0
+Text GLabel 8950 1725 2    50   Input ~ 0
 DQ16
-Text Label 9000 6075 2    50   ~ 0
+Text GLabel 9000 6075 2    50   Input ~ 0
 DQ31
-Text Label 9000 5475 2    50   ~ 0
+Text GLabel 9000 5475 2    50   Input ~ 0
 DQ28
-Text Label 9000 4675 2    50   ~ 0
+Text GLabel 9000 4675 2    50   Input ~ 0
 DQ24
-Text Label 9000 5275 2    50   ~ 0
+Text GLabel 9000 5275 2    50   Input ~ 0
 DQ27
-Text Label 8950 3325 2    50   ~ 0
+Text GLabel 8950 3325 2    50   Input ~ 0
 DM2_N
-Text Label 9000 4475 2    50   ~ 0
+Text GLabel 9000 4475 2    50   Input ~ 0
 DQS3_C
-Text Label 9000 4275 2    50   ~ 0
+Text GLabel 9000 4275 2    50   Input ~ 0
 DQS3_T
-Text Label 7100 4275 0    50   ~ 0
+Text GLabel 7100 4275 0    50   Input ~ 0
 DQS3R_T
-Text Label 7100 6275 0    50   ~ 0
+Text GLabel 7100 6275 0    50   Input ~ 0
 DM3R_N
-Text Label 7100 4475 0    50   ~ 0
+Text GLabel 7100 4475 0    50   Input ~ 0
 DQS3R_C
-Text Label 7100 6075 0    50   ~ 0
+Text GLabel 7100 6075 0    50   Input ~ 0
 DQ31R
-Text Label 7100 4875 0    50   ~ 0
+Text GLabel 7100 4875 0    50   Input ~ 0
 DQ25R
-Text Label 7100 5275 0    50   ~ 0
+Text GLabel 7100 5275 0    50   Input ~ 0
 DQ27R
-Text Label 7100 5675 0    50   ~ 0
+Text GLabel 7100 5675 0    50   Input ~ 0
 DQ29R
-Text Label 7100 4675 0    50   ~ 0
+Text GLabel 7100 4675 0    50   Input ~ 0
 DQ24R
-Text Label 7100 5075 0    50   ~ 0
+Text GLabel 7100 5075 0    50   Input ~ 0
 DQ26R
-Text Label 7100 5475 0    50   ~ 0
+Text GLabel 7100 5475 0    50   Input ~ 0
 DQ28R
-Text Label 7100 5875 0    50   ~ 0
+Text GLabel 7100 5875 0    50   Input ~ 0
 DQ30R
-Text Label 7050 3325 0    50   ~ 0
+Text GLabel 7050 3325 0    50   Input ~ 0
 DM2R_N
-Text Label 7050 1325 0    50   ~ 0
+Text GLabel 7050 1325 0    50   Input ~ 0
 DQS2R_T
-Text Label 7050 1525 0    50   ~ 0
+Text GLabel 7050 1525 0    50   Input ~ 0
 DQS2R_C
-Text Label 7050 1725 0    50   ~ 0
+Text GLabel 7050 1725 0    50   Input ~ 0
 DQ16R
-Text Label 7050 2925 0    50   ~ 0
+Text GLabel 7050 2925 0    50   Input ~ 0
 DQ22R
-Text Label 7050 2525 0    50   ~ 0
+Text GLabel 7050 2525 0    50   Input ~ 0
 DQ20R
-Text Label 7050 2125 0    50   ~ 0
+Text GLabel 7050 2125 0    50   Input ~ 0
 DQ18R
-Text Label 7050 3125 0    50   ~ 0
+Text GLabel 7050 3125 0    50   Input ~ 0
 DQ23R
-Text Label 7050 2725 0    50   ~ 0
+Text GLabel 7050 2725 0    50   Input ~ 0
 DQ21R
-Text Label 7050 2325 0    50   ~ 0
+Text GLabel 7050 2325 0    50   Input ~ 0
 DQ19R
-Text Label 7050 1925 0    50   ~ 0
+Text GLabel 7050 1925 0    50   Input ~ 0
 DQ17R
-Text Label 2600 6150 0    50   ~ 0
+Text GLabel 2600 6150 0    50   Input ~ 0
 DM1R_N
-Text Label 2600 5950 0    50   ~ 0
+Text GLabel 2600 5950 0    50   Input ~ 0
 DQ15R
-Text Label 2600 4750 0    50   ~ 0
+Text GLabel 2600 4750 0    50   Input ~ 0
 DQ09R
-Text Label 2600 5150 0    50   ~ 0
+Text GLabel 2600 5150 0    50   Input ~ 0
 DQ11R
-Text Label 2600 5550 0    50   ~ 0
+Text GLabel 2600 5550 0    50   Input ~ 0
 DQ13R
-Text Label 2600 4950 0    50   ~ 0
+Text GLabel 2600 4950 0    50   Input ~ 0
 DQ10R
-Text Label 2600 5350 0    50   ~ 0
+Text GLabel 2600 5350 0    50   Input ~ 0
 DQ12R
-Text Label 2600 5750 0    50   ~ 0
+Text GLabel 2600 5750 0    50   Input ~ 0
 DQ14R
-Text Label 4450 1675 2    50   ~ 0
+Text GLabel 4450 1675 2    50   Input ~ 0
 DQ00
-Text Label 4450 2875 2    50   ~ 0
+Text GLabel 4450 2875 2    50   Input ~ 0
 DQ06
-Text Label 4450 2475 2    50   ~ 0
+Text GLabel 4450 2475 2    50   Input ~ 0
 DQ04
-Text Label 4475 2075 2    50   ~ 0
+Text GLabel 4475 2075 2    50   Input ~ 0
 DQ02
 Wire Wire Line
 	3650 2875 4450 2875
@@ -227,11 +221,11 @@ Wire Wire Line
 	3650 2075 4475 2075
 Wire Wire Line
 	3650 1675 4450 1675
-Text Label 4450 3075 2    50   ~ 0
+Text GLabel 4450 3075 2    50   Input ~ 0
 DQ07
-Text Label 4450 2675 2    50   ~ 0
+Text GLabel 4450 2675 2    50   Input ~ 0
 DQ05
-Text Label 4450 2275 2    50   ~ 0
+Text GLabel 4450 2275 2    50   Input ~ 0
 DQ03
 Wire Wire Line
 	4450 2675 3650 2675
@@ -239,7 +233,7 @@ Wire Wire Line
 	4450 2275 3650 2275
 Wire Wire Line
 	4450 1875 3650 1875
-Text Label 4450 1875 2    50   ~ 0
+Text GLabel 4450 1875 2    50   Input ~ 0
 DQ01
 $Comp
 L antmicroResistors0402:R_15R_0402 R?
@@ -579,11 +573,11 @@ F 6 "15R" H 3775 6075 50  0000 C CNN "Val"
 	1    3550 6150
 	1    0    0    -1  
 $EndComp
-Text Label 2600 4550 0    50   ~ 0
+Text GLabel 2600 4550 0    50   Input ~ 0
 DQ08R
-Text Label 2600 4350 0    50   ~ 0
+Text GLabel 2600 4350 0    50   Input ~ 0
 DQS1R_C
-Text Label 2600 4150 0    50   ~ 0
+Text GLabel 2600 4150 0    50   Input ~ 0
 DQS1R_T
 $Comp
 L antmicroResistors0402:R_15R_0402 R?
@@ -981,4 +975,10 @@ F 6 "15R" H 8275 6200 50  0000 C CNN "Val"
 	1    8050 6275
 	1    0    0    -1  
 $EndComp
+Text GLabel 2550 1675 0    50   Input ~ 0
+DQ00R
+Text GLabel 2550 1475 0    50   Input ~ 0
+DQS0R_C
+Text GLabel 2550 1275 0    50   Input ~ 0
+DQS0R_T
 $EndSCHEMATC
