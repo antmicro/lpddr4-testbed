@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -22,10 +22,10 @@ VTT
 Wire Wire Line
 	1775 1650 1925 1650
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402_6V3 C9
 U 1 1 5FABF43A
 P 1925 1800
-F 0 "C?" H 1950 1900 60  0000 L CNN
+F 0 "C9" H 1950 1900 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 1925 1650 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2125 2000 60  0001 L CNN
 F 3 "" H 1925 1800 50  0001 C CNN
@@ -42,10 +42,10 @@ Connection ~ 1925 1650
 Wire Wire Line
 	1925 1650 2225 1650
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402_6V3 C16
 U 1 1 5FAC029C
 P 2225 1800
-F 0 "C?" H 2250 1900 60  0000 L CNN
+F 0 "C16" H 2250 1900 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 2225 1650 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2425 2000 60  0001 L CNN
 F 3 "" H 2225 1800 50  0001 C CNN
@@ -62,10 +62,10 @@ Connection ~ 2225 1950
 Wire Wire Line
 	2225 1950 1925 1950
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402_6V3 C21
 U 1 1 5FAC054B
 P 2500 1800
-F 0 "C?" H 2525 1900 60  0000 L CNN
+F 0 "C21" H 2525 1900 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 2500 1650 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2700 2000 60  0001 L CNN
 F 3 "" H 2500 1800 50  0001 C CNN
@@ -82,10 +82,10 @@ Connection ~ 2500 1950
 Wire Wire Line
 	2500 1950 2225 1950
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402_6V3 C27
 U 1 1 5FAC099A
 P 2750 1800
-F 0 "C?" H 2775 1900 60  0000 L CNN
+F 0 "C27" H 2775 1900 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 2750 1650 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2950 2000 60  0001 L CNN
 F 3 "" H 2750 1800 50  0001 C CNN
@@ -102,10 +102,10 @@ Connection ~ 2750 1950
 Wire Wire Line
 	2750 1950 2500 1950
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402_6V3 C35
 U 1 1 5FAC0B0F
 P 3025 1800
-F 0 "C?" H 3050 1900 60  0000 L CNN
+F 0 "C35" H 3050 1900 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 3025 1650 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3225 2000 60  0001 L CNN
 F 3 "" H 3025 1800 50  0001 C CNN
@@ -122,10 +122,10 @@ Connection ~ 3025 1950
 Wire Wire Line
 	3025 1950 2750 1950
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402_6V3 C42
 U 1 1 5FAC0E02
 P 3300 1800
-F 0 "C?" H 3325 1900 60  0000 L CNN
+F 0 "C42" H 3325 1900 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 3300 1650 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3500 2000 60  0001 L CNN
 F 3 "" H 3300 1800 50  0001 C CNN
@@ -142,10 +142,10 @@ Connection ~ 3300 1950
 Wire Wire Line
 	3300 1950 3025 1950
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402_6V3 C48
 U 1 1 5FAC10EB
 P 3575 1800
-F 0 "C?" H 3600 1900 60  0000 L CNN
+F 0 "C48" H 3600 1900 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 3575 1650 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3775 2000 60  0001 L CNN
 F 3 "" H 3575 1800 50  0001 C CNN
@@ -162,10 +162,10 @@ Connection ~ 3575 1950
 Wire Wire Line
 	3575 1950 3300 1950
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402_6V3 C55
 U 1 1 5FAC14C0
 P 3825 1800
-F 0 "C?" H 3850 1900 60  0000 L CNN
+F 0 "C55" H 3850 1900 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 3825 1650 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 4025 2000 60  0001 L CNN
 F 3 "" H 3825 1800 50  0001 C CNN
@@ -180,10 +180,10 @@ Wire Wire Line
 Text GLabel 5675 1925 0    50   Input ~ 0
 VDD
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C82
 U 1 1 5FAC6CD8
 P 5825 1775
-F 0 "C?" H 5850 1875 60  0000 L CNN
+F 0 "C82" H 5850 1875 60  0000 L CNN
 F 1 "C_1u_0402" H 5825 1625 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 6025 1975 60  0001 L CNN
 F 3 "" H 5825 1775 50  0001 C CNN
@@ -204,10 +204,10 @@ Wire Wire Line
 Wire Wire Line
 	5825 1925 6075 1925
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C85
 U 1 1 5FAC9096
 P 6075 1775
-F 0 "C?" H 6100 1875 60  0000 L CNN
+F 0 "C85" H 6100 1875 60  0000 L CNN
 F 1 "C_1u_0402" H 6075 1625 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 6275 1975 60  0001 L CNN
 F 3 "" H 6075 1775 50  0001 C CNN
@@ -224,10 +224,10 @@ Connection ~ 6075 1925
 Wire Wire Line
 	6075 1925 6325 1925
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C88
 U 1 1 5FAC9379
 P 6325 1775
-F 0 "C?" H 6350 1875 60  0000 L CNN
+F 0 "C88" H 6350 1875 60  0000 L CNN
 F 1 "C_1u_0402" H 6325 1625 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 6525 1975 60  0001 L CNN
 F 3 "" H 6325 1775 50  0001 C CNN
@@ -244,10 +244,10 @@ Connection ~ 6325 1925
 Wire Wire Line
 	6325 1925 6575 1925
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C91
 U 1 1 5FAC9628
 P 6575 1775
-F 0 "C?" H 6600 1875 60  0000 L CNN
+F 0 "C91" H 6600 1875 60  0000 L CNN
 F 1 "C_1u_0402" H 6575 1625 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 6775 1975 60  0001 L CNN
 F 3 "" H 6575 1775 50  0001 C CNN
@@ -264,10 +264,10 @@ Connection ~ 6575 1925
 Wire Wire Line
 	6575 1925 6825 1925
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C94
 U 1 1 5FAC99B3
 P 6825 1775
-F 0 "C?" H 6850 1875 60  0000 L CNN
+F 0 "C94" H 6850 1875 60  0000 L CNN
 F 1 "C_1u_0402" H 6825 1625 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 7025 1975 60  0001 L CNN
 F 3 "" H 6825 1775 50  0001 C CNN
@@ -284,10 +284,10 @@ Connection ~ 6825 1925
 Wire Wire Line
 	6825 1925 7075 1925
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C97
 U 1 1 5FAC9D32
 P 7075 1775
-F 0 "C?" H 7100 1875 60  0000 L CNN
+F 0 "C97" H 7100 1875 60  0000 L CNN
 F 1 "C_1u_0402" H 7075 1625 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 7275 1975 60  0001 L CNN
 F 3 "" H 7075 1775 50  0001 C CNN
@@ -304,10 +304,10 @@ Connection ~ 7075 1925
 Wire Wire Line
 	7075 1925 7300 1925
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C100
 U 1 1 5FACA057
 P 7300 1775
-F 0 "C?" H 7325 1875 60  0000 L CNN
+F 0 "C100" H 7325 1875 60  0000 L CNN
 F 1 "C_1u_0402" H 7300 1625 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 7500 1975 60  0001 L CNN
 F 3 "" H 7300 1775 50  0001 C CNN
@@ -324,10 +324,10 @@ Connection ~ 7300 1925
 Wire Wire Line
 	7300 1925 7525 1925
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C102
 U 1 1 5FACACBA
 P 7525 1775
-F 0 "C?" H 7550 1875 60  0000 L CNN
+F 0 "C102" H 7550 1875 60  0000 L CNN
 F 1 "C_10u_0603" H 7525 1625 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 7725 1975 60  0001 L CNN
 F 3 "" H 7525 1775 50  0001 C CNN
@@ -344,10 +344,10 @@ Connection ~ 7525 1925
 Wire Wire Line
 	7525 1925 7750 1925
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C103
 U 1 1 5FACB764
 P 7750 1775
-F 0 "C?" H 7775 1875 60  0000 L CNN
+F 0 "C103" H 7775 1875 60  0000 L CNN
 F 1 "C_10u_0603" H 7750 1625 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 7950 1975 60  0001 L CNN
 F 3 "" H 7750 1775 50  0001 C CNN
@@ -362,10 +362,10 @@ VPP
 Text GLabel 1650 2975 0    50   Input ~ 0
 GND
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C5
 U 1 1 5FAD7703
 P 1750 2825
-F 0 "C?" H 1775 2925 60  0000 L CNN
+F 0 "C5" H 1775 2925 60  0000 L CNN
 F 1 "C_1u_0402" H 1750 2675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 1950 3025 60  0001 L CNN
 F 3 "" H 1750 2825 50  0001 C CNN
@@ -376,10 +376,10 @@ F 6 "1u" H 1775 2725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C11
 U 1 1 5FAD770C
 P 2000 2825
-F 0 "C?" H 2025 2925 60  0000 L CNN
+F 0 "C11" H 2025 2925 60  0000 L CNN
 F 1 "C_1u_0402" H 2000 2675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2200 3025 60  0001 L CNN
 F 3 "" H 2000 2825 50  0001 C CNN
@@ -390,10 +390,10 @@ F 6 "1u" H 2025 2725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C17
 U 1 1 5FAD7715
 P 2250 2825
-F 0 "C?" H 2275 2925 60  0000 L CNN
+F 0 "C17" H 2275 2925 60  0000 L CNN
 F 1 "C_1u_0402" H 2250 2675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2450 3025 60  0001 L CNN
 F 3 "" H 2250 2825 50  0001 C CNN
@@ -404,10 +404,10 @@ F 6 "1u" H 2275 2725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C22
 U 1 1 5FAD771E
 P 2500 2825
-F 0 "C?" H 2525 2925 60  0000 L CNN
+F 0 "C22" H 2525 2925 60  0000 L CNN
 F 1 "C_1u_0402" H 2500 2675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2700 3025 60  0001 L CNN
 F 3 "" H 2500 2825 50  0001 C CNN
@@ -418,10 +418,10 @@ F 6 "1u" H 2525 2725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C28
 U 1 1 5FAD8CC9
 P 2750 2825
-F 0 "C?" H 2775 2925 60  0000 L CNN
+F 0 "C28" H 2775 2925 60  0000 L CNN
 F 1 "C_1u_0402" H 2750 2675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2950 3025 60  0001 L CNN
 F 3 "" H 2750 2825 50  0001 C CNN
@@ -432,10 +432,10 @@ F 6 "1u" H 2775 2725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C34
 U 1 1 5FAD8CD2
 P 3000 2825
-F 0 "C?" H 3025 2925 60  0000 L CNN
+F 0 "C34" H 3025 2925 60  0000 L CNN
 F 1 "C_1u_0402" H 3000 2675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3200 3025 60  0001 L CNN
 F 3 "" H 3000 2825 50  0001 C CNN
@@ -446,10 +446,10 @@ F 6 "1u" H 3025 2725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C40
 U 1 1 5FAD8CDB
 P 3250 2825
-F 0 "C?" H 3275 2925 60  0000 L CNN
+F 0 "C40" H 3275 2925 60  0000 L CNN
 F 1 "C_1u_0402" H 3250 2675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3450 3025 60  0001 L CNN
 F 3 "" H 3250 2825 50  0001 C CNN
@@ -460,10 +460,10 @@ F 6 "1u" H 3275 2725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C46
 U 1 1 5FAD8CE4
 P 3500 2825
-F 0 "C?" H 3525 2925 60  0000 L CNN
+F 0 "C46" H 3525 2925 60  0000 L CNN
 F 1 "C_1u_0402" H 3500 2675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3700 3025 60  0001 L CNN
 F 3 "" H 3500 2825 50  0001 C CNN
@@ -474,10 +474,10 @@ F 6 "1u" H 3525 2725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C52
 U 1 1 5FADCAC1
 P 3775 2825
-F 0 "C?" H 3800 2925 60  0000 L CNN
+F 0 "C52" H 3800 2925 60  0000 L CNN
 F 1 "C_1u_0402" H 3775 2675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3975 3025 60  0001 L CNN
 F 3 "" H 3775 2825 50  0001 C CNN
@@ -488,10 +488,10 @@ F 6 "1u" H 3800 2725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C58
 U 1 1 5FADCACA
 P 4025 2825
-F 0 "C?" H 4050 2925 60  0000 L CNN
+F 0 "C58" H 4050 2925 60  0000 L CNN
 F 1 "C_1u_0402" H 4025 2675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 4225 3025 60  0001 L CNN
 F 3 "" H 4025 2825 50  0001 C CNN
@@ -502,10 +502,10 @@ F 6 "1u" H 4050 2725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C62
 U 1 1 5FADCAD3
 P 4275 2825
-F 0 "C?" H 4300 2925 60  0000 L CNN
+F 0 "C62" H 4300 2925 60  0000 L CNN
 F 1 "C_1u_0402" H 4275 2675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 4475 3025 60  0001 L CNN
 F 3 "" H 4275 2825 50  0001 C CNN
@@ -516,10 +516,10 @@ F 6 "1u" H 4300 2725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C65
 U 1 1 5FADCADC
 P 4525 2825
-F 0 "C?" H 4550 2925 60  0000 L CNN
+F 0 "C65" H 4550 2925 60  0000 L CNN
 F 1 "C_1u_0402" H 4525 2675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 4725 3025 60  0001 L CNN
 F 3 "" H 4525 2825 50  0001 C CNN
@@ -530,10 +530,10 @@ F 6 "1u" H 4550 2725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C68
 U 1 1 5FADCAE5
 P 4775 2825
-F 0 "C?" H 4800 2925 60  0000 L CNN
+F 0 "C68" H 4800 2925 60  0000 L CNN
 F 1 "C_1u_0402" H 4775 2675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 4975 3025 60  0001 L CNN
 F 3 "" H 4775 2825 50  0001 C CNN
@@ -544,10 +544,10 @@ F 6 "1u" H 4800 2725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C71
 U 1 1 5FADCAEE
 P 5025 2825
-F 0 "C?" H 5050 2925 60  0000 L CNN
+F 0 "C71" H 5050 2925 60  0000 L CNN
 F 1 "C_1u_0402" H 5025 2675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 5225 3025 60  0001 L CNN
 F 3 "" H 5025 2825 50  0001 C CNN
@@ -558,10 +558,10 @@ F 6 "1u" H 5050 2725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C75
 U 1 1 5FADCAF7
 P 5275 2825
-F 0 "C?" H 5300 2925 60  0000 L CNN
+F 0 "C75" H 5300 2925 60  0000 L CNN
 F 1 "C_1u_0402" H 5275 2675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 5475 3025 60  0001 L CNN
 F 3 "" H 5275 2825 50  0001 C CNN
@@ -572,10 +572,10 @@ F 6 "1u" H 5300 2725 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C78
 U 1 1 5FADCB00
 P 5525 2825
-F 0 "C?" H 5550 2925 60  0000 L CNN
+F 0 "C78" H 5550 2925 60  0000 L CNN
 F 1 "C_1u_0402" H 5525 2675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 5725 3025 60  0001 L CNN
 F 3 "" H 5525 2825 50  0001 C CNN
@@ -684,10 +684,10 @@ VPP
 Text GLabel 1625 3875 0    50   Input ~ 0
 GND
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C6
 U 1 1 5FB146AB
 P 1750 3725
-F 0 "C?" H 1775 3825 60  0000 L CNN
+F 0 "C6" H 1775 3825 60  0000 L CNN
 F 1 "C_10u_0603" H 1750 3575 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 1950 3925 60  0001 L CNN
 F 3 "" H 1750 3725 50  0001 C CNN
@@ -698,10 +698,10 @@ F 6 "10u" H 1775 3625 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C10
 U 1 1 5FB146B4
 P 1975 3725
-F 0 "C?" H 2000 3825 60  0000 L CNN
+F 0 "C10" H 2000 3825 60  0000 L CNN
 F 1 "C_10u_0603" H 1975 3575 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 2175 3925 60  0001 L CNN
 F 3 "" H 1975 3725 50  0001 C CNN
@@ -728,10 +728,10 @@ Connection ~ 1975 3875
 Wire Wire Line
 	1975 3875 2200 3875
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C14
 U 1 1 5FB25FDA
 P 2200 3725
-F 0 "C?" H 2225 3825 60  0000 L CNN
+F 0 "C14" H 2225 3825 60  0000 L CNN
 F 1 "C_10u_0603" H 2200 3575 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 2400 3925 60  0001 L CNN
 F 3 "" H 2200 3725 50  0001 C CNN
@@ -742,10 +742,10 @@ F 6 "10u" H 2225 3625 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C20
 U 1 1 5FB25FE3
 P 2425 3725
-F 0 "C?" H 2450 3825 60  0000 L CNN
+F 0 "C20" H 2450 3825 60  0000 L CNN
 F 1 "C_10u_0603" H 2425 3575 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 2625 3925 60  0001 L CNN
 F 3 "" H 2425 3725 50  0001 C CNN
@@ -756,10 +756,10 @@ F 6 "10u" H 2450 3625 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C26
 U 1 1 5FB29102
 P 2675 3725
-F 0 "C?" H 2700 3825 60  0000 L CNN
+F 0 "C26" H 2700 3825 60  0000 L CNN
 F 1 "C_10u_0603" H 2675 3575 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 2875 3925 60  0001 L CNN
 F 3 "" H 2675 3725 50  0001 C CNN
@@ -770,10 +770,10 @@ F 6 "10u" H 2700 3625 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C32
 U 1 1 5FB2910B
 P 2900 3725
-F 0 "C?" H 2925 3825 60  0000 L CNN
+F 0 "C32" H 2925 3825 60  0000 L CNN
 F 1 "C_10u_0603" H 2900 3575 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 3100 3925 60  0001 L CNN
 F 3 "" H 2900 3725 50  0001 C CNN
@@ -808,10 +808,10 @@ Connection ~ 2900 3875
 Wire Wire Line
 	2900 3875 3125 3875
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C38
 U 1 1 5FB3883E
 P 3125 3725
-F 0 "C?" H 3150 3825 60  0000 L CNN
+F 0 "C38" H 3150 3825 60  0000 L CNN
 F 1 "C_10u_0603" H 3125 3575 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 3325 3925 60  0001 L CNN
 F 3 "" H 3125 3725 50  0001 C CNN
@@ -822,10 +822,10 @@ F 6 "10u" H 3150 3625 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C44
 U 1 1 5FB38847
 P 3350 3725
-F 0 "C?" H 3375 3825 60  0000 L CNN
+F 0 "C44" H 3375 3825 60  0000 L CNN
 F 1 "C_10u_0603" H 3350 3575 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 3550 3925 60  0001 L CNN
 F 3 "" H 3350 3725 50  0001 C CNN
@@ -836,10 +836,10 @@ F 6 "10u" H 3375 3625 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C49
 U 1 1 5FB38850
 P 3575 3725
-F 0 "C?" H 3600 3825 60  0000 L CNN
+F 0 "C49" H 3600 3825 60  0000 L CNN
 F 1 "C_10u_0603" H 3575 3575 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 3775 3925 60  0001 L CNN
 F 3 "" H 3575 3725 50  0001 C CNN
@@ -850,10 +850,10 @@ F 6 "10u" H 3600 3625 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C53
 U 1 1 5FB38859
 P 3800 3725
-F 0 "C?" H 3825 3825 60  0000 L CNN
+F 0 "C53" H 3825 3825 60  0000 L CNN
 F 1 "C_10u_0603" H 3800 3575 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 4000 3925 60  0001 L CNN
 F 3 "" H 3800 3725 50  0001 C CNN
@@ -886,10 +886,10 @@ VDD
 Text GLabel 1675 4725 0    50   Input ~ 0
 GND
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C7
 U 1 1 5FB5C9F8
 P 1775 4575
-F 0 "C?" H 1800 4675 60  0000 L CNN
+F 0 "C7" H 1800 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 1775 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 1975 4775 60  0001 L CNN
 F 3 "" H 1775 4575 50  0001 C CNN
@@ -900,10 +900,10 @@ F 6 "1u" H 1800 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C12
 U 1 1 5FB5CA01
 P 2025 4575
-F 0 "C?" H 2050 4675 60  0000 L CNN
+F 0 "C12" H 2050 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 2025 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2225 4775 60  0001 L CNN
 F 3 "" H 2025 4575 50  0001 C CNN
@@ -914,10 +914,10 @@ F 6 "1u" H 2050 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C18
 U 1 1 5FB5CA0A
 P 2275 4575
-F 0 "C?" H 2300 4675 60  0000 L CNN
+F 0 "C18" H 2300 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 2275 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2475 4775 60  0001 L CNN
 F 3 "" H 2275 4575 50  0001 C CNN
@@ -928,10 +928,10 @@ F 6 "1u" H 2300 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C25
 U 1 1 5FB5CA13
 P 2525 4575
-F 0 "C?" H 2550 4675 60  0000 L CNN
+F 0 "C25" H 2550 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 2525 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2725 4775 60  0001 L CNN
 F 3 "" H 2525 4575 50  0001 C CNN
@@ -942,10 +942,10 @@ F 6 "1u" H 2550 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C30
 U 1 1 5FB5CA1C
 P 2775 4575
-F 0 "C?" H 2800 4675 60  0000 L CNN
+F 0 "C30" H 2800 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 2775 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2975 4775 60  0001 L CNN
 F 3 "" H 2775 4575 50  0001 C CNN
@@ -956,10 +956,10 @@ F 6 "1u" H 2800 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C36
 U 1 1 5FB5CA25
 P 3025 4575
-F 0 "C?" H 3050 4675 60  0000 L CNN
+F 0 "C36" H 3050 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 3025 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3225 4775 60  0001 L CNN
 F 3 "" H 3025 4575 50  0001 C CNN
@@ -970,10 +970,10 @@ F 6 "1u" H 3050 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C41
 U 1 1 5FB5CA2E
 P 3275 4575
-F 0 "C?" H 3300 4675 60  0000 L CNN
+F 0 "C41" H 3300 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 3275 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3475 4775 60  0001 L CNN
 F 3 "" H 3275 4575 50  0001 C CNN
@@ -984,10 +984,10 @@ F 6 "1u" H 3300 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C47
 U 1 1 5FB5CA37
 P 3525 4575
-F 0 "C?" H 3550 4675 60  0000 L CNN
+F 0 "C47" H 3550 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 3525 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3725 4775 60  0001 L CNN
 F 3 "" H 3525 4575 50  0001 C CNN
@@ -998,10 +998,10 @@ F 6 "1u" H 3550 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C54
 U 1 1 5FB5CA40
 P 3800 4575
-F 0 "C?" H 3825 4675 60  0000 L CNN
+F 0 "C54" H 3825 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 3800 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 4000 4775 60  0001 L CNN
 F 3 "" H 3800 4575 50  0001 C CNN
@@ -1012,10 +1012,10 @@ F 6 "1u" H 3825 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C59
 U 1 1 5FB5CA49
 P 4050 4575
-F 0 "C?" H 4075 4675 60  0000 L CNN
+F 0 "C59" H 4075 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 4050 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 4250 4775 60  0001 L CNN
 F 3 "" H 4050 4575 50  0001 C CNN
@@ -1026,10 +1026,10 @@ F 6 "1u" H 4075 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C63
 U 1 1 5FB5CA52
 P 4300 4575
-F 0 "C?" H 4325 4675 60  0000 L CNN
+F 0 "C63" H 4325 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 4300 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 4500 4775 60  0001 L CNN
 F 3 "" H 4300 4575 50  0001 C CNN
@@ -1040,10 +1040,10 @@ F 6 "1u" H 4325 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C66
 U 1 1 5FB5CA5B
 P 4550 4575
-F 0 "C?" H 4575 4675 60  0000 L CNN
+F 0 "C66" H 4575 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 4550 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 4750 4775 60  0001 L CNN
 F 3 "" H 4550 4575 50  0001 C CNN
@@ -1054,10 +1054,10 @@ F 6 "1u" H 4575 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C70
 U 1 1 5FB5CA64
 P 4800 4575
-F 0 "C?" H 4825 4675 60  0000 L CNN
+F 0 "C70" H 4825 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 4800 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 5000 4775 60  0001 L CNN
 F 3 "" H 4800 4575 50  0001 C CNN
@@ -1068,10 +1068,10 @@ F 6 "1u" H 4825 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C73
 U 1 1 5FB5CA6D
 P 5050 4575
-F 0 "C?" H 5075 4675 60  0000 L CNN
+F 0 "C73" H 5075 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 5050 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 5250 4775 60  0001 L CNN
 F 3 "" H 5050 4575 50  0001 C CNN
@@ -1082,10 +1082,10 @@ F 6 "1u" H 5075 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C76
 U 1 1 5FB5CA76
 P 5300 4575
-F 0 "C?" H 5325 4675 60  0000 L CNN
+F 0 "C76" H 5325 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 5300 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 5500 4775 60  0001 L CNN
 F 3 "" H 5300 4575 50  0001 C CNN
@@ -1096,10 +1096,10 @@ F 6 "1u" H 5325 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C79
 U 1 1 5FB5CA7F
 P 5550 4575
-F 0 "C?" H 5575 4675 60  0000 L CNN
+F 0 "C79" H 5575 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 5550 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 5750 4775 60  0001 L CNN
 F 3 "" H 5550 4575 50  0001 C CNN
@@ -1204,10 +1204,10 @@ Connection ~ 5300 4425
 Wire Wire Line
 	5300 4425 5550 4425
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C84
 U 1 1 5FB7231F
 P 6000 4575
-F 0 "C?" H 6025 4675 60  0000 L CNN
+F 0 "C84" H 6025 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 6000 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 6200 4775 60  0001 L CNN
 F 3 "" H 6000 4575 50  0001 C CNN
@@ -1218,10 +1218,10 @@ F 6 "1u" H 6025 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C87
 U 1 1 5FB72328
 P 6250 4575
-F 0 "C?" H 6275 4675 60  0000 L CNN
+F 0 "C87" H 6275 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 6250 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 6450 4775 60  0001 L CNN
 F 3 "" H 6250 4575 50  0001 C CNN
@@ -1232,10 +1232,10 @@ F 6 "1u" H 6275 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C90
 U 1 1 5FB72331
 P 6500 4575
-F 0 "C?" H 6525 4675 60  0000 L CNN
+F 0 "C90" H 6525 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 6500 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 6700 4775 60  0001 L CNN
 F 3 "" H 6500 4575 50  0001 C CNN
@@ -1246,10 +1246,10 @@ F 6 "1u" H 6525 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C93
 U 1 1 5FB7233A
 P 6750 4575
-F 0 "C?" H 6775 4675 60  0000 L CNN
+F 0 "C93" H 6775 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 6750 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 6950 4775 60  0001 L CNN
 F 3 "" H 6750 4575 50  0001 C CNN
@@ -1260,10 +1260,10 @@ F 6 "1u" H 6775 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C96
 U 1 1 5FB72343
 P 7000 4575
-F 0 "C?" H 7025 4675 60  0000 L CNN
+F 0 "C96" H 7025 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 7000 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 7200 4775 60  0001 L CNN
 F 3 "" H 7000 4575 50  0001 C CNN
@@ -1274,10 +1274,10 @@ F 6 "1u" H 7025 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C99
 U 1 1 5FB7234C
 P 7250 4575
-F 0 "C?" H 7275 4675 60  0000 L CNN
+F 0 "C99" H 7275 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 7250 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 7450 4775 60  0001 L CNN
 F 3 "" H 7250 4575 50  0001 C CNN
@@ -1288,10 +1288,10 @@ F 6 "1u" H 7275 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C101
 U 1 1 5FB72355
 P 7500 4575
-F 0 "C?" H 7525 4675 60  0000 L CNN
+F 0 "C101" H 7525 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 7500 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 7700 4775 60  0001 L CNN
 F 3 "" H 7500 4575 50  0001 C CNN
@@ -1302,10 +1302,10 @@ F 6 "1u" H 7525 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C104
 U 1 1 5FB7235E
 P 7750 4575
-F 0 "C?" H 7775 4675 60  0000 L CNN
+F 0 "C104" H 7775 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 7750 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 7950 4775 60  0001 L CNN
 F 3 "" H 7750 4575 50  0001 C CNN
@@ -1316,10 +1316,10 @@ F 6 "1u" H 7775 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C105
 U 1 1 5FB72367
 P 8025 4575
-F 0 "C?" H 8050 4675 60  0000 L CNN
+F 0 "C105" H 8050 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 8025 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 8225 4775 60  0001 L CNN
 F 3 "" H 8025 4575 50  0001 C CNN
@@ -1330,10 +1330,10 @@ F 6 "1u" H 8050 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C106
 U 1 1 5FB72370
 P 8275 4575
-F 0 "C?" H 8300 4675 60  0000 L CNN
+F 0 "C106" H 8300 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 8275 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 8475 4775 60  0001 L CNN
 F 3 "" H 8275 4575 50  0001 C CNN
@@ -1344,10 +1344,10 @@ F 6 "1u" H 8300 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C107
 U 1 1 5FB72379
 P 8525 4575
-F 0 "C?" H 8550 4675 60  0000 L CNN
+F 0 "C107" H 8550 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 8525 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 8725 4775 60  0001 L CNN
 F 3 "" H 8525 4575 50  0001 C CNN
@@ -1358,10 +1358,10 @@ F 6 "1u" H 8550 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C108
 U 1 1 5FB72382
 P 8775 4575
-F 0 "C?" H 8800 4675 60  0000 L CNN
+F 0 "C108" H 8800 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 8775 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 8975 4775 60  0001 L CNN
 F 3 "" H 8775 4575 50  0001 C CNN
@@ -1372,10 +1372,10 @@ F 6 "1u" H 8800 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C109
 U 1 1 5FB7238B
 P 9025 4575
-F 0 "C?" H 9050 4675 60  0000 L CNN
+F 0 "C109" H 9050 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 9025 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 9225 4775 60  0001 L CNN
 F 3 "" H 9025 4575 50  0001 C CNN
@@ -1386,10 +1386,10 @@ F 6 "1u" H 9050 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C110
 U 1 1 5FB72394
 P 9275 4575
-F 0 "C?" H 9300 4675 60  0000 L CNN
+F 0 "C110" H 9300 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 9275 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 9475 4775 60  0001 L CNN
 F 3 "" H 9275 4575 50  0001 C CNN
@@ -1400,10 +1400,10 @@ F 6 "1u" H 9300 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C111
 U 1 1 5FB7239D
 P 9525 4575
-F 0 "C?" H 9550 4675 60  0000 L CNN
+F 0 "C111" H 9550 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 9525 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 9725 4775 60  0001 L CNN
 F 3 "" H 9525 4575 50  0001 C CNN
@@ -1414,10 +1414,10 @@ F 6 "1u" H 9550 4475 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C112
 U 1 1 5FB723A6
 P 9775 4575
-F 0 "C?" H 9800 4675 60  0000 L CNN
+F 0 "C112" H 9800 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 9775 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 9975 4775 60  0001 L CNN
 F 3 "" H 9775 4575 50  0001 C CNN
@@ -1518,10 +1518,10 @@ Connection ~ 9525 4425
 Wire Wire Line
 	9525 4425 9775 4425
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C81
 U 1 1 5FB7E96E
 P 5775 4575
-F 0 "C?" H 5800 4675 60  0000 L CNN
+F 0 "C81" H 5800 4675 60  0000 L CNN
 F 1 "C_1u_0402" H 5775 4425 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 5975 4775 60  0001 L CNN
 F 3 "" H 5775 4575 50  0001 C CNN
@@ -1548,10 +1548,10 @@ VDD
 Text GLabel 1700 5500 0    50   Input ~ 0
 GND
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C8
 U 1 1 5FBC8DE7
 P 1825 5350
-F 0 "C?" H 1850 5450 60  0000 L CNN
+F 0 "C8" H 1850 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 1825 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 2025 5550 60  0001 L CNN
 F 3 "" H 1825 5350 50  0001 C CNN
@@ -1562,10 +1562,10 @@ F 6 "10u" H 1850 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C13
 U 1 1 5FBC8DF0
 P 2050 5350
-F 0 "C?" H 2075 5450 60  0000 L CNN
+F 0 "C13" H 2075 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 2050 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 2250 5550 60  0001 L CNN
 F 3 "" H 2050 5350 50  0001 C CNN
@@ -1592,10 +1592,10 @@ Connection ~ 2050 5500
 Wire Wire Line
 	2050 5500 2275 5500
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C19
 U 1 1 5FBC8E03
 P 2275 5350
-F 0 "C?" H 2300 5450 60  0000 L CNN
+F 0 "C19" H 2300 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 2275 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 2475 5550 60  0001 L CNN
 F 3 "" H 2275 5350 50  0001 C CNN
@@ -1606,10 +1606,10 @@ F 6 "10u" H 2300 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C23
 U 1 1 5FBC8E0C
 P 2500 5350
-F 0 "C?" H 2525 5450 60  0000 L CNN
+F 0 "C23" H 2525 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 2500 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 2700 5550 60  0001 L CNN
 F 3 "" H 2500 5350 50  0001 C CNN
@@ -1620,10 +1620,10 @@ F 6 "10u" H 2525 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C29
 U 1 1 5FBC8E15
 P 2750 5350
-F 0 "C?" H 2775 5450 60  0000 L CNN
+F 0 "C29" H 2775 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 2750 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 2950 5550 60  0001 L CNN
 F 3 "" H 2750 5350 50  0001 C CNN
@@ -1634,10 +1634,10 @@ F 6 "10u" H 2775 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C33
 U 1 1 5FBC8E1E
 P 2975 5350
-F 0 "C?" H 3000 5450 60  0000 L CNN
+F 0 "C33" H 3000 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 2975 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 3175 5550 60  0001 L CNN
 F 3 "" H 2975 5350 50  0001 C CNN
@@ -1672,10 +1672,10 @@ Connection ~ 2975 5500
 Wire Wire Line
 	2975 5500 3200 5500
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C39
 U 1 1 5FBC8E37
 P 3200 5350
-F 0 "C?" H 3225 5450 60  0000 L CNN
+F 0 "C39" H 3225 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 3200 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 3400 5550 60  0001 L CNN
 F 3 "" H 3200 5350 50  0001 C CNN
@@ -1686,10 +1686,10 @@ F 6 "10u" H 3225 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C45
 U 1 1 5FBC8E40
 P 3425 5350
-F 0 "C?" H 3450 5450 60  0000 L CNN
+F 0 "C45" H 3450 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 3425 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 3625 5550 60  0001 L CNN
 F 3 "" H 3425 5350 50  0001 C CNN
@@ -1700,10 +1700,10 @@ F 6 "10u" H 3450 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C51
 U 1 1 5FBC8E49
 P 3650 5350
-F 0 "C?" H 3675 5450 60  0000 L CNN
+F 0 "C51" H 3675 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 3650 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 3850 5550 60  0001 L CNN
 F 3 "" H 3650 5350 50  0001 C CNN
@@ -1714,10 +1714,10 @@ F 6 "10u" H 3675 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C57
 U 1 1 5FBC8E52
 P 3875 5350
-F 0 "C?" H 3900 5450 60  0000 L CNN
+F 0 "C57" H 3900 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 3875 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 4075 5550 60  0001 L CNN
 F 3 "" H 3875 5350 50  0001 C CNN
@@ -1746,10 +1746,10 @@ Connection ~ 3650 5500
 Wire Wire Line
 	3650 5500 3875 5500
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C60
 U 1 1 5FBDE91F
 P 4100 5350
-F 0 "C?" H 4125 5450 60  0000 L CNN
+F 0 "C60" H 4125 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 4100 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 4300 5550 60  0001 L CNN
 F 3 "" H 4100 5350 50  0001 C CNN
@@ -1760,10 +1760,10 @@ F 6 "10u" H 4125 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C64
 U 1 1 5FBDE928
 P 4325 5350
-F 0 "C?" H 4350 5450 60  0000 L CNN
+F 0 "C64" H 4350 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 4325 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 4525 5550 60  0001 L CNN
 F 3 "" H 4325 5350 50  0001 C CNN
@@ -1786,10 +1786,10 @@ Connection ~ 4325 5500
 Wire Wire Line
 	4325 5500 4550 5500
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C67
 U 1 1 5FBDE93B
 P 4550 5350
-F 0 "C?" H 4575 5450 60  0000 L CNN
+F 0 "C67" H 4575 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 4550 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 4750 5550 60  0001 L CNN
 F 3 "" H 4550 5350 50  0001 C CNN
@@ -1800,10 +1800,10 @@ F 6 "10u" H 4575 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C69
 U 1 1 5FBDE944
 P 4775 5350
-F 0 "C?" H 4800 5450 60  0000 L CNN
+F 0 "C69" H 4800 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 4775 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 4975 5550 60  0001 L CNN
 F 3 "" H 4775 5350 50  0001 C CNN
@@ -1814,10 +1814,10 @@ F 6 "10u" H 4800 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C72
 U 1 1 5FBDE94D
 P 5025 5350
-F 0 "C?" H 5050 5450 60  0000 L CNN
+F 0 "C72" H 5050 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 5025 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 5225 5550 60  0001 L CNN
 F 3 "" H 5025 5350 50  0001 C CNN
@@ -1828,10 +1828,10 @@ F 6 "10u" H 5050 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C74
 U 1 1 5FBDE956
 P 5250 5350
-F 0 "C?" H 5275 5450 60  0000 L CNN
+F 0 "C74" H 5275 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 5250 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 5450 5550 60  0001 L CNN
 F 3 "" H 5250 5350 50  0001 C CNN
@@ -1866,10 +1866,10 @@ Connection ~ 5250 5500
 Wire Wire Line
 	5250 5500 5475 5500
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C77
 U 1 1 5FBDE96F
 P 5475 5350
-F 0 "C?" H 5500 5450 60  0000 L CNN
+F 0 "C77" H 5500 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 5475 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 5675 5550 60  0001 L CNN
 F 3 "" H 5475 5350 50  0001 C CNN
@@ -1880,10 +1880,10 @@ F 6 "10u" H 5500 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C80
 U 1 1 5FBDE978
 P 5700 5350
-F 0 "C?" H 5725 5450 60  0000 L CNN
+F 0 "C80" H 5725 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 5700 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 5900 5550 60  0001 L CNN
 F 3 "" H 5700 5350 50  0001 C CNN
@@ -1894,10 +1894,10 @@ F 6 "10u" H 5725 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C83
 U 1 1 5FBDE981
 P 5925 5350
-F 0 "C?" H 5950 5450 60  0000 L CNN
+F 0 "C83" H 5950 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 5925 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 6125 5550 60  0001 L CNN
 F 3 "" H 5925 5350 50  0001 C CNN
@@ -1908,10 +1908,10 @@ F 6 "10u" H 5950 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C86
 U 1 1 5FBDE98A
 P 6150 5350
-F 0 "C?" H 6175 5450 60  0000 L CNN
+F 0 "C86" H 6175 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 6150 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 6350 5550 60  0001 L CNN
 F 3 "" H 6150 5350 50  0001 C CNN
@@ -1946,10 +1946,10 @@ Wire Wire Line
 	3875 5500 4100 5500
 Connection ~ 3875 5500
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C89
 U 1 1 5FC1D3AA
 P 6400 5350
-F 0 "C?" H 6425 5450 60  0000 L CNN
+F 0 "C89" H 6425 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 6400 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 6600 5550 60  0001 L CNN
 F 3 "" H 6400 5350 50  0001 C CNN
@@ -1960,10 +1960,10 @@ F 6 "10u" H 6425 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C92
 U 1 1 5FC1D3B3
 P 6625 5350
-F 0 "C?" H 6650 5450 60  0000 L CNN
+F 0 "C92" H 6650 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 6625 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 6825 5550 60  0001 L CNN
 F 3 "" H 6625 5350 50  0001 C CNN
@@ -1974,10 +1974,10 @@ F 6 "10u" H 6650 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C95
 U 1 1 5FC1D3BC
 P 6850 5350
-F 0 "C?" H 6875 5450 60  0000 L CNN
+F 0 "C95" H 6875 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 6850 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 7050 5550 60  0001 L CNN
 F 3 "" H 6850 5350 50  0001 C CNN
@@ -1988,10 +1988,10 @@ F 6 "10u" H 6875 5250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C?
+L antmicroCapacitors0603:C_10u_0603 C98
 U 1 1 5FC1D3C5
 P 7075 5350
-F 0 "C?" H 7100 5450 60  0000 L CNN
+F 0 "C98" H 7100 5450 60  0000 L CNN
 F 1 "C_10u_0603" H 7075 5200 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 7275 5550 60  0001 L CNN
 F 3 "" H 7075 5350 50  0001 C CNN
@@ -2030,10 +2030,10 @@ VDD
 Text GLabel 2100 6775 0    50   Input ~ 0
 GND
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402_6V3 C15
 U 1 1 5FD5C937
 P 2200 6625
-F 0 "C?" H 2225 6725 60  0000 L CNN
+F 0 "C15" H 2225 6725 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 2200 6475 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2400 6825 60  0001 L CNN
 F 3 "" H 2200 6625 50  0001 C CNN
@@ -2044,10 +2044,10 @@ F 6 "100n" H 2225 6525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402_6V3 C24
 U 1 1 5FD5C940
 P 2500 6625
-F 0 "C?" H 2525 6725 60  0000 L CNN
+F 0 "C24" H 2525 6725 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 2500 6475 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2700 6825 60  0001 L CNN
 F 3 "" H 2500 6625 50  0001 C CNN
@@ -2058,10 +2058,10 @@ F 6 "100n" H 2525 6525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402_6V3 C31
 U 1 1 5FD5C949
 P 2775 6625
-F 0 "C?" H 2800 6725 60  0000 L CNN
+F 0 "C31" H 2800 6725 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 2775 6475 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2975 6825 60  0001 L CNN
 F 3 "" H 2775 6625 50  0001 C CNN
@@ -2072,10 +2072,10 @@ F 6 "100n" H 2800 6525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402_6V3 C37
 U 1 1 5FD5C952
 P 3025 6625
-F 0 "C?" H 3050 6725 60  0000 L CNN
+F 0 "C37" H 3050 6725 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 3025 6475 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3225 6825 60  0001 L CNN
 F 3 "" H 3025 6625 50  0001 C CNN
@@ -2086,10 +2086,10 @@ F 6 "100n" H 3050 6525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402_6V3 C43
 U 1 1 5FD5C95B
 P 3300 6625
-F 0 "C?" H 3325 6725 60  0000 L CNN
+F 0 "C43" H 3325 6725 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 3300 6475 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3500 6825 60  0001 L CNN
 F 3 "" H 3300 6625 50  0001 C CNN
@@ -2100,10 +2100,10 @@ F 6 "100n" H 3325 6525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402_6V3 C50
 U 1 1 5FD5C964
 P 3575 6625
-F 0 "C?" H 3600 6725 60  0000 L CNN
+F 0 "C50" H 3600 6725 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 3575 6475 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 3775 6825 60  0001 L CNN
 F 3 "" H 3575 6625 50  0001 C CNN
@@ -2114,10 +2114,10 @@ F 6 "100n" H 3600 6525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402_6V3 C56
 U 1 1 5FD5C96D
 P 3850 6625
-F 0 "C?" H 3875 6725 60  0000 L CNN
+F 0 "C56" H 3875 6725 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 3850 6475 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 4050 6825 60  0001 L CNN
 F 3 "" H 3850 6625 50  0001 C CNN
@@ -2128,10 +2128,10 @@ F 6 "100n" H 3875 6525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C?
+L antmicroCapacitors0402:C_100n_0402_6V3 C61
 U 1 1 5FD5C976
 P 4100 6625
-F 0 "C?" H 4125 6725 60  0000 L CNN
+F 0 "C61" H 4125 6725 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 4100 6475 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 4300 6825 60  0001 L CNN
 F 3 "" H 4100 6625 50  0001 C CNN
