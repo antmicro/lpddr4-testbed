@@ -476,9 +476,9 @@ Wire Wire Line
 Wire Wire Line
 	9175 2000 8375 2000
 Text Label 8375 2000 0    50   ~ 0
-DQS0_C
+DQS0_N
 Text Label 8375 2100 0    50   ~ 0
-DQS0_T
+DQS0_P
 Wire Wire Line
 	10175 2000 10975 2000
 Text Label 10975 2000 2    50   ~ 0
@@ -488,9 +488,9 @@ Wire Wire Line
 Wire Wire Line
 	10175 3000 10975 3000
 Text Label 10975 3000 2    50   ~ 0
-DQS1_C
+DQS1_N
 Text Label 10975 3100 2    50   ~ 0
-DQS1_T
+DQS1_P
 Wire Wire Line
 	9175 3100 8375 3100
 Text Label 8375 3100 0    50   ~ 0
@@ -500,15 +500,15 @@ Wire Wire Line
 Wire Wire Line
 	2025 3075 1225 3075
 Text Label 1225 3075 0    50   ~ 0
-DQS0_C
+DQS0_N
 Text Label 1225 2975 0    50   ~ 0
-DQS0_T
+DQS0_P
 Wire Wire Line
 	4425 2975 3625 2975
 Wire Wire Line
 	3625 3075 4425 3075
 Text Label 4425 3075 2    50   ~ 0
-DQS1_C
+DQS1_N
 Wire Wire Line
 	2025 3975 1225 3975
 Text Label 1225 3975 0    50   ~ 0
@@ -526,7 +526,7 @@ Wire Wire Line
 Text Label 4425 1575 2    50   ~ 0
 ODT0_A
 Text Label 4425 2975 2    50   ~ 0
-DQS1_T
+DQS1_P
 Wire Wire Line
 	2025 2675 1225 2675
 Text Label 1425 2675 0    50   ~ 0
@@ -919,9 +919,9 @@ ODT0
 Wire Wire Line
 	13475 2025 12675 2025
 Text Label 12675 2025 0    50   ~ 0
-CK0_C
+CK0_N
 Text Label 12675 1925 0    50   ~ 0
-CK0_T
+CK0_P
 Wire Wire Line
 	13475 2525 12675 2525
 Text Label 12675 2525 0    50   ~ 0
@@ -959,11 +959,11 @@ Wire Wire Line
 Wire Wire Line
 	14475 1925 15275 1925
 Text Label 15275 1925 2    50   ~ 0
-CK1_T
+CK1_P
 Wire Wire Line
 	15275 2025 14475 2025
 Text Label 15275 2025 2    50   ~ 0
-CK1_C
+CK1_N
 Wire Wire Line
 	5975 5850 5000 5850
 Text Label 5000 5850 0    50   ~ 0
@@ -1022,9 +1022,9 @@ Wire Wire Line
 Wire Wire Line
 	2075 7325 1275 7325
 Text Label 1275 7325 0    50   ~ 0
-DQS2_C
+DQS2_N
 Text Label 1275 7225 0    50   ~ 0
-DQS2_T
+DQS2_P
 Wire Wire Line
 	2075 8225 1275 8225
 Text Label 1275 8225 0    50   ~ 0
@@ -1064,7 +1064,7 @@ Wire Wire Line
 Wire Wire Line
 	3675 7325 4475 7325
 Text Label 4475 7325 2    50   ~ 0
-DQS3_C
+DQS3_N
 Wire Wire Line
 	3675 8225 4475 8225
 $Comp
@@ -1115,9 +1115,9 @@ Wire Wire Line
 Wire Wire Line
 	9175 4100 8375 4100
 Text Label 8375 4100 0    50   ~ 0
-DQS2_C
+DQS2_N
 Text Label 8375 4200 0    50   ~ 0
-DQS2_T
+DQS2_P
 Wire Wire Line
 	9175 5200 8375 5200
 Text Label 8375 5200 0    50   ~ 0
@@ -1163,9 +1163,9 @@ Wire Wire Line
 Wire Wire Line
 	10175 5100 10975 5100
 Text Label 10975 5100 2    50   ~ 0
-DQS3_C
+DQS3_N
 Text Label 10975 5200 2    50   ~ 0
-DQS3_T
+DQS3_P
 Wire Notes Line
 	8050 3625 11200 3625
 Wire Notes Line
@@ -2119,17 +2119,17 @@ NoConn ~ 9175 7700
 NoConn ~ 9175 7500
 NoConn ~ 10175 7500
 Text Label 1275 5925 0    50   ~ 0
-CK1_C
+CK1_N
 Text Label 1275 5825 0    50   ~ 0
-CK1_T
+CK1_P
 Wire Wire Line
 	2075 5925 1275 5925
 Wire Wire Line
 	1275 5825 2075 5825
 Text Label 1225 1675 0    50   ~ 0
-CK0_C
+CK0_N
 Text Label 1225 1575 0    50   ~ 0
-CK0_T
+CK0_P
 Text Label 5000 8325 0    50   ~ 0
 RESET_CONN_N
 Wire Wire Line
@@ -2212,7 +2212,7 @@ NoConn ~ 14475 3525
 Text Label 4425 3575 2    50   ~ 0
 DQ12
 Text Label 4475 7225 2    50   ~ 0
-DQS3_T
+DQS3_P
 Text Label 4475 7625 2    50   ~ 0
 DQ26
 Text Label 4475 8225 2    50   ~ 0
@@ -2381,12 +2381,6 @@ F 6 "100n" H 2275 10650 50  0000 L CNN "Val"
 	1    2275 10750
 	1    0    0    -1  
 $EndComp
-Connection ~ 2275 10600
-Wire Wire Line
-	2275 10600 2500 10600
-Connection ~ 2275 10900
-Wire Wire Line
-	2275 10900 2500 10900
 $Comp
 L antmicroCapacitorsmisc:C_100n_0201 C10
 U 1 1 5FD7D6A3
@@ -2401,12 +2395,6 @@ F 6 "100n" H 2500 10650 50  0000 L CNN "Val"
 	1    2500 10750
 	1    0    0    -1  
 $EndComp
-Connection ~ 2500 10600
-Wire Wire Line
-	2500 10600 2725 10600
-Connection ~ 2500 10900
-Wire Wire Line
-	2500 10900 2725 10900
 $Comp
 L antmicroCapacitorsmisc:C_100n_0201 C12
 U 1 1 5FD7D994
@@ -2421,12 +2409,6 @@ F 6 "100n" H 2725 10650 50  0000 L CNN "Val"
 	1    2725 10750
 	1    0    0    -1  
 $EndComp
-Connection ~ 2725 10600
-Wire Wire Line
-	2725 10600 2950 10600
-Connection ~ 2725 10900
-Wire Wire Line
-	2725 10900 2950 10900
 $Comp
 L antmicroCapacitorsmisc:C_100n_0201 C14
 U 1 1 5FD7DB37
@@ -2441,12 +2423,6 @@ F 6 "100n" H 2950 10650 50  0000 L CNN "Val"
 	1    2950 10750
 	1    0    0    -1  
 $EndComp
-Connection ~ 2950 10600
-Wire Wire Line
-	2950 10600 3175 10600
-Connection ~ 2950 10900
-Wire Wire Line
-	2950 10900 3175 10900
 $Comp
 L antmicroCapacitorsmisc:C_100n_0201 C16
 U 1 1 5FD7F4D8
@@ -2615,82 +2591,6 @@ F 6 "100n" H 5650 10650 50  0000 L CNN "Val"
 	1    5650 10750
 	1    0    0    -1  
 $EndComp
-Connection ~ 3175 10600
-Wire Wire Line
-	3175 10600 3400 10600
-Connection ~ 3175 10900
-Wire Wire Line
-	3175 10900 3400 10900
-Connection ~ 3400 10600
-Wire Wire Line
-	3400 10600 3625 10600
-Connection ~ 3400 10900
-Wire Wire Line
-	3400 10900 3625 10900
-Connection ~ 3625 10600
-Wire Wire Line
-	3625 10600 3850 10600
-Connection ~ 3625 10900
-Wire Wire Line
-	3625 10900 3850 10900
-Connection ~ 3850 10600
-Wire Wire Line
-	3850 10600 4075 10600
-Connection ~ 3850 10900
-Wire Wire Line
-	3850 10900 4075 10900
-Connection ~ 4075 10600
-Wire Wire Line
-	4075 10600 4300 10600
-Connection ~ 4075 10900
-Wire Wire Line
-	4075 10900 4300 10900
-Connection ~ 4300 10600
-Wire Wire Line
-	4300 10600 4525 10600
-Connection ~ 4300 10900
-Wire Wire Line
-	4300 10900 4525 10900
-Connection ~ 4525 10600
-Wire Wire Line
-	4525 10600 4750 10600
-Connection ~ 4525 10900
-Wire Wire Line
-	4525 10900 4750 10900
-Connection ~ 4750 10600
-Wire Wire Line
-	4750 10600 4975 10600
-Connection ~ 4750 10900
-Wire Wire Line
-	4750 10900 4975 10900
-Connection ~ 4975 10600
-Wire Wire Line
-	4975 10600 5200 10600
-Connection ~ 4975 10900
-Wire Wire Line
-	4975 10900 5200 10900
-Connection ~ 5200 10600
-Wire Wire Line
-	5200 10600 5425 10600
-Connection ~ 5200 10900
-Wire Wire Line
-	5200 10900 5425 10900
-Connection ~ 5425 10600
-Wire Wire Line
-	5425 10600 5650 10600
-Connection ~ 5425 10900
-Wire Wire Line
-	5425 10900 5650 10900
-Connection ~ 1700 10600
-Wire Wire Line
-	1700 10600 2275 10600
-Connection ~ 1700 10900
-Wire Wire Line
-	1700 10900 2275 10900
-Wire Wire Line
-	1375 10600 1700 10600
-Wire Wire Line
-	1375 10900 1700 10900
 $Comp
 L antmicroCapacitors0402:C_10u_0402 C5
 U 1 1 6019F2F0
@@ -2739,12 +2639,6 @@ F 6 "100n" H 2325 9775 50  0000 L CNN "Val"
 	1    2325 9875
 	1    0    0    -1  
 $EndComp
-Connection ~ 2325 9725
-Wire Wire Line
-	2325 9725 2550 9725
-Connection ~ 2325 10025
-Wire Wire Line
-	2325 10025 2550 10025
 $Comp
 L antmicroCapacitorsmisc:C_100n_0201 C11
 U 1 1 6019F313
@@ -2759,12 +2653,6 @@ F 6 "100n" H 2550 9775 50  0000 L CNN "Val"
 	1    2550 9875
 	1    0    0    -1  
 $EndComp
-Connection ~ 2550 9725
-Wire Wire Line
-	2550 9725 2775 9725
-Connection ~ 2550 10025
-Wire Wire Line
-	2550 10025 2775 10025
 $Comp
 L antmicroCapacitorsmisc:C_100n_0201 C13
 U 1 1 6019F320
@@ -2779,12 +2667,6 @@ F 6 "100n" H 2775 9775 50  0000 L CNN "Val"
 	1    2775 9875
 	1    0    0    -1  
 $EndComp
-Connection ~ 2775 9725
-Wire Wire Line
-	2775 9725 3000 9725
-Connection ~ 2775 10025
-Wire Wire Line
-	2775 10025 3000 10025
 $Comp
 L antmicroCapacitorsmisc:C_100n_0201 C15
 U 1 1 6019F32D
@@ -2799,12 +2681,6 @@ F 6 "100n" H 3000 9775 50  0000 L CNN "Val"
 	1    3000 9875
 	1    0    0    -1  
 $EndComp
-Connection ~ 3000 9725
-Wire Wire Line
-	3000 9725 3225 9725
-Connection ~ 3000 10025
-Wire Wire Line
-	3000 10025 3225 10025
 $Comp
 L antmicroCapacitorsmisc:C_100n_0201 C17
 U 1 1 6019F33A
@@ -2973,82 +2849,6 @@ F 6 "100n" H 5700 9775 50  0000 L CNN "Val"
 	1    5700 9875
 	1    0    0    -1  
 $EndComp
-Connection ~ 3225 9725
-Wire Wire Line
-	3225 9725 3450 9725
-Connection ~ 3225 10025
-Wire Wire Line
-	3225 10025 3450 10025
-Connection ~ 3450 9725
-Wire Wire Line
-	3450 9725 3675 9725
-Connection ~ 3450 10025
-Wire Wire Line
-	3450 10025 3675 10025
-Connection ~ 3675 9725
-Wire Wire Line
-	3675 9725 3900 9725
-Connection ~ 3675 10025
-Wire Wire Line
-	3675 10025 3900 10025
-Connection ~ 3900 9725
-Wire Wire Line
-	3900 9725 4125 9725
-Connection ~ 3900 10025
-Wire Wire Line
-	3900 10025 4125 10025
-Connection ~ 4125 9725
-Wire Wire Line
-	4125 9725 4350 9725
-Connection ~ 4125 10025
-Wire Wire Line
-	4125 10025 4350 10025
-Connection ~ 4350 9725
-Wire Wire Line
-	4350 9725 4575 9725
-Connection ~ 4350 10025
-Wire Wire Line
-	4350 10025 4575 10025
-Connection ~ 4575 9725
-Wire Wire Line
-	4575 9725 4800 9725
-Connection ~ 4575 10025
-Wire Wire Line
-	4575 10025 4800 10025
-Connection ~ 4800 9725
-Wire Wire Line
-	4800 9725 5025 9725
-Connection ~ 4800 10025
-Wire Wire Line
-	4800 10025 5025 10025
-Connection ~ 5025 9725
-Wire Wire Line
-	5025 9725 5250 9725
-Connection ~ 5025 10025
-Wire Wire Line
-	5025 10025 5250 10025
-Connection ~ 5250 9725
-Wire Wire Line
-	5250 9725 5475 9725
-Connection ~ 5250 10025
-Wire Wire Line
-	5250 10025 5475 10025
-Connection ~ 5475 9725
-Wire Wire Line
-	5475 9725 5700 9725
-Connection ~ 5475 10025
-Wire Wire Line
-	5475 10025 5700 10025
-Connection ~ 1750 9725
-Wire Wire Line
-	1750 9725 2325 9725
-Connection ~ 1750 10025
-Wire Wire Line
-	1750 10025 2325 10025
-Wire Wire Line
-	1425 9725 1750 9725
-Wire Wire Line
-	1425 10025 1750 10025
 $Comp
 L antmicroCapacitors0402:C_10u_0402 C41
 U 1 1 6031DC08
@@ -3083,12 +2883,6 @@ F 6 "100n" H 7525 9800 50  0000 L CNN "Val"
 	1    7525 9900
 	1    0    0    -1  
 $EndComp
-Connection ~ 7525 9750
-Wire Wire Line
-	7525 9750 7750 9750
-Connection ~ 7525 10050
-Wire Wire Line
-	7525 10050 7750 10050
 $Comp
 L antmicroCapacitorsmisc:C_100n_0201 C45
 U 1 1 6031DC2B
@@ -3103,12 +2897,6 @@ F 6 "100n" H 7750 9800 50  0000 L CNN "Val"
 	1    7750 9900
 	1    0    0    -1  
 $EndComp
-Connection ~ 7750 9750
-Wire Wire Line
-	7750 9750 7975 9750
-Connection ~ 7750 10050
-Wire Wire Line
-	7750 10050 7975 10050
 $Comp
 L antmicroCapacitorsmisc:C_100n_0201 C47
 U 1 1 6031DC38
@@ -3123,12 +2911,6 @@ F 6 "100n" H 7975 9800 50  0000 L CNN "Val"
 	1    7975 9900
 	1    0    0    -1  
 $EndComp
-Connection ~ 7975 9750
-Wire Wire Line
-	7975 9750 8200 9750
-Connection ~ 7975 10050
-Wire Wire Line
-	7975 10050 8200 10050
 $Comp
 L antmicroCapacitorsmisc:C_100n_0201 C49
 U 1 1 6031DC45
@@ -3143,12 +2925,6 @@ F 6 "100n" H 8200 9800 50  0000 L CNN "Val"
 	1    8200 9900
 	1    0    0    -1  
 $EndComp
-Connection ~ 8200 9750
-Wire Wire Line
-	8200 9750 8425 9750
-Connection ~ 8200 10050
-Wire Wire Line
-	8200 10050 8425 10050
 $Comp
 L antmicroCapacitorsmisc:C_100n_0201 C51
 U 1 1 6031DC52
@@ -3205,28 +2981,6 @@ F 6 "100n" H 9100 9800 50  0000 L CNN "Val"
 	1    9100 9900
 	1    0    0    -1  
 $EndComp
-Connection ~ 8425 9750
-Wire Wire Line
-	8425 9750 8650 9750
-Connection ~ 8425 10050
-Wire Wire Line
-	8425 10050 8650 10050
-Connection ~ 8650 9750
-Wire Wire Line
-	8650 9750 8875 9750
-Connection ~ 8650 10050
-Wire Wire Line
-	8650 10050 8875 10050
-Connection ~ 8875 9750
-Wire Wire Line
-	8875 9750 9100 9750
-Connection ~ 8875 10050
-Wire Wire Line
-	8875 10050 9100 10050
-Wire Wire Line
-	7075 9750 7525 9750
-Wire Wire Line
-	7075 10050 7525 10050
 Text GLabel 12550 9575 0    50   Input ~ 0
 VDD1
 $Comp
@@ -3291,8 +3045,6 @@ Wire Wire Line
 	6950 10450 7050 10450
 Wire Wire Line
 	6950 10750 7050 10750
-Connection ~ 7600 10450
-Connection ~ 7600 10750
 Text GLabel 6950 10450 0    50   Input ~ 0
 VDD2
 $Comp
@@ -3312,11 +3064,7 @@ $EndComp
 Connection ~ 7050 10450
 Connection ~ 7050 10750
 Connection ~ 7300 10450
-Wire Wire Line
-	7300 10450 7600 10450
 Connection ~ 7300 10750
-Wire Wire Line
-	7300 10750 7600 10750
 $Comp
 L antmicroCapacitorsmisc:C_1u_0201 C44
 U 1 1 60F4FF78
@@ -3363,16 +3111,6 @@ F 6 "100n" H 8875 10500 50  0000 L CNN "Val"
 	1    8875 10600
 	1    0    0    -1  
 $EndComp
-Connection ~ 8350 10450
-Wire Wire Line
-	8350 10450 8650 10450
-Connection ~ 8350 10750
-Wire Wire Line
-	8350 10750 8650 10750
-Wire Wire Line
-	7600 10450 7850 10450
-Wire Wire Line
-	7600 10750 7850 10750
 $Comp
 L antmicroCapacitorsmisc:C_1u_0201 C46
 U 1 1 614CBD45
@@ -3401,18 +3139,6 @@ F 6 "1u" H 8150 10500 50  0000 L CNN "Val"
 	1    8100 10600
 	1    0    0    -1  
 $EndComp
-Connection ~ 8100 10450
-Wire Wire Line
-	8100 10450 8350 10450
-Connection ~ 8100 10750
-Wire Wire Line
-	8100 10750 8350 10750
-Connection ~ 8650 10450
-Wire Wire Line
-	8650 10450 8875 10450
-Connection ~ 8650 10750
-Wire Wire Line
-	8650 10750 8875 10750
 $Comp
 L antmicroCapacitorsmisc:C_1u_0201 C50
 U 1 1 615C00BA
@@ -3427,10 +3153,20 @@ F 6 "1u" H 8400 10500 50  0000 L CNN "Val"
 	1    8350 10600
 	1    0    0    -1  
 $EndComp
-Connection ~ 7850 10450
 Wire Wire Line
-	7850 10450 8100 10450
-Connection ~ 7850 10750
+	7075 9750 9100 9750
 Wire Wire Line
-	7850 10750 8100 10750
+	7075 10050 9100 10050
+Wire Wire Line
+	7300 10450 8875 10450
+Wire Wire Line
+	7300 10750 8875 10750
+Wire Wire Line
+	1375 10600 5650 10600
+Wire Wire Line
+	1375 10900 5650 10900
+Wire Wire Line
+	1425 9725 5700 9725
+Wire Wire Line
+	1425 10025 5700 10025
 $EndSCHEMATC
