@@ -15,37 +15,21 @@ Comment4 ""
 $EndDescr
 Text Notes 8025 825  0    98   ~ 20
 Connector
-Text Label 14000 1125 0    50   ~ 0
+Text Label 15150 4775 0    50   ~ 0
 DQ01
-Wire Wire Line
-	12800 1750 13600 1750
-Wire Wire Line
-	14000 1125 14800 1125
-Wire Wire Line
-	12800 2350 13600 2350
-Wire Wire Line
-	14000 1825 14800 1825
-Wire Wire Line
-	12800 1550 13600 1550
-Wire Wire Line
-	14000 925  14800 925 
-Wire Wire Line
-	12800 2150 13600 2150
-Wire Wire Line
-	14800 1625 14000 1625
-Text Label 13600 2350 2    50   ~ 0
+Text Label 15350 4575 2    50   ~ 0
 DQ02
-Text Label 14000 1825 0    50   ~ 0
+Text Label 15150 4475 0    50   ~ 0
 DQ03
-Text Label 13600 1550 2    50   ~ 0
+Text Label 12650 4375 2    50   ~ 0
 DQ04
-Text Label 14000 925  0    50   ~ 0
+Text Label 12450 4475 0    50   ~ 0
 DQ05
-Text Label 13600 2150 2    50   ~ 0
+Text Label 15350 5075 2    50   ~ 0
 DQ06
-Text Label 14000 1625 0    50   ~ 0
+Text Label 15150 5175 0    50   ~ 0
 DQ07
-Text Label 13600 1750 2    50   ~ 0
+Text Label 15350 4875 2    50   ~ 0
 DQ00
 Wire Wire Line
 	2825 4275 2825 4575
@@ -137,61 +121,33 @@ Text Label 4425 3275 2    50   ~ 0
 DQ09
 Text Label 4425 3875 2    50   ~ 0
 DQ15
-Text Label 13600 3250 2    50   ~ 0
+Text Label 12650 5475 2    50   ~ 0
 DQ14
-Wire Wire Line
-	13600 3250 12800 3250
-Wire Wire Line
-	13600 2550 12800 2550
-Wire Wire Line
-	14000 2825 14800 2825
-Wire Wire Line
-	12800 2750 13600 2750
-Text Label 13600 2550 2    50   ~ 0
+Text Label 12650 5175 2    50   ~ 0
 DQ12
-Text Label 14000 2825 0    50   ~ 0
+Text Label 15150 5875 0    50   ~ 0
 DQ10
-Text Label 13600 2750 2    50   ~ 0
+Text Label 12650 5875 2    50   ~ 0
 DQ08
-Wire Wire Line
-	14800 2625 14000 2625
-Wire Wire Line
-	14800 2025 14000 2025
-Wire Wire Line
-	12800 3450 13600 3450
-Wire Wire Line
-	14800 2225 14000 2225
-Text Label 14000 2025 0    50   ~ 0
+Text Label 12450 5275 0    50   ~ 0
 DQ13
-Text Label 13600 3450 2    50   ~ 0
+Text Label 15350 5975 2    50   ~ 0
 DQ11
-Text Label 14000 2225 0    50   ~ 0
+Text Label 12450 5775 0    50   ~ 0
 DQ09
-Text Label 14000 2625 0    50   ~ 0
+Text Label 12450 5575 0    50   ~ 0
 DQ15
-Wire Wire Line
-	14000 1425 14800 1425
-Wire Wire Line
-	14800 1325 14000 1325
-Text Label 14000 1325 0    50   ~ 0
+Text Label 12450 4675 0    50   ~ 0
 DQS0_N
-Text Label 14000 1425 0    50   ~ 0
+Text Label 12450 4775 0    50   ~ 0
 DQS0_P
-Wire Wire Line
-	12800 1950 13600 1950
-Text Label 13600 1950 2    50   ~ 0
+Text Label 12700 4975 2    50   ~ 0
 DM0_N
-Wire Wire Line
-	13600 3050 12800 3050
-Wire Wire Line
-	12800 2950 13600 2950
-Text Label 13600 2950 2    50   ~ 0
+Text Label 15350 5375 2    50   ~ 0
 DQS1_N
-Text Label 13600 3050 2    50   ~ 0
+Text Label 15350 5475 2    50   ~ 0
 DQS1_P
-Wire Wire Line
-	14800 2425 14000 2425
-Text Label 14000 2425 0    50   ~ 0
+Text Label 15100 5675 0    50   ~ 0
 DM1_N
 Wire Wire Line
 	1225 2975 2025 2975
@@ -251,118 +207,26 @@ Wire Wire Line
 	3675 5925 4475 5925
 Text Label 4475 5925 2    50   ~ 0
 MEMRST_N
-Wire Wire Line
-	12800 6750 13625 6750
-Wire Wire Line
-	12800 7050 13650 7050
-Text Label 13625 6750 2    50   ~ 0
+Text Label 15375 6775 2    50   ~ 0
 RESET_CONN_N
-Wire Wire Line
-	13775 7150 13775 8600
-Wire Wire Line
-	13775 8600 13875 8600
-Wire Wire Line
-	12800 7150 13775 7150
-Wire Wire Line
-	14175 8600 14300 8600
-Text GLabel 14300 8600 2    50   Input ~ 0
-DDRVCC
-Text Label 13650 7050 2    50   ~ 0
-ACT_N
-Text Label 13650 7150 2    50   ~ 0
-ALERT_N
-Wire Wire Line
-	14900 6925 15800 6925
-Wire Wire Line
-	15800 6925 15800 7075
-Text Label 15625 6925 2    50   ~ 0
-VREFCA
-$Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C4
-U 1 1 6153B2CE
-P 15800 7225
-F 0 "C4" H 15825 7325 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 15800 7075 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 16000 7425 60  0001 L CNN
-F 3 "" H 15800 7225 50  0001 C CNN
-F 4 "Walsin" H 16000 7625 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 16000 7525 60  0001 L CNN "MPN"
-F 6 "100n" H 15825 7125 50  0000 L CNN "Val"
-	1    15800 7225
-	1    0    0    -1  
-$EndComp
-Text GLabel 16025 7450 2    50   Input ~ 0
-DDRVCC
-Wire Wire Line
-	15800 7450 16025 7450
-Wire Wire Line
-	15800 7375 15800 7450
-Wire Notes Line
-	13825 1100 13825 3475
-Wire Notes Line
-	16825 2850 13675 2850
-Wire Wire Line
-	14900 5425 15700 5425
-Text Label 15700 5425 2    50   ~ 0
-EVENT_N
-Wire Wire Line
-	15750 4125 14950 4125
-Text Label 14950 4125 0    50   ~ 0
-PARITY
-Wire Wire Line
-	15750 4725 14950 4725
-Text Label 14950 4725 0    50   ~ 0
+Text Label 12450 6675 0    50   ~ 0
 ODT0
-Wire Wire Line
-	15750 3925 14950 3925
-Text Label 14950 3925 0    50   ~ 0
+Text Label 15125 4175 0    50   ~ 0
 CK0_N
-Text Label 14950 3825 0    50   ~ 0
+Text Label 15125 4275 0    50   ~ 0
 CK0_P
 Wire Wire Line
-	15750 4425 14950 4425
-Text Label 14950 4425 0    50   ~ 0
-CS0_N
-Wire Wire Line
-	14950 3825 15750 3825
-Wire Wire Line
-	16300 8225 15325 8225
-Text Label 15325 8225 0    50   ~ 0
-SCL
-Text Label 15450 7725 2    50   ~ 0
-SDA
-Text Label 15450 7825 2    50   ~ 0
-SA0
-Text Label 15450 8025 2    50   ~ 0
-SA1
-Wire Wire Line
-	14900 7025 15650 7025
-Text Label 15650 7025 2    50   ~ 0
-SA1
-Wire Wire Line
 	6275 5600 7325 5600
-Text Label 7325 5600 2    50   ~ 0
-CK0_C
-Text Label 5000 5600 0    50   ~ 0
-CK0_T
 Wire Wire Line
 	5000 5600 5975 5600
-Wire Wire Line
-	14900 5625 15700 5625
-Text Label 15700 5625 2    50   ~ 0
+Text Label 15350 3875 2    50   ~ 0
 CK1_P
-Wire Wire Line
-	15700 5725 14900 5725
-Text Label 15700 5725 2    50   ~ 0
+Text Label 15350 3975 2    50   ~ 0
 CK1_N
 Wire Wire Line
 	5975 5850 5000 5850
-Text Label 5000 5850 0    50   ~ 0
-CK1_T
 Wire Wire Line
 	7325 5850 6275 5850
-Text Label 7325 5850 2    50   ~ 0
-CK1_C
 Text Notes 1075 1025 0    98   ~ 20
 LPDDR4
 $Comp
@@ -469,102 +333,50 @@ F 3 "" H 2775 5825 50  0001 C CNN
 	2    2875 7025
 	1    0    0    -1  
 $EndComp
-Text Label 14000 3225 0    50   ~ 0
+Text Label 15150 3375 0    50   ~ 0
 DQ17
-Wire Wire Line
-	14000 3225 14800 3225
-Wire Wire Line
-	14000 3925 14800 3925
-Wire Wire Line
-	14000 3025 14800 3025
-Wire Wire Line
-	14800 3725 14000 3725
-Text Label 14000 3925 0    50   ~ 0
+Text Label 15150 3675 0    50   ~ 0
 DQ19
-Text Label 14000 3025 0    50   ~ 0
+Text Label 12450 3675 0    50   ~ 0
 DQ21
-Text Label 14000 3725 0    50   ~ 0
+Text Label 15150 2975 0    50   ~ 0
 DQ23
-Wire Wire Line
-	14000 4925 14800 4925
-Text Label 14000 4925 0    50   ~ 0
+Text Label 15150 2275 0    50   ~ 0
 DQ26
-Wire Wire Line
-	14800 4725 14000 4725
-Wire Wire Line
-	14800 4125 14000 4125
-Wire Wire Line
-	14800 4325 14000 4325
-Text Label 14000 4125 0    50   ~ 0
+Text Label 12450 2875 0    50   ~ 0
 DQ29
-Text Label 14000 4325 0    50   ~ 0
+Text Label 12450 2375 0    50   ~ 0
 DQ25
-Text Label 14000 4725 0    50   ~ 0
+Text Label 12450 2675 0    50   ~ 0
 DQ30
-Wire Wire Line
-	14000 3525 14800 3525
-Wire Wire Line
-	14800 3425 14000 3425
-Text Label 14000 3425 0    50   ~ 0
+Text Label 12450 3475 0    50   ~ 0
 DQS2_N
-Text Label 14000 3525 0    50   ~ 0
+Text Label 12450 3375 0    50   ~ 0
 DQS2_P
-Wire Wire Line
-	14800 4525 14000 4525
-Text Label 14000 4525 0    50   ~ 0
+Text Label 15100 2475 0    50   ~ 0
 DM3_N
-Wire Wire Line
-	12800 3850 13600 3850
-Wire Wire Line
-	12800 4450 13600 4450
-Wire Wire Line
-	12800 3650 13600 3650
-Wire Wire Line
-	12800 4250 13600 4250
-Text Label 13600 4450 2    50   ~ 0
+Text Label 15350 3575 2    50   ~ 0
 DQ18
-Text Label 13600 3650 2    50   ~ 0
+Text Label 12650 3775 2    50   ~ 0
 DQ20
-Text Label 13600 4250 2    50   ~ 0
+Text Label 15350 3075 2    50   ~ 0
 DQ22
-Text Label 13600 3850 2    50   ~ 0
+Text Label 15350 3275 2    50   ~ 0
 DQ16
-Text Label 13600 5350 2    50   ~ 0
+Text Label 12650 2575 2    50   ~ 0
 DQ31
-Wire Wire Line
-	13600 5350 12800 5350
-Wire Wire Line
-	13600 4650 12800 4650
-Wire Wire Line
-	12800 4850 13600 4850
-Text Label 13600 4650 2    50   ~ 0
+Text Label 12650 2975 2    50   ~ 0
 DQ28
-Text Label 13600 4850 2    50   ~ 0
+Text Label 12650 2275 2    50   ~ 0
 DQ24
-Wire Wire Line
-	12800 5550 13600 5550
-Text Label 13600 5550 2    50   ~ 0
+Text Label 15350 2175 2    50   ~ 0
 DQ27
-Wire Wire Line
-	12800 4050 13600 4050
-Text Label 13600 4050 2    50   ~ 0
+Text Label 12700 3175 2    50   ~ 0
 DM2_N
-Wire Wire Line
-	13600 5150 12800 5150
-Wire Wire Line
-	12800 5050 13600 5050
-Text Label 13600 5050 2    50   ~ 0
+Text Label 15350 2775 2    50   ~ 0
 DQS3_N
-Text Label 13600 5150 2    50   ~ 0
+Text Label 15350 2675 2    50   ~ 0
 DQS3_P
-Wire Notes Line
-	13675 2950 16825 2950
-Wire Notes Line
-	16825 5325 13675 5325
-Text Notes 13675 2925 0    50   ~ 0
-Second LPDDR4 die
-Wire Notes Line
-	13825 3575 13825 5950
 Wire Wire Line
 	2075 6025 1275 6025
 Text Label 1275 6025 0    50   ~ 0
@@ -625,73 +437,13 @@ Wire Wire Line
 	2075 6725 1275 6725
 Wire Wire Line
 	2075 6825 1275 6825
-Wire Wire Line
-	14900 5925 15700 5925
-Text Label 15700 5925 2    50   ~ 0
-CA0_A
-Wire Wire Line
-	15750 3625 14950 3625
-Text Label 14950 3625 0    50   ~ 0
-CA1_A
-Wire Wire Line
-	15750 3525 14950 3525
-Text Label 14950 3525 0    50   ~ 0
+Text Label 12450 6475 0    50   ~ 0
 CA3_A
-Wire Wire Line
-	14900 5325 15700 5325
-Text Label 15700 5325 2    50   ~ 0
-CA2_A
-Wire Wire Line
-	12800 7750 13600 7750
-Text Label 13600 7750 2    50   ~ 0
+Text Label 15350 6475 2    50   ~ 0
 CA4_A
-Wire Wire Line
-	12800 7650 13600 7650
-Text Label 13600 7650 2    50   ~ 0
+Text Label 15350 6575 2    50   ~ 0
 CA5_A
-Wire Wire Line
-	14800 6725 14000 6725
-Text Label 14000 6725 0    50   ~ 0
-CA2_B
-Wire Wire Line
-	14900 6025 15700 6025
-Text Label 15700 6025 2    50   ~ 0
-CA0_B
-Wire Wire Line
-	12800 7350 13600 7350
-Text Label 13600 7350 2    50   ~ 0
-CA1_B
-Wire Wire Line
-	14900 6625 15700 6625
-Text Label 15700 6625 2    50   ~ 0
-CA3_B
-Wire Wire Line
-	15750 4525 14950 4525
-Text Label 14950 4525 0    50   ~ 0
-CA4_B
-Wire Wire Line
-	14900 6525 15700 6525
-Text Label 15700 6525 2    50   ~ 0
-CA5_B
-Wire Wire Line
-	14800 6425 14000 6425
-Text Label 14000 6425 0    50   ~ 0
-BG0
-Wire Wire Line
-	14800 6525 14000 6525
-Text Label 14000 6525 0    50   ~ 0
-BG1
-Wire Wire Line
-	14900 6225 15700 6225
-Text Label 15700 6225 2    50   ~ 0
-BA0
-Wire Wire Line
-	15750 4225 14950 4225
-Text Label 14950 4225 0    50   ~ 0
-BA1
-Wire Wire Line
-	14800 6225 14000 6225
-Text Label 14000 6225 0    50   ~ 0
+Text Label 15125 6275 0    50   ~ 0
 CKE_0
 Wire Wire Line
 	5975 4700 5175 4700
@@ -709,18 +461,10 @@ Wire Wire Line
 	5025 7050 5825 7050
 Wire Wire Line
 	5825 7200 5025 7200
-Text Label 5025 7050 0    50   ~ 0
-CK0_T
-Text Label 5025 7200 0    50   ~ 0
-CK0_C
 Wire Wire Line
 	5025 7350 5825 7350
 Wire Wire Line
 	5825 7500 5025 7500
-Text Label 5025 7350 0    50   ~ 0
-CK1_T
-Text Label 5025 7500 0    50   ~ 0
-CK1_C
 Wire Wire Line
 	1225 1575 2025 1575
 Wire Wire Line
@@ -1183,20 +927,6 @@ $EndComp
 Wire Wire Line
 	5625 8325 5625 8400
 Wire Wire Line
-	16300 8425 15325 8425
-Wire Wire Line
-	16300 8525 15325 8525
-Wire Wire Line
-	16300 8325 15325 8325
-Text GLabel 15325 8525 0    50   Input ~ 0
-VPP
-Text GLabel 15325 8425 0    50   Input ~ 0
-VPP
-Text GLabel 15325 8325 0    50   Input ~ 0
-VDDSPD
-Text GLabel 15450 7925 2    50   Input ~ 0
-VTT
-Wire Wire Line
 	6725 3075 6725 3100
 $Comp
 L power:GND #PWR0114
@@ -1312,16 +1042,6 @@ Text Label 5150 2700 0    50   ~ 0
 CS0_N_B
 Wire Wire Line
 	5950 2700 5150 2700
-Wire Wire Line
-	15750 4825 14950 4825
-Text Label 14950 4825 0    50   ~ 0
-CS_1_N
-Text Notes 13550 6425 0    50   ~ 0
-Bank group\n
-NoConn ~ 14000 6425
-NoConn ~ 14000 6525
-NoConn ~ 15700 6225
-NoConn ~ 14950 4225
 $Comp
 L antmicroResistors0402:R_0R_0402 R29
 U 1 1 62E42296
@@ -1350,9 +1070,7 @@ F 6 "0R" H 6525 1550 50  0000 C CNN "Val"
 	1    6350 1625
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15750 5025 14950 5025
-Text Label 14950 5025 0    50   ~ 0
+Text Label 12450 6775 0    50   ~ 0
 ODT1
 Text Label 7425 1725 2    50   ~ 0
 ODT1
@@ -1362,20 +1080,6 @@ Text Label 7425 1625 2    50   ~ 0
 ODT0
 Wire Wire Line
 	6500 1725 7425 1725
-$Comp
-L antmicroResistors0402:R_40R2_0402 R37
-U 1 1 634918B0
-P 14025 8600
-F 0 "R37" H 13950 8675 60  0000 C CNN
-F 1 "R_40R2_0402" H 14025 8450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 14225 8800 60  0001 L CNN
-F 3 "" H 14025 8600 50  0001 C CNN
-F 4 "MULTICOM PPRO" H 14225 9000 60  0001 L CNN "Manufacturer"
-F 5 "MCWR04X40R2FTL" H 14225 8900 60  0001 L CNN "MPN"
-F 6 "40R2" H 14225 8550 50  0000 C CNN "Val"
-	1    14025 8600
-	1    0    0    -1  
-$EndComp
 $Comp
 L antmicroCapacitors0402:C_3p3_0402 C2
 U 1 1 6350A02D
@@ -1461,10 +1165,6 @@ Wire Wire Line
 Text Label 7425 4400 2    50   ~ 0
 CKE_0
 Text Label 7425 4700 2    50   ~ 0
-CKE_1
-Wire Wire Line
-	12800 6850 13600 6850
-Text Label 13600 6850 2    50   ~ 0
 CKE_1
 $Comp
 L antmicroResistors0402:R_80R6_0402 R33
@@ -1580,8 +1280,6 @@ VDD1
 Text GLabel 4300 6025 2    50   Input ~ 0
 VDDQ
 Text GLabel 1150 9725 0    50   Input ~ 0
-VDDQ
-Text GLabel 13200 8475 2    50   Input ~ 0
 VDDQ
 Text GLabel 2975 5225 1    50   Input ~ 0
 VDDQ
@@ -2282,8 +1980,6 @@ Wire Wire Line
 	13550 9575 14000 9575
 Text GLabel 14000 9575 2    50   Input ~ 0
 VDD1_A
-Text GLabel 13200 8575 2    50   Input ~ 0
-VDD1_A
 $Comp
 L antmicroResistors0402:R_10k_0402 R2
 U 1 1 60E3F285
@@ -2448,25 +2144,404 @@ Wire Wire Line
 Wire Wire Line
 	1425 10025 5700 10025
 $Comp
-L antmicroMemoryConnectorsPCCardSockets:ddr3-sodimm-edge J?
+L antmicroMemoryConnectorsPCCardSockets:ddr3-sodimm-edge J1
 U 1 1 6026C9CB
-P 8900 3400
-F 0 "J?" H 8900 5567 50  0000 C CNN
-F 1 "ddr3-sodimm-edge" H 8900 5476 50  0000 C CNN
-F 2 "antmicro-footprints:SODIMM_DDR3_EDGE" H 8900 3400 50  0001 L BNN
-F 3 "" H 8900 3400 50  0001 L BNN
-	1    8900 3400
+P 9600 3175
+F 0 "J1" H 9600 5342 50  0000 C CNN
+F 1 "ddr3-sodimm-edge" H 9600 5251 50  0000 C CNN
+F 2 "antmicro-footprints:SODIMM_DDR3_EDGE" H 9600 3175 50  0001 L BNN
+F 3 "" H 9600 3175 50  0001 L BNN
+	1    9600 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14600 1475 14775 1475
+Wire Wire Line
+	14775 1475 14775 1775
+Wire Wire Line
+	13200 1575 13000 1575
+Wire Wire Line
+	13000 1575 13000 1875
+Wire Wire Line
+	14600 1575 15350 1575
+Wire Wire Line
+	14600 1675 15350 1675
+Wire Wire Line
+	14600 1875 15350 1875
+Wire Wire Line
+	14600 1975 15350 1975
+Wire Wire Line
+	14600 2175 15350 2175
+Wire Wire Line
+	14600 2275 15350 2275
+Wire Wire Line
+	12450 1675 13200 1675
+Wire Wire Line
+	12450 1775 13200 1775
+Wire Wire Line
+	12450 1975 13200 1975
+Wire Wire Line
+	12450 2075 13200 2075
+Wire Wire Line
+	12450 2275 13200 2275
+Wire Wire Line
+	12450 2375 13200 2375
+Text Label 15125 1575 0    50   ~ 0
+CA5_B
+Text Label 15125 1675 0    50   ~ 0
+CA4_B
+Text Label 12450 1675 0    50   ~ 0
+CA3_B
+Text Label 12450 1775 0    50   ~ 0
+CA2_B
+Text Label 15100 1875 0    50   ~ 0
+CKE0_B
+Text Label 15375 1975 2    50   ~ 0
+CS_1_N
+Text Label 12450 1975 0    50   ~ 0
+CA1_B
+Text Label 12450 2075 0    50   ~ 0
+CA0_B
+Wire Wire Line
+	14600 2475 15350 2475
+Wire Wire Line
+	14600 2675 15350 2675
+Wire Wire Line
+	14600 2775 15350 2775
+Wire Wire Line
+	12450 2575 13200 2575
+Wire Wire Line
+	12450 2675 13200 2675
+Wire Wire Line
+	12450 2875 13200 2875
+Wire Wire Line
+	12450 2975 13200 2975
+Wire Wire Line
+	14600 2975 15350 2975
+Wire Wire Line
+	14600 3075 15350 3075
+Wire Wire Line
+	14600 3275 15350 3275
+Wire Wire Line
+	14600 3375 15350 3375
+Wire Wire Line
+	14600 3575 15350 3575
+Wire Wire Line
+	14600 3675 15350 3675
+Wire Wire Line
+	13200 3175 12450 3175
+Wire Wire Line
+	12450 3375 13200 3375
+Wire Wire Line
+	12450 3475 13200 3475
+Wire Wire Line
+	12450 3675 13200 3675
+Wire Wire Line
+	12450 3775 13200 3775
+Wire Wire Line
+	14600 3875 15350 3875
+Wire Wire Line
+	14600 3975 15350 3975
+Wire Wire Line
+	14600 4175 15350 4175
+Wire Wire Line
+	14600 4275 15350 4275
+Wire Wire Line
+	13200 3875 13000 3875
+Connection ~ 13000 3875
+Wire Wire Line
+	13000 3875 13000 4275
+$Comp
+L antmicroMemoryConnectorsPCCardSockets:ddr3-sodimm-edge J1
+U 2 1 6026F2C9
+P 13900 4675
+F 0 "J1" H 13900 8342 50  0000 C CNN
+F 1 "ddr3-sodimm-edge" H 13900 8251 50  0000 C CNN
+F 2 "antmicro-footprints:SODIMM_DDR3_EDGE" H 13900 4675 50  0001 L BNN
+F 3 "" H 13900 4675 50  0001 L BNN
+	2    13900 4675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 4275 13000 4275
+Connection ~ 13000 4275
+Wire Wire Line
+	12450 4375 13200 4375
+Wire Wire Line
+	12450 4475 13200 4475
+Wire Wire Line
+	14600 4475 15350 4475
+Wire Wire Line
+	14600 4575 15350 4575
+Wire Wire Line
+	12450 4675 13200 4675
+Wire Wire Line
+	12450 4775 13200 4775
+Wire Wire Line
+	14600 4775 15350 4775
+Wire Wire Line
+	14600 4875 15350 4875
+Wire Wire Line
+	13200 4975 12450 4975
+Wire Wire Line
+	14600 5075 15350 5075
+Wire Wire Line
+	14600 5175 15350 5175
+Wire Wire Line
+	12450 5175 13200 5175
+Wire Wire Line
+	12450 5275 13200 5275
+Wire Wire Line
+	14600 5375 15350 5375
+Wire Wire Line
+	14600 5475 15350 5475
+Wire Wire Line
+	12450 5475 13200 5475
+Wire Wire Line
+	12450 5575 13200 5575
+Wire Wire Line
+	14600 5675 15350 5675
+Wire Wire Line
+	14600 5875 15350 5875
+Wire Wire Line
+	14600 5975 15350 5975
+Wire Wire Line
+	12450 5775 13200 5775
+Wire Wire Line
+	12450 5875 13200 5875
+Wire Wire Line
+	12450 6075 13200 6075
+Wire Wire Line
+	12450 6175 13200 6175
+Wire Wire Line
+	14600 6175 15350 6175
+Wire Wire Line
+	14600 6275 15350 6275
+Wire Wire Line
+	12450 6375 13200 6375
+Wire Wire Line
+	12450 6475 13200 6475
+Wire Wire Line
+	14600 6475 15350 6475
+Wire Wire Line
+	14600 6575 15350 6575
+Text Label 15350 6175 2    50   ~ 0
+CS_0_N
+Text Label 12675 6075 2    50   ~ 0
+CA0_A
+Text Label 12450 6175 0    50   ~ 0
+CA1_A
+Text Label 12450 6375 0    50   ~ 0
+CA2_A
+Wire Wire Line
+	13200 6275 13000 6275
+Connection ~ 13000 6275
+Wire Wire Line
+	13000 6275 13000 6575
+Wire Wire Line
+	13200 5975 13000 5975
+Connection ~ 13000 5975
+Wire Wire Line
+	13000 5975 13000 6275
+Wire Wire Line
+	13200 5675 13000 5675
+Connection ~ 13000 5675
+Wire Wire Line
+	13000 5675 13000 5975
+Wire Wire Line
+	13200 5375 13000 5375
+Connection ~ 13000 5375
+Wire Wire Line
+	13000 5375 13000 5675
+Wire Wire Line
+	13200 5075 13000 5075
+Wire Wire Line
+	13000 4275 13000 4575
+Connection ~ 13000 5075
+Wire Wire Line
+	13000 5075 13000 5375
+Wire Wire Line
+	13200 4875 13000 4875
+Connection ~ 13000 4875
+Wire Wire Line
+	13000 4875 13000 5075
+Wire Wire Line
+	13200 4575 13000 4575
+Connection ~ 13000 4575
+Wire Wire Line
+	13000 4575 13000 4875
+Wire Wire Line
+	13200 1875 13000 1875
+Connection ~ 13000 1875
+Wire Wire Line
+	13000 1875 13000 2175
+Wire Wire Line
+	13200 2175 13000 2175
+Connection ~ 13000 2175
+Wire Wire Line
+	13000 2175 13000 2475
+Wire Wire Line
+	13200 2475 13000 2475
+Connection ~ 13000 2475
+Wire Wire Line
+	13000 2475 13000 2775
+Wire Wire Line
+	13200 2775 13000 2775
+Connection ~ 13000 2775
+Wire Wire Line
+	13000 2775 13000 3075
+Wire Wire Line
+	13200 3075 13000 3075
+Connection ~ 13000 3075
+Wire Wire Line
+	13000 3075 13000 3275
+Wire Wire Line
+	13200 3275 13000 3275
+Connection ~ 13000 3275
+Wire Wire Line
+	13000 3275 13000 3575
+Wire Wire Line
+	13200 3575 13000 3575
+Connection ~ 13000 3575
+Wire Wire Line
+	13000 3575 13000 3875
+Wire Wire Line
+	14600 1775 14775 1775
+Connection ~ 14775 1775
+Wire Wire Line
+	14775 1775 14775 2075
+Wire Wire Line
+	14600 2075 14775 2075
+Connection ~ 14775 2075
+Wire Wire Line
+	14600 2375 14775 2375
+Wire Wire Line
+	14775 2075 14775 2375
+Connection ~ 14775 2375
+Wire Wire Line
+	14775 2375 14775 2575
+Wire Wire Line
+	14600 2575 14775 2575
+Connection ~ 14775 2575
+Wire Wire Line
+	14775 2575 14775 2875
+Wire Wire Line
+	14600 2875 14775 2875
+Connection ~ 14775 2875
+Wire Wire Line
+	14775 2875 14775 3175
+Wire Wire Line
+	14600 3175 14775 3175
+Connection ~ 14775 3175
+Wire Wire Line
+	14775 3175 14775 3475
+Wire Wire Line
+	14600 3475 14775 3475
+Connection ~ 14775 3475
+Wire Wire Line
+	14775 3475 14775 3775
+Wire Wire Line
+	14600 3775 14775 3775
+Connection ~ 14775 3775
+Wire Wire Line
+	14775 3775 14775 4075
+Wire Wire Line
+	14600 4075 14775 4075
+Connection ~ 14775 4075
+Wire Wire Line
+	14775 4075 14775 4375
+Wire Wire Line
+	14600 4375 14775 4375
+Connection ~ 14775 4375
+Wire Wire Line
+	14775 4375 14775 4675
+Wire Wire Line
+	14600 4675 14775 4675
+Connection ~ 14775 4675
+Wire Wire Line
+	14775 4675 14775 4975
+Wire Wire Line
+	14600 4975 14775 4975
+Connection ~ 14775 4975
+Wire Wire Line
+	14775 4975 14775 5275
+Wire Wire Line
+	14600 5275 14775 5275
+Connection ~ 14775 5275
+Wire Wire Line
+	14775 5275 14775 5575
+Wire Wire Line
+	14600 5575 14775 5575
+Connection ~ 14775 5575
+Wire Wire Line
+	14775 5575 14775 5775
+Wire Wire Line
+	14775 5775 14600 5775
+Connection ~ 14775 5775
+Wire Wire Line
+	14775 5775 14775 6075
+Wire Wire Line
+	14600 6075 14775 6075
+Connection ~ 14775 6075
+Wire Wire Line
+	14775 6075 14775 6375
+Wire Wire Line
+	14600 6375 14775 6375
+Connection ~ 14775 6375
+Wire Wire Line
+	14775 6375 14775 6675
+Wire Wire Line
+	14600 6675 14775 6675
+Connection ~ 14775 6675
+Wire Wire Line
+	14775 6675 14775 8400
+Wire Wire Line
+	13200 6575 13000 6575
+Connection ~ 13000 6575
+Wire Wire Line
+	13000 6575 13000 8400
+Text Label 5000 5850 0    50   ~ 0
+CK1_P
+Text Label 7100 5850 0    50   ~ 0
+CK1_N
+Text Label 5000 5600 0    50   ~ 0
+CK0_P
+Text Label 7100 5600 0    50   ~ 0
+CK0_N
+Text Label 5025 7050 0    50   ~ 0
+CK0_P
+Text Label 5025 7350 0    50   ~ 0
+CK1_P
+Text Label 5025 7500 0    50   ~ 0
+CK0_N
+Text Label 5025 7200 0    50   ~ 0
+CK1_N
+Wire Wire Line
+	14600 6775 15375 6775
+Wire Wire Line
+	12450 6675 13200 6675
+Wire Wire Line
+	12450 6775 13200 6775
+$Comp
+L power:GND #PWR?
+U 1 1 6150EFA2
+P 13000 8400
+F 0 "#PWR?" H 13000 8150 50  0001 C CNN
+F 1 "GND" H 13005 8227 50  0000 C CNN
+F 2 "" H 13000 8400 50  0001 C CNN
+F 3 "" H 13000 8400 50  0001 C CNN
+	1    13000 8400
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMemoryConnectorsPCCardSockets:ddr3-sodimm-edge J?
-U 2 1 6026F2C9
-P 11050 4925
-F 0 "J?" H 11050 8592 50  0000 C CNN
-F 1 "ddr3-sodimm-edge" H 11050 8501 50  0000 C CNN
-F 2 "antmicro-footprints:SODIMM_DDR3_EDGE" H 11050 4925 50  0001 L BNN
-F 3 "" H 11050 4925 50  0001 L BNN
-	2    11050 4925
+L power:GND #PWR?
+U 1 1 6150F91F
+P 14775 8400
+F 0 "#PWR?" H 14775 8150 50  0001 C CNN
+F 1 "GND" H 14780 8227 50  0000 C CNN
+F 2 "" H 14775 8400 50  0001 C CNN
+F 3 "" H 14775 8400 50  0001 C CNN
+	1    14775 8400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
