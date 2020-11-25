@@ -448,11 +448,11 @@ CKE_0
 Wire Wire Line
 	5975 4700 5175 4700
 Text Label 5175 4700 0    50   ~ 0
-CKE_0_B
+CKE0_B
 Wire Wire Line
 	5975 4400 5175 4400
 Text Label 5175 4400 0    50   ~ 0
-CKE_0_A
+CKE0_A
 Text Label 5150 1625 0    50   ~ 0
 ODT0_A
 Text Label 5150 1725 0    50   ~ 0
@@ -2187,7 +2187,7 @@ CA3_B
 Text Label 12450 1775 0    50   ~ 0
 CA2_B
 Text Label 15100 1875 0    50   ~ 0
-CKE0_B
+CKE_1
 Text Label 15350 1975 2    50   ~ 0
 CS_1_N
 Text Label 12450 1975 0    50   ~ 0
