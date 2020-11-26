@@ -3000,4 +3000,363 @@ Wire Wire Line
 	5650 10900 5875 10900
 Text Notes 5025 2125 0    50   ~ 0
 TBD: should both ODT have pull-up/pull-down resistors to test what's\nrequired?\n(NANO Pi has ODT_A pulled-up, and ODT_B NC with not populated\npull-down resistor)
+Wire Wire Line
+	10300 1375 10700 1375
+Wire Wire Line
+	10700 1375 10700 1675
+Connection ~ 10700 5075
+Wire Wire Line
+	10700 5075 10700 5725
+Wire Wire Line
+	10300 1675 10700 1675
+Connection ~ 10700 1675
+Wire Wire Line
+	10700 1675 10700 1975
+Wire Wire Line
+	10300 1975 10700 1975
+Connection ~ 10700 1975
+Wire Wire Line
+	10700 1975 10700 2275
+Wire Wire Line
+	10300 2275 10700 2275
+Wire Wire Line
+	10700 2275 10700 2575
+Wire Wire Line
+	10300 2575 10700 2575
+Wire Wire Line
+	10300 2875 10700 2875
+Wire Wire Line
+	10300 3175 10700 3175
+Wire Wire Line
+	10300 3475 10700 3475
+Wire Wire Line
+	10700 3475 10700 3675
+Wire Wire Line
+	10300 3675 10700 3675
+Connection ~ 10700 3675
+Wire Wire Line
+	10700 3675 10700 3975
+Wire Wire Line
+	10300 3975 10700 3975
+Wire Wire Line
+	10300 4275 10700 4275
+Wire Wire Line
+	10300 4575 10700 4575
+Wire Wire Line
+	10300 4875 10700 4875
+Connection ~ 10700 4875
+Wire Wire Line
+	10700 4875 10700 5075
+Connection ~ 10700 2275
+Connection ~ 10700 2575
+Wire Wire Line
+	10700 2575 10700 2875
+Connection ~ 10700 2875
+Wire Wire Line
+	10700 2875 10700 3175
+Connection ~ 10700 3175
+Wire Wire Line
+	10700 3175 10700 3475
+Connection ~ 10700 3475
+Connection ~ 10700 3975
+Wire Wire Line
+	10700 3975 10700 4275
+Connection ~ 10700 4275
+Wire Wire Line
+	10700 4275 10700 4575
+Connection ~ 10700 4575
+Wire Wire Line
+	10700 4575 10700 4875
+Wire Wire Line
+	10300 5075 10700 5075
+Wire Wire Line
+	8900 1475 8500 1475
+Wire Wire Line
+	8500 1475 8500 1775
+Wire Wire Line
+	8900 1775 8500 1775
+Connection ~ 8500 1775
+Wire Wire Line
+	8500 1775 8500 1975
+Wire Wire Line
+	8900 1975 8500 1975
+Wire Wire Line
+	8900 2275 8500 2275
+Wire Wire Line
+	8900 2575 8500 2575
+Wire Wire Line
+	8900 2875 8500 2875
+Wire Wire Line
+	8900 3175 8500 3175
+Wire Wire Line
+	8900 3475 8500 3475
+Wire Wire Line
+	8900 3775 8500 3775
+Connection ~ 8500 3775
+Wire Wire Line
+	8500 3775 8500 4075
+Wire Wire Line
+	8900 4075 8500 4075
+Wire Wire Line
+	8900 4375 8500 4375
+Wire Wire Line
+	8900 4575 8500 4575
+Wire Wire Line
+	8900 4875 8500 4875
+Connection ~ 8500 4075
+Wire Wire Line
+	8500 4075 8500 4375
+Connection ~ 8500 4375
+Wire Wire Line
+	8500 4375 8500 4575
+Connection ~ 8500 1975
+Connection ~ 8500 2275
+Connection ~ 8500 2575
+Connection ~ 8500 2875
+Connection ~ 8500 3175
+Wire Wire Line
+	8500 1975 8500 2275
+Wire Wire Line
+	8500 2275 8500 2575
+Wire Wire Line
+	8500 2575 8500 2875
+Wire Wire Line
+	8500 2875 8500 3175
+Wire Wire Line
+	8500 3175 8500 3475
+Connection ~ 8500 3475
+Wire Wire Line
+	8500 3475 8500 3775
+Connection ~ 8500 4575
+Wire Wire Line
+	8500 4575 8500 4875
+Connection ~ 8500 4875
+Wire Wire Line
+	8500 4875 8500 5725
+$Comp
+L power:GND #PWR?
+U 1 1 606F5321
+P 8500 5725
+F 0 "#PWR?" H 8500 5475 50  0001 C CNN
+F 1 "GND" H 8505 5552 50  0000 C CNN
+F 2 "" H 8500 5725 50  0001 C CNN
+F 3 "" H 8500 5725 50  0001 C CNN
+	1    8500 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 606F5BE8
+P 10700 5725
+F 0 "#PWR?" H 10700 5475 50  0001 C CNN
+F 1 "GND" H 10705 5552 50  0000 C CNN
+F 2 "" H 10700 5725 50  0001 C CNN
+F 3 "" H 10700 5725 50  0001 C CNN
+	1    10700 5725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 1475 10525 1475
+Wire Wire Line
+	10525 1475 10525 1100
+Wire Wire Line
+	10525 1575 10525 1475
+Connection ~ 10525 1475
+Wire Wire Line
+	10300 1575 10525 1575
+Wire Wire Line
+	10300 2775 10525 2775
+Wire Wire Line
+	10525 2775 10525 2675
+Connection ~ 10525 1575
+Wire Wire Line
+	10300 1775 10525 1775
+Connection ~ 10525 1775
+Wire Wire Line
+	10525 1775 10525 1575
+Wire Wire Line
+	10300 1875 10525 1875
+Connection ~ 10525 1875
+Wire Wire Line
+	10525 1875 10525 1775
+Wire Wire Line
+	10300 2075 10525 2075
+Connection ~ 10525 2075
+Wire Wire Line
+	10525 2075 10525 1875
+Wire Wire Line
+	10300 2175 10525 2175
+Connection ~ 10525 2175
+Wire Wire Line
+	10525 2175 10525 2075
+Wire Wire Line
+	10300 2375 10525 2375
+Connection ~ 10525 2375
+Wire Wire Line
+	10525 2375 10525 2175
+Wire Wire Line
+	10300 2475 10525 2475
+Connection ~ 10525 2475
+Wire Wire Line
+	10525 2475 10525 2375
+Wire Wire Line
+	10300 2675 10525 2675
+Connection ~ 10525 2675
+Wire Wire Line
+	10525 2675 10525 2475
+Wire Wire Line
+	8900 2775 8700 2775
+Wire Wire Line
+	8700 2775 8700 2675
+Wire Wire Line
+	8900 2675 8700 2675
+Connection ~ 8700 2675
+Wire Wire Line
+	8700 2675 8700 2475
+Connection ~ 8700 2475
+Wire Wire Line
+	8700 2475 8700 2375
+Wire Wire Line
+	8700 2475 8900 2475
+Wire Wire Line
+	8900 2375 8700 2375
+Connection ~ 8700 2375
+Wire Wire Line
+	8700 2375 8700 2175
+Connection ~ 8700 2175
+Wire Wire Line
+	8700 2175 8700 2075
+Wire Wire Line
+	8700 2175 8900 2175
+Wire Wire Line
+	8900 2075 8700 2075
+Connection ~ 8700 2075
+Wire Wire Line
+	8700 2075 8700 1875
+Wire Wire Line
+	8900 1875 8700 1875
+Connection ~ 8700 1875
+Wire Wire Line
+	8700 1875 8700 1675
+Wire Wire Line
+	8900 1675 8700 1675
+Connection ~ 8700 1675
+Wire Wire Line
+	8700 1675 8700 1575
+Wire Wire Line
+	8900 1575 8700 1575
+Connection ~ 8700 1575
+Wire Wire Line
+	8700 1575 8700 1375
+Wire Wire Line
+	8900 1375 8700 1375
+Connection ~ 8700 1375
+Wire Wire Line
+	8700 1375 8700 1125
+Text GLabel 10525 1100 2    50   Input ~ 0
+VDD2
+Text GLabel 8700 1125 0    50   Input ~ 0
+VDD2
+Text GLabel 10875 2975 2    50   Input ~ 0
+VDD1
+Text GLabel 8325 2975 0    50   Input ~ 0
+VDD1
+Wire Wire Line
+	10300 2975 10525 2975
+Wire Wire Line
+	10525 2975 10525 3075
+Wire Wire Line
+	10525 3375 10300 3375
+Wire Wire Line
+	10300 3275 10525 3275
+Connection ~ 10525 3275
+Wire Wire Line
+	10525 3275 10525 3375
+Wire Wire Line
+	10300 3075 10525 3075
+Connection ~ 10525 3075
+Wire Wire Line
+	10525 3075 10525 3275
+Wire Wire Line
+	10525 2975 10875 2975
+Connection ~ 10525 2975
+Wire Wire Line
+	8900 2975 8725 2975
+Wire Wire Line
+	8725 2975 8725 3075
+Wire Wire Line
+	8725 3375 8900 3375
+Wire Wire Line
+	8900 3275 8725 3275
+Connection ~ 8725 3275
+Wire Wire Line
+	8725 3275 8725 3375
+Wire Wire Line
+	8900 3075 8725 3075
+Connection ~ 8725 3075
+Wire Wire Line
+	8725 3075 8725 3275
+Wire Wire Line
+	10300 3575 10525 3575
+Wire Wire Line
+	10525 3575 10525 3375
+Connection ~ 10525 3375
+Wire Wire Line
+	8725 3675 8725 3575
+Connection ~ 8725 3375
+Wire Wire Line
+	8900 3575 8725 3575
+Connection ~ 8725 3575
+Wire Wire Line
+	8725 3575 8725 3375
+Wire Wire Line
+	8725 3675 8900 3675
+Wire Wire Line
+	10300 3775 10525 3775
+Wire Wire Line
+	10525 3775 10525 3575
+Connection ~ 10525 3575
+Wire Wire Line
+	8725 2975 8325 2975
+Connection ~ 8725 2975
+Wire Wire Line
+	10300 4775 10525 4775
+Wire Wire Line
+	10525 4775 10525 4675
+Wire Wire Line
+	10525 4675 10300 4675
+Wire Wire Line
+	8700 4775 8700 4675
+Wire Wire Line
+	8700 4675 8900 4675
+Wire Wire Line
+	8700 4775 8900 4775
+Wire Wire Line
+	10525 4475 10775 4475
+Connection ~ 10525 4675
+Wire Wire Line
+	8700 4475 8375 4475
+Connection ~ 8700 4675
+Text GLabel 10775 4475 2    50   Input ~ 0
+VDDQ
+Text GLabel 8375 4475 0    50   Input ~ 0
+VDDQ
+Wire Wire Line
+	8700 4675 8700 4475
+Wire Wire Line
+	8700 4475 8900 4475
+Wire Wire Line
+	10300 4475 10525 4475
+Wire Wire Line
+	10525 4475 10525 4675
+NoConn ~ 10300 4375
+NoConn ~ 8900 4275
+NoConn ~ 8900 4175
+NoConn ~ 8900 3975
+NoConn ~ 8900 3875
+NoConn ~ 10300 3875
+NoConn ~ 10300 4075
+NoConn ~ 10300 4175
+Connection ~ 10525 4475
+Connection ~ 8700 4475
 $EndSCHEMATC
