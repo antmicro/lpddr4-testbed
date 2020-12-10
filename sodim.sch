@@ -1120,27 +1120,27 @@ DQ01
 Text Notes 900  875  0    98   ~ 20
 SODIMM Connector
 $Comp
-L lpddr4-testbed:ddr4-sodimm-edge-connector J?
+L antmicroMemoryConnectorsPCCardSockets:ddr4-sodimm-edge-connector J?
 U 2 1 5FF3EE7F
 P 10650 5525
 AR Path="/5FD72AB0/5FF3EE7F" Ref="J?"  Part="2" 
 AR Path="/5FDC4A05/5FF3EE7F" Ref="J?"  Part="2" 
 F 0 "J?" H 10650 8992 50  0000 C CNN
 F 1 "ddr4-sodimm-edge-connector" H 10650 8901 50  0000 C CNN
-F 2 "lpddr4-testbed-footprints:SODIMM_DDR4_EDGE" H 10350 1925 50  0001 L BNN
+F 2 "antmicro-footprints:SODIMM_DDR4_EDGE" H 10350 1925 50  0001 L BNN
 F 3 "" H 11650 5625 50  0001 L BNN
 	2    10650 5525
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-testbed:ddr4-sodimm-edge-connector J?
+L antmicroMemoryConnectorsPCCardSockets:ddr4-sodimm-edge-connector J?
 U 1 1 5FF3EE85
 P 6525 5800
 AR Path="/5FD72AB0/5FF3EE85" Ref="J?"  Part="1" 
 AR Path="/5FDC4A05/5FF3EE85" Ref="J?"  Part="1" 
 F 0 "J?" H 6525 9365 50  0000 C CNN
 F 1 "ddr4-sodimm-edge-connector" H 6525 9274 50  0000 C CNN
-F 2 "lpddr4-testbed-footprints:SODIMM_DDR4_EDGE" H 6225 2200 50  0001 L BNN
+F 2 "antmicro-footprints:SODIMM_DDR4_EDGE" H 6225 2200 50  0001 L BNN
 F 3 "" H 7525 5900 50  0001 L BNN
 	1    6525 5800
 	1    0    0    -1  
