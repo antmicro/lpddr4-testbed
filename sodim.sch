@@ -95,11 +95,11 @@ Text GLabel 8875 5600 0    50   Input ~ 0
 DQ06_A
 Wire Wire Line
 	9500 5700 8875 5700
-Text GLabel 8875 5700 0    50   Input ~ 0
+Text GLabel 8875 5900 0    50   Input ~ 0
 DMI_0A
 Wire Wire Line
 	9500 5900 8875 5900
-Text GLabel 8875 5900 0    50   Input ~ 0
+Text GLabel 8875 5700 0    50   Input ~ 0
 DQ07_A
 Wire Wire Line
 	9500 6000 8875 6000
@@ -111,19 +111,19 @@ Text GLabel 8875 6100 0    50   Input ~ 0
 DQ_S0_TA
 Wire Wire Line
 	9500 6200 8875 6200
-Text GLabel 8875 6200 0    50   Input ~ 0
+Text GLabel 8875 6500 0    50   Input ~ 0
 DQ03_A
 Wire Wire Line
 	9500 6300 8875 6300
-Text GLabel 8875 6300 0    50   Input ~ 0
+Text GLabel 8875 6400 0    50   Input ~ 0
 DQ02_A
 Wire Wire Line
 	9500 6400 8875 6400
-Text GLabel 8875 6400 0    50   Input ~ 0
+Text GLabel 8875 6300 0    50   Input ~ 0
 DQ01_A
 Wire Wire Line
 	9500 6500 8875 6500
-Text GLabel 8875 6500 0    50   Input ~ 0
+Text GLabel 8875 6200 0    50   Input ~ 0
 DQ00_A
 Wire Wire Line
 	9500 4100 9425 4100
@@ -147,10 +147,10 @@ Wire Wire Line
 Wire Wire Line
 	5725 2500 5850 2500
 $Comp
-L lpddr4-testbed:GND #PWR?
+L lpddr4-testbed:GND #PWR0101
 U 1 1 600CF473
 P 5850 9125
-F 0 "#PWR?" H 5850 8875 50  0001 C CNN
+F 0 "#PWR0101" H 5850 8875 50  0001 C CNN
 F 1 "GND" H 5855 8952 50  0000 C CNN
 F 2 "" H 5850 9125 50  0001 C CNN
 F 3 "" H 5850 9125 50  0001 C CNN
@@ -158,10 +158,10 @@ F 3 "" H 5850 9125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-testbed:GND #PWR?
+L lpddr4-testbed:GND #PWR0102
 U 1 1 600CF7AC
 P 9425 9125
-F 0 "#PWR?" H 9425 8875 50  0001 C CNN
+F 0 "#PWR0102" H 9425 8875 50  0001 C CNN
 F 1 "GND" H 9430 8952 50  0000 C CNN
 F 2 "" H 9425 9125 50  0001 C CNN
 F 3 "" H 9425 9125 50  0001 C CNN
@@ -295,10 +295,10 @@ Wire Wire Line
 Wire Wire Line
 	4600 2500 4600 2600
 $Comp
-L lpddr4-testbed:GND #PWR?
+L lpddr4-testbed:GND #PWR0103
 U 1 1 600F8128
 P 4600 9125
-F 0 "#PWR?" H 4600 8875 50  0001 C CNN
+F 0 "#PWR0103" H 4600 8875 50  0001 C CNN
 F 1 "GND" H 4605 8952 50  0000 C CNN
 F 2 "" H 4600 9125 50  0001 C CNN
 F 3 "" H 4600 9125 50  0001 C CNN
@@ -608,10 +608,10 @@ Wire Wire Line
 Wire Wire Line
 	10550 3700 10550 4400
 $Comp
-L lpddr4-testbed:GND #PWR?
+L lpddr4-testbed:GND #PWR0104
 U 1 1 6032AE1D
 P 10550 9125
-F 0 "#PWR?" H 10550 8875 50  0001 C CNN
+F 0 "#PWR0104" H 10550 8875 50  0001 C CNN
 F 1 "GND" H 10555 8952 50  0000 C CNN
 F 2 "" H 10550 9125 50  0001 C CNN
 F 3 "" H 10550 9125 50  0001 C CNN
