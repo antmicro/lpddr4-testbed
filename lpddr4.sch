@@ -39,10 +39,8 @@ F 3 "" H 10900 5650 50  0001 C CNN
 	1    10900 5650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 2850 6250 2850
-Text Label 6250 2850 2    50   ~ 0
-ODT0_A
+Text Label 6675 2850 2    50   ~ 0
+ODT_CA_A
 Text Notes 1075 1025 0    98   ~ 20
 LPDDR4
 $Comp
@@ -221,4 +219,99 @@ Wire Wire Line
 	10900 2550 10900 2300
 Text GLabel 10900 2300 1    50   Input ~ 0
 VDD2
+Text Notes 2025 6625 0    98   ~ 20
+TODO\nAdd reset handling\nADD ODT/ZQ control
+Text GLabel 9350 3050 0    50   Input ~ 0
+CS0_B
+Wire Wire Line
+	9350 3050 9500 3050
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 5FD7BAFA
+P 9500 3400
+F 0 "R?" V 9455 3470 60  0000 L CNN
+F 1 "R_10k_0402" H 9500 3250 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 9700 3600 60  0001 L CNN
+F 3 "" H 9500 3400 50  0001 C CNN
+F 4 "VISHAY" H 9700 3800 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 9700 3700 60  0001 L CNN "MPN"
+F 6 "10k" V 9553 3470 50  0000 L CNN "Val"
+	1    9500 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L lpddr4-testbed:GND #PWR?
+U 1 1 5FD7DCCA
+P 9500 3550
+F 0 "#PWR?" H 9500 3300 50  0001 C CNN
+F 1 "GND" H 9505 3377 50  0000 C CNN
+F 2 "" H 9500 3550 50  0001 C CNN
+F 3 "" H 9500 3550 50  0001 C CNN
+	1    9500 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 3250 9500 3050
+Connection ~ 9500 3050
+Wire Wire Line
+	9500 3050 10100 3050
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 5FD80AED
+P 12000 3350
+F 0 "R?" V 11955 3420 60  0000 L CNN
+F 1 "R_10k_0402" H 12000 3200 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 12200 3550 60  0001 L CNN
+F 3 "" H 12000 3350 50  0001 C CNN
+F 4 "VISHAY" H 12200 3750 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 12200 3650 60  0001 L CNN "MPN"
+F 6 "10k" V 12053 3420 50  0000 L CNN "Val"
+	1    12000 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 5FD814A6
+P 5625 2600
+F 0 "R?" V 5580 2670 60  0000 L CNN
+F 1 "R_10k_0402" H 5625 2450 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5825 2800 60  0001 L CNN
+F 3 "" H 5625 2600 50  0001 C CNN
+F 4 "VISHAY" H 5825 3000 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 5825 2900 60  0001 L CNN "MPN"
+F 6 "10k" V 5678 2670 50  0000 L CNN "Val"
+	1    5625 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5625 2750 5625 2850
+Wire Wire Line
+	5450 2850 5625 2850
+Connection ~ 5625 2850
+Wire Wire Line
+	5625 2850 5875 2850
+Wire Wire Line
+	5625 2300 5625 2450
+Text GLabel 5625 2300 1    50   Input ~ 0
+VDDQ
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 5FD86989
+P 6025 2850
+F 0 "R?" H 6025 3063 60  0000 C CNN
+F 1 "R_0R_0402" H 6025 2700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6225 3050 60  0001 L CNN
+F 3 "" H 6025 2850 50  0001 C CNN
+F 4 "PANASONIC" H 6225 3250 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 6225 3150 60  0001 L CNN "MPN"
+F 6 "0R" H 6025 2965 50  0000 C CNN "Val"
+	1    6025 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6175 2850 6675 2850
+Text Notes 5750 3075 0    98   ~ 20
+TODO: connect to FPGA IO
+Text Notes 11900 3000 0    98   ~ 20
+TODO: connect to FPGA IO
 $EndSCHEMATC
