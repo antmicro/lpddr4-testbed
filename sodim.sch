@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 4
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -19,6 +19,8 @@ $Comp
 L antmicroMemoryConnectorsPCCardSockets:ddr4-sodimm-edge-connector J1
 U 1 1 600AC6A9
 P 5225 5800
+AR Path="/5FDC4A05/600AC6A9" Ref="J1"  Part="1" 
+AR Path="/5FF943AC/600AC6A9" Ref="J?"  Part="1" 
 F 0 "J1" H 5225 9365 50  0000 C CNN
 F 1 "ddr4-sodimm-edge-connector" H 5225 9274 50  0000 C CNN
 F 2 "antmicro-footprints:SODIMM_DDR4_EDGE" H 4925 2400 50  0001 L BNN
@@ -30,6 +32,8 @@ $Comp
 L antmicroMemoryConnectorsPCCardSockets:ddr4-sodimm-edge-connector J1
 U 2 1 600B3548
 P 10000 5800
+AR Path="/5FDC4A05/600B3548" Ref="J1"  Part="2" 
+AR Path="/5FF943AC/600B3548" Ref="J?"  Part="2" 
 F 0 "J1" H 10000 9365 50  0000 C CNN
 F 1 "ddr4-sodimm-edge-connector" H 10000 9274 50  0000 C CNN
 F 2 "antmicro-footprints:SODIMM_DDR4_EDGE" H 9700 2400 50  0001 L BNN
@@ -150,22 +154,13 @@ $Comp
 L lpddr4-testbed:GND #PWR0101
 U 1 1 600CF473
 P 5850 9125
+AR Path="/5FDC4A05/600CF473" Ref="#PWR0101"  Part="1" 
+AR Path="/5FF943AC/600CF473" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0101" H 5850 8875 50  0001 C CNN
 F 1 "GND" H 5855 8952 50  0000 C CNN
 F 2 "" H 5850 9125 50  0001 C CNN
 F 3 "" H 5850 9125 50  0001 C CNN
 	1    5850 9125
-	1    0    0    -1  
-$EndComp
-$Comp
-L lpddr4-testbed:GND #PWR0102
-U 1 1 600CF7AC
-P 9425 9125
-F 0 "#PWR0102" H 9425 8875 50  0001 C CNN
-F 1 "GND" H 9430 8952 50  0000 C CNN
-F 2 "" H 9425 9125 50  0001 C CNN
-F 3 "" H 9425 9125 50  0001 C CNN
-	1    9425 9125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -298,6 +293,8 @@ $Comp
 L lpddr4-testbed:GND #PWR0103
 U 1 1 600F8128
 P 4600 9125
+AR Path="/5FDC4A05/600F8128" Ref="#PWR0103"  Part="1" 
+AR Path="/5FF943AC/600F8128" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0103" H 4600 8875 50  0001 C CNN
 F 1 "GND" H 4605 8952 50  0000 C CNN
 F 2 "" H 4600 9125 50  0001 C CNN
@@ -514,79 +511,8 @@ Text GLabel 6200 8700 2    50   Input ~ 0
 VDDQ
 Text Notes 6500 8750 0    79   ~ 16
 VDDQ
-Wire Wire Line
-	10500 8600 10650 8600
-Wire Wire Line
-	10500 8700 10650 8700
-Wire Wire Line
-	10650 8700 10650 8600
-Connection ~ 10650 8600
-Wire Wire Line
-	10650 8600 10900 8600
-Wire Wire Line
-	10500 8800 10650 8800
-Wire Wire Line
-	10650 8800 10650 8700
-Connection ~ 10650 8700
-Wire Wire Line
-	10500 8900 10650 8900
-Wire Wire Line
-	10650 8900 10650 8800
-Connection ~ 10650 8800
-Wire Wire Line
-	10500 9000 10650 9000
-Wire Wire Line
-	10650 9000 10650 8900
-Connection ~ 10650 8900
 Text Notes 11250 8350 0    79   ~ 16
 VDDQ
-Text GLabel 10900 8600 2    50   Input ~ 0
-VDD1
-Text Notes 11250 8650 0    79   ~ 16
-1V8_SYS
-Wire Wire Line
-	9500 8300 9300 8300
-Wire Wire Line
-	9500 8400 9300 8400
-Wire Wire Line
-	9300 8400 9300 8300
-Connection ~ 9300 8300
-Wire Wire Line
-	9300 8300 8950 8300
-Wire Wire Line
-	9500 8500 9300 8500
-Wire Wire Line
-	9300 8500 9300 8400
-Connection ~ 9300 8400
-Wire Wire Line
-	9500 8600 9300 8600
-Wire Wire Line
-	9300 8600 9300 8500
-Connection ~ 9300 8500
-Wire Wire Line
-	9500 8700 9300 8700
-Wire Wire Line
-	9300 8700 9300 8600
-Connection ~ 9300 8600
-Wire Wire Line
-	9500 8800 9300 8800
-Wire Wire Line
-	9300 8800 9300 8700
-Connection ~ 9300 8700
-Wire Wire Line
-	9500 8900 9300 8900
-Wire Wire Line
-	9300 8900 9300 8800
-Connection ~ 9300 8800
-Wire Wire Line
-	9500 9000 9300 9000
-Wire Wire Line
-	9300 9000 9300 8900
-Connection ~ 9300 8900
-Text Notes 8175 8350 0    79   ~ 16
-1V1_SYS
-Text GLabel 8950 8300 0    50   Input ~ 0
-VDD2
 Wire Wire Line
 	10500 8300 10650 8300
 Text GLabel 10900 8300 2    50   Input ~ 0
@@ -611,6 +537,8 @@ $Comp
 L lpddr4-testbed:GND #PWR0104
 U 1 1 6032AE1D
 P 10550 9125
+AR Path="/5FDC4A05/6032AE1D" Ref="#PWR0104"  Part="1" 
+AR Path="/5FF943AC/6032AE1D" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0104" H 10550 8875 50  0001 C CNN
 F 1 "GND" H 10555 8952 50  0000 C CNN
 F 2 "" H 10550 9125 50  0001 C CNN
@@ -651,10 +579,6 @@ Text GLabel 11175 5700 2    50   Input ~ 0
 CS0_A
 Wire Wire Line
 	10500 5700 11175 5700
-Text GLabel 11175 5800 2    50   Input ~ 0
-CKE0_A
-Wire Wire Line
-	10500 5800 11175 5800
 Text GLabel 11175 6200 2    50   Input ~ 0
 CA_0A
 Wire Wire Line
@@ -678,4 +602,29 @@ Wire Wire Line
 Connection ~ 10550 5200
 Wire Wire Line
 	10550 5200 10550 6000
+Wire Wire Line
+	10500 5600 11175 5600
+Text GLabel 11175 5600 2    50   Input ~ 0
+OTD_CA_A
+Wire Wire Line
+	10500 5500 11175 5500
+Text GLabel 11175 5500 2    50   Input ~ 0
+RESET_N
+Wire Wire Line
+	10500 5800 11175 5800
+Text GLabel 11175 5800 2    50   Input ~ 0
+CKE0_A
+$Comp
+L lpddr4-testbed:GND #PWR?
+U 1 1 6015ECEA
+P 9425 9125
+AR Path="/5FDC4A05/6015ECEA" Ref="#PWR?"  Part="1" 
+AR Path="/5FF943AC/6015ECEA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9425 8875 50  0001 C CNN
+F 1 "GND" H 9430 8952 50  0000 C CNN
+F 2 "" H 9425 9125 50  0001 C CNN
+F 3 "" H 9425 9125 50  0001 C CNN
+	1    9425 9125
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
