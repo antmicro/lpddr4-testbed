@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 3
 Title ""
 Date ""
-Rev ""
+Rev "1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1437,10 +1437,10 @@ Wire Wire Line
 Wire Wire Line
 	12050 3450 12050 3525
 $Comp
-L antmicroMechanicalParts:oshw_logo N?
+L antmicroMechanicalParts:oshw_logo N3
 U 1 1 6001ECE6
 P 11900 9575
-F 0 "N?" H 12094 9578 50  0000 L CNN
+F 0 "N3" H 12094 9578 50  0000 L CNN
 F 1 "oshw_logo" H 12094 9487 50  0000 L CNN
 F 2 "antmicro-footprints:oshw-logo" H 11920 9335 50  0001 C CNN
 F 3 "" H 11900 9575 50  0001 C CNN
