@@ -1,54 +1,36 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# antmicroCapacitorsmisc_C_100n_0201
+# oshw_logo
 #
-DEF antmicroCapacitorsmisc_C_100n_0201 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "antmicroCapacitorsmisc_C_100n_0201" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0201-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
-F5 "CC0201KRX6S5BB104" 200 300 60 H I L CNN "MPN"
-F6 "100n" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antmicroMechanicalParts_antmicro_logo
-#
-DEF antmicroMechanicalParts_antmicro_logo N 0 40 Y Y 1 F N
-F0 "N" 0 350 50 H V C CNN
-F1 "antmicroMechanicalParts_antmicro_logo" 0 -200 50 H V C CNN
-F2 "antmicro-footprints:antmicro-logo" -100 250 50 H I C CNN
-F3 "" 0 350 50 H I C CNN
-DRAW
-T 0 50 50 79 0 0 0 Logo Normal 0 C C
-ENDDRAW
-ENDDEF
-#
-# antmicroMechanicalParts_oshw_logo
-#
-DEF antmicroMechanicalParts_oshw_logo N 0 40 Y Y 1 F N
+DEF lpddr4-testbed_oshw_logo N 0 40 Y Y 1 F N
 F0 "N" 20 40 50 H V C CNN
-F1 "antmicroMechanicalParts_oshw_logo" 30 -150 50 H V C CNN
-F2 "antmicro-footprints:oshw-logo" 20 -240 50 H I C CNN
+F1 "lpddr4-testbed_oshw_logo" 30 -150 50 H V C CNN
+F2 "lpddr4-testbed-footprints:oshw-logo" 20 -240 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 T 0 30 -40 79 0 1 1 Logo Normal 0 C C
 ENDDRAW
 ENDDEF
 #
-# antmicroMemoryConnectorsPCCardSockets_ddr4-sodimm-edge-connector
+# antmicro_logo
 #
-DEF antmicroMemoryConnectorsPCCardSockets_ddr4-sodimm-edge-connector J 0 40 Y Y 2 L N
+DEF lpddr4-testbed_antmicro_logo N 0 40 Y Y 1 F N
+F0 "N" 0 350 50 H V C CNN
+F1 "lpddr4-testbed_antmicro_logo" 0 -200 50 H V C CNN
+F2 "lpddr4-testbed-footprints:antmicro-logo" -100 250 50 H I C CNN
+F3 "" 0 350 50 H I C CNN
+DRAW
+T 0 50 50 79 0 0 0 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# ddr4-sodimm-edge-connector
+#
+DEF lpddr4-testbed_ddr4-sodimm-edge-connector J 0 40 Y Y 2 L N
 F0 "J" -300 3450 50 H V L BNN
-F1 "antmicroMemoryConnectorsPCCardSockets_ddr4-sodimm-edge-connector" -300 -3300 50 H V L BNN
-F2 "antmicro-footprints:SODIMM_DDR4_EDGE" -300 -3400 50 H I L BNN
+F1 "lpddr4-testbed_ddr4-sodimm-edge-connector" -300 -3300 50 H V L BNN
+F2 "lpddr4-testbed-footprints:SODIMM_DDR4_EDGE" -300 -3400 50 H I L BNN
 F3 "" 1000 100 50 H I L BNN
 DRAW
 S -300 3400 300 -3200 0 1 0 f
@@ -318,63 +300,12 @@ X 260 260 500 -3200 200 L 40 40 2 0 P
 ENDDRAW
 ENDDEF
 #
-# antmicroResistors0402_R_0R_0402
-#
-DEF antmicroResistors0402_R_0R_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antmicroResistors0402_R_0R_0402" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
-F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
-F6 "0R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antmicroResistors0402_R_10k_0402
-#
-DEF antmicroResistors0402_R_10k_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antmicroResistors0402_R_10k_0402" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW040210K0FKEDHP" 200 300 60 H I L CNN "MPN"
-F6 "10k" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# antmicroResistors0402_R_240R_0402
-#
-DEF antmicroResistors0402_R_240R_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antmicroResistors0402_R_240R_0402" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
-F5 "ERJ2GEJ241X" 200 300 60 H I L CNN "MPN"
-F6 "240R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# lpddr4-testbed_GND
+# GND
 #
 DEF lpddr4-testbed_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
 F1 "lpddr4-testbed_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "lpddr4-testbed-footprints:" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
@@ -382,7 +313,7 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# lpddr4-testbed_MT53E256M16D1
+# MT53E256M16D1
 #
 DEF lpddr4-testbed_MT53E256M16D1 U 0 20 Y Y 2 L N
 F0 "U" 300 1550 50 H V C CNN
@@ -391,7 +322,7 @@ F2 "lpddr4-testbed-footprints:BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm" 50 -
 F3 "" -100 -1200 50 H I C CNN
 ALIAS MT53E256M32D2
 $FPLIST
- BGA*10.0x14.5mm*P0.80x0.65mm*
+BGA*10.0x14.5mm*P0.80x0.65mm*
 $ENDFPLIST
 DRAW
 S -600 -1300 600 1300 1 0 10 f
@@ -596,6 +527,75 @@ X DQ6_B Y4 -800 -1000 200 R 50 50 2 1 B
 X VSS Y5 0 -1500 200 U 50 50 2 1 P N
 X VSS Y8 0 -1500 200 U 50 50 2 1 P N
 X DQ14_B Y9 800 -1000 200 L 50 50 2 1 B
+ENDDRAW
+ENDDEF
+#
+# R_10k_0402
+#
+DEF lpddr4-testbed_R_10k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "lpddr4-testbed_R_10k_0402" 0 -150 60 H I C CNN
+F2 "lpddr4-testbed-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW040210K0FKEDHP" 200 300 60 H I L CNN "MPN"
+F6 "10k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_0R_0402
+#
+DEF lpddr4-testbed_R_0R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "lpddr4-testbed_R_0R_0402" 0 -150 60 H I C CNN
+F2 "lpddr4-testbed-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
+F6 "0R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_100n_0201
+#
+DEF lpddr4-testbed_C_100n_0201 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "lpddr4-testbed_C_100n_0201" 0 -150 60 H I C CNN
+F2 "lpddr4-testbed-footprints:0201-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
+F5 "CC0201KRX6S5BB104" 200 300 60 H I L CNN "MPN"
+F6 "100n" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_240R_0402
+#
+DEF lpddr4-testbed_R_240R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "lpddr4-testbed_R_240R_0402" 0 -150 60 H I C CNN
+F2 "lpddr4-testbed-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GEJ241X" 200 300 60 H I L CNN "MPN"
+F6 "240R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
