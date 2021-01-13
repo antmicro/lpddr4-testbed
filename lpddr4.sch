@@ -206,8 +206,6 @@ Wire Wire Line
 	10900 2550 10900 2300
 Text GLabel 10900 2300 1    50   Input ~ 0
 VDD2
-Text Notes 7350 6050 0    98   ~ 20
-TODO\nAdd reset handling\nADD ODT/ZQ control
 Text GLabel 9350 3050 0    50   Input ~ 0
 CS0_B
 Wire Wire Line
@@ -283,8 +281,6 @@ F 6 "0R" H 6025 2965 50  0000 C CNN "Val"
 $EndComp
 Wire Wire Line
 	6175 2850 6375 2850
-Text Notes 13075 2025 0    98   ~ 20
-TODO: connect to FPGA IO
 $Comp
 L antmicroCapacitorsmisc:C_100n_0201 C1
 U 1 1 5FD86523
