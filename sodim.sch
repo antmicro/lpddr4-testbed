@@ -606,25 +606,46 @@ Wire Wire Line
 	10500 5600 11175 5600
 Text GLabel 11175 5600 2    50   Input ~ 0
 OTD_CA_A
-Wire Wire Line
-	10500 5500 11175 5500
-Text GLabel 11175 5500 2    50   Input ~ 0
+Text GLabel 11175 5300 2    50   Input ~ 0
 RESET_N
 Wire Wire Line
 	10500 5800 11175 5800
 Text GLabel 11175 5800 2    50   Input ~ 0
 CKE0_A
 $Comp
-L lpddr4-testbed:GND #PWR?
+L lpddr4-testbed:GND #PWR0102
 U 1 1 6015ECEA
 P 9425 9125
-AR Path="/5FDC4A05/6015ECEA" Ref="#PWR?"  Part="1" 
+AR Path="/5FDC4A05/6015ECEA" Ref="#PWR0102"  Part="1" 
 AR Path="/5FF943AC/6015ECEA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9425 8875 50  0001 C CNN
+F 0 "#PWR0102" H 9425 8875 50  0001 C CNN
 F 1 "GND" H 9430 8952 50  0000 C CNN
 F 2 "" H 9425 9125 50  0001 C CNN
 F 3 "" H 9425 9125 50  0001 C CNN
 	1    9425 9125
 	1    0    0    -1  
 $EndComp
+Text Notes 10600 5300 0    50   ~ 0
+IO_P4
+Text Notes 10600 5100 0    50   ~ 0
+IO_R4
+Text Notes 10600 5000 0    50   ~ 0
+IO_T4
+Text Notes 10600 4900 0    50   ~ 0
+IO_U5
+Text Notes 10600 4800 0    50   ~ 0
+IO_U3
+Text Notes 10600 4700 0    50   ~ 0
+IO_V4
+Text Notes 10600 4600 0    50   ~ 0
+IO_V3
+Text Notes 10600 4500 0    50   ~ 0
+IO_W4
+Wire Wire Line
+	10500 5300 11175 5300
+NoConn ~ 10500 5400
+NoConn ~ 10500 5500
+Text Notes 10600 5600 0    50   ~ 0
+IO_N5
+NoConn ~ 10500 6100
 $EndSCHEMATC
