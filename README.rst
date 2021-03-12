@@ -14,7 +14,6 @@ This repository contains open hardware design files for an experimental test mod
 The design files were prepared in KiCad.
 Please note that this board is not electrically compatible with off-the-shelf SO-DIMM DDR4 memory modules.
 It is compatible with `this <https://github.com/antmicro/lpddr4-test-board>`_ LPDDR4 test platform.
-This design is now a Work in Progress.
 
 Repository structure
 --------------------
