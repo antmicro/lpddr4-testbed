@@ -1,8 +1,10 @@
-=================
-LPDDR4 test board
-=================
+==============
+LPDDR4 testbed
+==============
 
-.. figure:: img/lpddr4-testbed.png
+Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
+
+.. figure:: img/lpddr4-testbed.jpg
 
 Overview
 --------
@@ -21,3 +23,8 @@ The remaining files are stored in the following directories:
 
 * ``lib`` - contains the component libraries
 * ``img`` - contains graphics for this README
+
+License
+=======
+
+`Apache-2.0 <LICENSE>`_
