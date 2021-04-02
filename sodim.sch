@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev "1.0.0"
@@ -648,4 +648,16 @@ NoConn ~ 10500 5500
 Text Notes 10600 5600 0    50   ~ 0
 IO_N5
 NoConn ~ 10500 6100
+Text GLabel 4075 8800 0    50   Input ~ 0
+SDA
+Text GLabel 4075 8900 0    50   Input ~ 0
+SCL
+Text Notes 3175 8825 0    50   ~ 0
+test-board:IO_U12
+Text Notes 3175 8925 0    50   ~ 0
+test-board:IO_V12
+Wire Wire Line
+	4075 8800 4725 8800
+Wire Wire Line
+	4075 8900 4725 8900
 $EndSCHEMATC

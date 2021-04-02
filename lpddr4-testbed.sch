@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "LPDDR4 testbed"
 Date ""
 Rev "1.0.0"
@@ -49,4 +49,10 @@ F 3 "" H 1425 10900 50  0001 C CNN
 	1    1425 10550
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 4000 5300 1600 1100
+U 606DB5E6
+F0 "Sheet606DB5E5" 50
+F1 "EEPROM.sch" 50
+$EndSheet
 $EndSCHEMATC
