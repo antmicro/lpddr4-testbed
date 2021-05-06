@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 4
 Title "LPDDR4 testbed"
 Date ""
-Rev "1.0.0"
+Rev "1.1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
