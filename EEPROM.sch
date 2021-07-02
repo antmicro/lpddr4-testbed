@@ -35,19 +35,6 @@ F 5 "AT24CS01-ST" H 3200 6200 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-testbed:PCA96408APW-antmicroInterfaceIOExpanders IC1
-U 1 1 606E7A0B
-P 3200 3200
-F 0 "IC1" H 3700 3389 60  0000 C CNN
-F 1 "PCA96408APW" H 3700 3283 60  0000 C CNN
-F 2 "lpddr4-testbed-footprints:TSSOP-16" H 3530 3340 60  0001 C CNN
-F 3 "https://www.nxp.com/docs/en/data-sheet/PCA6408A.pdf" H 3200 3200 60  0001 C CNN
-F 4 "NXP" H 3210 3500 50  0001 C CNN "Manufacturer"
-F 5 "PCA9500PW" H 3340 3390 50  0001 C CNN "MPN"
-	1    3200 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L lpddr4-testbed:R_10k_0402 R?
 U 1 1 606FE40C
 P 2450 5450
@@ -611,4 +598,17 @@ Wire Wire Line
 Wire Wire Line
 	2850 4200 2850 4100
 Connection ~ 2850 4100
+$Comp
+L lpddr4-testbed:PCA6408APW IC1
+U 1 1 60DF635A
+P 3700 3850
+F 0 "IC1" H 3700 4689 60  0000 C CNN
+F 1 "PCA6408APW" H 3700 4583 60  0000 C CNN
+F 2 "lpddr4-testbed-footprints:TSSOP-16" H 3530 4640 60  0001 C CNN
+F 3 "" H 3200 4500 60  0001 C CNN
+F 4 "NXP" H 3210 4800 50  0001 C CNN "Manufacturer"
+F 5 "PCA6408APW" H 3340 4690 50  0001 C CNN "MPN"
+	1    3700 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
