@@ -2,8 +2,8 @@ LPDDR4 testbed
 ==============
 
 Copyright (c) 2020-2021 [Antmicro](https://www.antmicro.com)
-[![View on opensource.antmicro.com](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/lpddr4-testbed)
 
+[![View on opensource.antmicro.com](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/lpddr4-testbed)
 
 ![](img/lpddr4-testbed.jpg)
 
