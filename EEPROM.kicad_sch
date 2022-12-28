@@ -1,0 +1,3685 @@
+(kicad_sch 
+    (version 20211123) 
+    (generator eeschema) 
+    (uuid 7ad95cd2-b509-48d5-ab87-99eed9a24d3b) 
+    (paper "A4") 
+    (title_block 
+        (rev "1.1.0")) 
+    (lib_symbols 
+        (symbol "lpddr4-testbed:1285AS-H-2R2M=P2" 
+            (pin_names 
+                (offset 1.016)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "L" 
+                (id 0) 
+                (at -10.16 4.445 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left bottom))) 
+            (property "Value" "1285AS-H-2R2M=P2" 
+                (id 1) 
+                (at -10.16 1.905 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left bottom))) 
+            (property "Footprint" "lpddr4-testbed-footprints:0805-res" 
+                (id 2) 
+                (at 1.27 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 1.397 0.762 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Manufacturer" "Murata" 
+                (id 4) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "MPN" "1285AS-H-2R2M=P2" 
+                (id 5) 
+                (at -1.27 -1.27 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Val" "2.2uH" 
+                (id 6) 
+                (at 0 -1.27 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (symbol "1285AS-H-2R2M=P2_0_1" 
+                (pin passive line 
+                    (at -3.81 0 0) 
+                    (length 1.27) 
+                    (name "P" 
+                        (effects 
+                            (font 
+                                (size 0.0254 0.0254)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 0.0254 0.0254))))) 
+                (pin passive line 
+                    (at 3.81 0 180) 
+                    (length 1.27) 
+                    (name "P" 
+                        (effects 
+                            (font 
+                                (size 0.0254 0.0254)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 0.0254 0.0254)))))) 
+            (symbol "1285AS-H-2R2M=P2_1_1" 
+                (arc 
+                    (start -2.2098 0.5334) 
+                    (mid -2.4364 0.3084) 
+                    (end -2.54 0) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (arc 
+                    (start -1.5748 0.5334) 
+                    (mid -1.894 0.6272) 
+                    (end -2.2098 0.5334) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (arc 
+                    (start -1.27 0) 
+                    (mid -1.3503 0.309) 
+                    (end -1.5748 0.5334) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (arc 
+                    (start -0.9398 0.5334) 
+                    (mid -1.1664 0.3084) 
+                    (end -1.27 0) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (arc 
+                    (start -0.3048 0.5334) 
+                    (mid -0.624 0.6272) 
+                    (end -0.9398 0.5334) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (arc 
+                    (start 0 0) 
+                    (mid -0.0803 0.309) 
+                    (end -0.3048 0.5334) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (arc 
+                    (start 0.3302 0.5334) 
+                    (mid 0.1036 0.3084) 
+                    (end 0.0254 0) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (arc 
+                    (start 0.9652 0.5334) 
+                    (mid 0.646 0.6272) 
+                    (end 0.3302 0.5334) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (arc 
+                    (start 1.2446 -0.0508) 
+                    (mid 1.1813 0.2752) 
+                    (end 0.9652 0.5334) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (arc 
+                    (start 1.5748 0.5334) 
+                    (mid 1.357 0.3053) 
+                    (end 1.27 0) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (arc 
+                    (start 2.2098 0.5334) 
+                    (mid 1.8942 0.6142) 
+                    (end 1.5748 0.5334) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (arc 
+                    (start 2.5146 0) 
+                    (mid 2.4322 0.306) 
+                    (end 2.2098 0.5334) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))))) 
+        (symbol "lpddr4-testbed:AT24CS01-antmicroMemory" 
+            (pin_names 
+                (offset 1.016)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "IC" 
+                (id 0) 
+                (at 0 15.24 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left bottom))) 
+            (property "Value" "AT24CS01-antmicroMemory" 
+                (id 1) 
+                (at 0 2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left bottom))) 
+            (property "Footprint" "lpddr4-testbed-footprints:SOT-23-5" 
+                (id 2) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Manufacturer" "Atmel" 
+                (id 4) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "MPN" "AT24CS01-ST" 
+                (id 5) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "AT24CS01-antmicroMemory_0_1" 
+                (rectangle 
+                    (start 0 5.08) 
+                    (end 15.24 15.24) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (pin passive line 
+                    (at -5.08 10.16 0) 
+                    (length 5.08) 
+                    (name "SCL" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin passive line 
+                    (at 20.32 10.16 180) 
+                    (length 5.08) 
+                    (name "GND" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin passive line 
+                    (at -5.08 12.7 0) 
+                    (length 5.08) 
+                    (name "SDA" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "3" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin passive line 
+                    (at 20.32 12.7 180) 
+                    (length 5.08) 
+                    (name "VCC" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "4" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin passive line 
+                    (at -5.08 7.62 0) 
+                    (length 5.08) 
+                    (name "WP" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "5" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))))) 
+        (symbol "lpddr4-testbed:C_100n_0402" 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "C" 
+                (id 0) 
+                (at -1.397 3.429 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left))) 
+            (property "Value" "C_100n_0402" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Footprint" "lpddr4-testbed-footprints:0402-cap" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Manufacturer" "Walsin" 
+                (id 4) 
+                (at 5.08 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "0402X104K6R3CT" 
+                (id 5) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Val" "100n" 
+                (id 6) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (symbol "C_100n_0402_1_1" 
+                (polyline 
+                    (pts 
+                        (xy -2.032 -0.762) 
+                        (xy 2.032 -0.762)) 
+                    (stroke 
+                        (width 0.508) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy -2.032 0.762) 
+                        (xy 2.032 0.762)) 
+                    (stroke 
+                        (width 0.508) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin passive line 
+                    (at 0 3.81 270) 
+                    (length 2.794) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 0 0))))) 
+                (pin passive line 
+                    (at 0 -3.81 90) 
+                    (length 2.794) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 0 0))))))) 
+        (symbol "lpddr4-testbed:C_4u7_0402" 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "C" 
+                (id 0) 
+                (at -1.397 3.429 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left))) 
+            (property "Value" "C_4u7_0402" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Footprint" "lpddr4-testbed-footprints:0402-cap" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Manufacturer" "MURATA" 
+                (id 4) 
+                (at 5.08 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "GRM155R61A475MEAAD" 
+                (id 5) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Val" "4u7" 
+                (id 6) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (symbol "C_4u7_0402_1_1" 
+                (polyline 
+                    (pts 
+                        (xy -2.032 -0.762) 
+                        (xy 2.032 -0.762)) 
+                    (stroke 
+                        (width 0.508) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy -2.032 0.762) 
+                        (xy 2.032 0.762)) 
+                    (stroke 
+                        (width 0.508) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin passive line 
+                    (at 0 3.81 270) 
+                    (length 2.794) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 0 0))))) 
+                (pin passive line 
+                    (at 0 -3.81 90) 
+                    (length 2.794) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 0 0))))))) 
+        (symbol "lpddr4-testbed:GND" 
+            (power) 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "#PWR" 
+                (id 0) 
+                (at 0 -6.35 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Value" "GND" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (property "Footprint" "" 
+                (id 2) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "GND_0_1" 
+                (polyline 
+                    (pts 
+                        (xy 0 0) 
+                        (xy 0 -1.27) 
+                        (xy 1.27 -1.27) 
+                        (xy 0 -2.54) 
+                        (xy -1.27 -1.27) 
+                        (xy 0 -1.27)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "GND_1_1" 
+                (pin power_in line 
+                    (at 0 0 270) 
+                    (length 0) hide 
+                    (name "GND" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "lpddr4-testbed:KP-1608CGCK" 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "D" 
+                (id 0) 
+                (at -5.08 3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)))) 
+            (property "Value" "KP-1608CGCK" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)))) 
+            (property "Footprint" "lpddr4-testbed-footprints:LED_0603" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "KP-1608CGCK" 
+                (id 4) 
+                (at 5.08 12.7 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Manufacturer" "KINGBRIGHT" 
+                (id 5) 
+                (at 5.334 15.748 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (symbol "KP-1608CGCK_0_1" 
+                (polyline 
+                    (pts 
+                        (xy -0.635 3.81) 
+                        (xy -1.905 2.54)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 0 1.27) 
+                        (xy 0 -1.27)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 0.635 3.175) 
+                        (xy -0.635 1.905)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy -1.27 3.81) 
+                        (xy -0.635 3.81) 
+                        (xy -0.635 3.175)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy 0 3.175) 
+                        (xy 0.635 3.175) 
+                        (xy 0.635 2.54)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (polyline 
+                    (pts 
+                        (xy -2.54 1.27) 
+                        (xy -2.54 -1.27) 
+                        (xy 0 0) 
+                        (xy -2.54 1.27)) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type outline)))) 
+            (symbol "KP-1608CGCK_1_1" 
+                (pin passive line 
+                    (at -5.08 0 0) 
+                    (length 2.54) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))) 
+                (pin passive line 
+                    (at 2.54 0 180) 
+                    (length 2.54) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27))))))) 
+        (symbol "lpddr4-testbed:PCA6408APW" 
+            (pin_names 
+                (offset 1.016)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "IC" 
+                (id 0) 
+                (at -12.7 16.51 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left bottom))) 
+            (property "Value" "PCA6408APW" 
+                (id 1) 
+                (at -12.7 -19.05 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left bottom))) 
+            (property "Footprint" "lpddr4-testbed-footprints:TSSOP-16" 
+                (id 2) 
+                (at -4.318 20.066 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at -12.7 16.51 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Manufacturer" "NXP" 
+                (id 4) 
+                (at -12.446 24.13 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "MPN" "PCA6408APW" 
+                (id 5) 
+                (at -9.144 21.336 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "PCA6408APW_0_1" 
+                (rectangle 
+                    (start -12.7 -16.51) 
+                    (end 12.7 16.51) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (pin power_in line 
+                    (at -17.78 11.43 0) 
+                    (length 5.08) 
+                    (name "VDD(I2C)" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin passive line 
+                    (at 17.78 -1.27 180) 
+                    (length 5.08) 
+                    (name "P5" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "10" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin passive line 
+                    (at 17.78 -3.81 180) 
+                    (length 5.08) 
+                    (name "P6" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "11" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin passive line 
+                    (at 17.78 -6.35 180) 
+                    (length 5.08) 
+                    (name "P7" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "12" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin open_collector line 
+                    (at -17.78 -3.81 0) 
+                    (length 5.08) 
+                    (name "~{INT}" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "13" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin passive line 
+                    (at -17.78 3.81 0) 
+                    (length 5.08) 
+                    (name "SCL" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "14" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin passive line 
+                    (at -17.78 6.35 0) 
+                    (length 5.08) 
+                    (name "SDA" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "15" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin power_in line 
+                    (at -17.78 13.97 0) 
+                    (length 5.08) 
+                    (name "VDD(P)" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "16" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin input line 
+                    (at -17.78 -8.89 0) 
+                    (length 5.08) 
+                    (name "ADDR" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin input line 
+                    (at -17.78 -6.35 0) 
+                    (length 5.08) 
+                    (name "~{RESET}" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "3" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin passive line 
+                    (at 17.78 13.97 180) 
+                    (length 5.08) 
+                    (name "P0" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "4" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin passive line 
+                    (at 17.78 11.43 180) 
+                    (length 5.08) 
+                    (name "P1" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "5" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin passive line 
+                    (at 17.78 8.89 180) 
+                    (length 5.08) 
+                    (name "P2" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "6" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin passive line 
+                    (at 17.78 6.35 180) 
+                    (length 5.08) 
+                    (name "P3" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "7" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin power_in line 
+                    (at -17.78 -13.97 0) 
+                    (length 5.08) 
+                    (name "GND" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "8" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))) 
+                (pin passive line 
+                    (at 17.78 1.27 180) 
+                    (length 5.08) 
+                    (name "P4" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778)))) 
+                    (number "9" 
+                        (effects 
+                            (font 
+                                (size 1.778 1.778))))))) 
+        (symbol "lpddr4-testbed:R_0R_0402" 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at -1.397 3.429 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left))) 
+            (property "Value" "R_0R_0402" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Footprint" "lpddr4-testbed-footprints:0402-res" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Manufacturer" "PANASONIC" 
+                (id 4) 
+                (at 5.08 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "ERJ2GE0R00X" 
+                (id 5) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Val" "0R" 
+                (id 6) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (symbol "R_0R_0402_1_1" 
+                (rectangle 
+                    (start 2.54 -1.016) 
+                    (end -2.54 1.016) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin passive line 
+                    (at -3.81 0 0) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 0 0))))) 
+                (pin passive line 
+                    (at 3.81 0 180) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 0 0))))))) 
+        (symbol "lpddr4-testbed:R_10k_0402" 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at -1.397 3.429 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left))) 
+            (property "Value" "R_10k_0402" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Footprint" "lpddr4-testbed-footprints:0402-res" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Manufacturer" "VISHAY" 
+                (id 4) 
+                (at 5.08 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "CRCW040210K0FKEDHP" 
+                (id 5) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Val" "10k" 
+                (id 6) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (symbol "R_10k_0402_1_1" 
+                (rectangle 
+                    (start 2.54 -1.016) 
+                    (end -2.54 1.016) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin passive line 
+                    (at -3.81 0 0) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 0 0))))) 
+                (pin passive line 
+                    (at 3.81 0 180) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 0 0))))))) 
+        (symbol "lpddr4-testbed:R_220R_0402" 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "R" 
+                (id 0) 
+                (at -1.397 3.429 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left))) 
+            (property "Value" "R_220R_0402" 
+                (id 1) 
+                (at 0 -3.81 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Footprint" "lpddr4-testbed-footprints:0402-res" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Manufacturer" "Panasonic" 
+                (id 4) 
+                (at 5.08 10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "MPN" "ERJ2GEJ221X" 
+                (id 5) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Val" "220R" 
+                (id 6) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)))) 
+            (symbol "R_220R_0402_1_1" 
+                (rectangle 
+                    (start 2.54 -1.016) 
+                    (end -2.54 1.016) 
+                    (stroke 
+                        (width 0.254) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin passive line 
+                    (at -3.81 0 0) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 0 0))))) 
+                (pin passive line 
+                    (at 3.81 0 180) 
+                    (length 1.27) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 0 0)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 0 0))))))) 
+        (symbol "lpddr4-testbed:TPS613221ADBVT-antmicroDCDCConverters" 
+            (pin_names 
+                (offset 0.254)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "U" 
+                (id 0) 
+                (at -7.62 -8.89 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)))) 
+            (property "Value" "TPS613221ADBVT-antmicroDCDCConverters" 
+                (id 1) 
+                (at 1.27 -11.43 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)))) 
+            (property "Footprint" "lpddr4-testbed-footprints:SOT-23-5" 
+                (id 2) 
+                (at 1.27 -10.16 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) hide)) 
+            (property "Manufacturer" "Texas Instruments" 
+                (id 4) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "MPN" "TPS613221ADBVT" 
+                (id 5) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "ki_fp_filters" "DBV0005A_N DBV0005A_M DBV0005A_L" 
+                (id 6) 
+                (at 0 0 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (symbol "TPS613221ADBVT-antmicroDCDCConverters_1_1" 
+                (rectangle 
+                    (start 0 5.08) 
+                    (end 12.7 -5.08) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type background))) 
+                (rectangle 
+                    (start 11.43 -5.08) 
+                    (end 11.43 -5.08) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none))) 
+                (pin power_in line 
+                    (at -5.08 2.54 0) 
+                    (length 5.08) 
+                    (name "SW" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986))))) 
+                (pin power_in line 
+                    (at 17.78 -2.54 180) 
+                    (length 5.08) 
+                    (name "GND" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986)))) 
+                    (number "2" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986))))) 
+                (pin unspecified line 
+                    (at -5.08 0 0) 
+                    (length 5.08) 
+                    (name "NC" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986)))) 
+                    (number "3" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986))))) 
+                (pin power_in line 
+                    (at 17.78 2.54 180) 
+                    (length 5.08) 
+                    (name "VOUT" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986)))) 
+                    (number "4" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986))))) 
+                (pin unspecified line 
+                    (at -5.08 -2.54 0) 
+                    (length 5.08) 
+                    (name "NC" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986)))) 
+                    (number "5" 
+                        (effects 
+                            (font 
+                                (size 1.4986 1.4986))))))) 
+        (symbol "lpddr4-testbed:TP_SMD1MM" 
+            (pin_numbers hide) 
+            (pin_names 
+                (offset 0)) 
+            (in_bom yes) 
+            (on_board yes) 
+            (property "Reference" "TP" 
+                (id 0) 
+                (at -2.54 1.27 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) 
+                    (justify right))) 
+            (property "Value" "TP_SMD1MM" 
+                (id 1) 
+                (at 0 -2.54 0) 
+                (effects 
+                    (font 
+                        (size 1.27 1.27)) hide)) 
+            (property "Footprint" "lpddr4-testbed-footprints:Testpoint_smd_1mm" 
+                (id 2) 
+                (at 5.08 5.08 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (property "Datasheet" "" 
+                (id 3) 
+                (at 5.08 7.62 0) 
+                (effects 
+                    (font 
+                        (size 1.524 1.524)) 
+                    (justify left) hide)) 
+            (symbol "TP_SMD1MM_0_1" 
+                (circle 
+                    (center 0 0) 
+                    (radius 0.5588) 
+                    (stroke 
+                        (width 0) 
+                        (type default) 
+                        (color 0 0 0 0)) 
+                    (fill 
+                        (type none)))) 
+            (symbol "TP_SMD1MM_1_1" 
+                (pin passive line 
+                    (at 0 2.54 270) 
+                    (length 1.905) 
+                    (name "~" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))) 
+                    (number "1" 
+                        (effects 
+                            (font 
+                                (size 1.27 1.27)))))))) 
+    (junction 
+        (at 69.85 147.32) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 34aef07d-18c2-4ac3-bf38-ca83b1a019cc)) 
+    (junction 
+        (at 109.22 50.8) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 3f5ea115-0bad-49cf-876e-1ab0ac410710)) 
+    (junction 
+        (at 72.39 86.36) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 5386b240-fbd5-4496-ac10-33c97321ad57)) 
+    (junction 
+        (at 55.88 39.37) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 79687382-0189-4619-9e04-b605bea917d9)) 
+    (junction 
+        (at 69.85 149.86) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 96c1e2fe-416c-42c6-a966-0315656c9f18)) 
+    (junction 
+        (at 63.5 50.8) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid 9f983e16-bbef-40da-b546-d26ce0b1b32b)) 
+    (junction 
+        (at 72.39 104.14) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid a25152fd-32b8-4e17-a353-52f2cdea0670)) 
+    (junction 
+        (at 116.84 39.37) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid bdeceb05-b222-4478-8cfe-a0683b935d86)) 
+    (junction 
+        (at 62.23 144.78) 
+        (diameter 0) 
+        (color 0 0 0 0) 
+        (uuid e103f82e-b98c-4551-afa5-3ef9626a2f5d)) 
+    (wire 
+        (pts 
+            (xy 132.08 105.41) 
+            (xy 132.08 116.84)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 052704e2-fbcb-4680-9e37-3a9469df4122)) 
+    (wire 
+        (pts 
+            (xy 111.76 86.36) 
+            (xy 118.11 86.36)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 08646a0a-26d3-4087-aca2-cb947ea6928e)) 
+    (wire 
+        (pts 
+            (xy 72.39 86.36) 
+            (xy 58.42 86.36)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 0b140c27-0cf7-43db-90be-8d64bc971594)) 
+    (wire 
+        (pts 
+            (xy 127 142.24) 
+            (xy 127 139.7)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 0dfc4903-e4d0-440c-b43a-04312f156fb0)) 
+    (wire 
+        (pts 
+            (xy 125.73 88.9) 
+            (xy 139.7 88.9)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 1b598156-30d0-4367-b169-cabbb347be02)) 
+    (wire 
+        (pts 
+            (xy 109.22 50.8) 
+            (xy 116.84 50.8)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 1cc60ddb-2722-4470-9d30-38e9144b309c)) 
+    (wire 
+        (pts 
+            (xy 127 149.86) 
+            (xy 127 153.67)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 1ce9b8e2-cdc4-430e-81fd-aa8ce2adb86e)) 
+    (wire 
+        (pts 
+            (xy 63.5 83.82) 
+            (xy 63.5 77.47)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 2623e0a2-cb1a-4ff9-a340-1bf55c84f68a)) 
+    (wire 
+        (pts 
+            (xy 55.88 50.8) 
+            (xy 55.88 39.37)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 3444e254-9f3c-435d-8253-fc58c3a7e54d)) 
+    (wire 
+        (pts 
+            (xy 55.245 93.98) 
+            (xy 76.2 93.98)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 35cce584-1283-4cc1-8bab-f37f5dda9e1b)) 
+    (wire 
+        (pts 
+            (xy 111.76 99.06) 
+            (xy 114.3 99.06)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 39a3b993-a0a1-4e11-987f-5a276cf0fbd3)) 
+    (wire 
+        (pts 
+            (xy 104.14 50.8) 
+            (xy 109.22 50.8)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 3a711252-91ee-48b4-adb4-e06c53d922a3)) 
+    (wire 
+        (pts 
+            (xy 55.245 144.78) 
+            (xy 62.23 144.78)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 3b276598-b4bd-4e04-b0be-ad4c68bbae29)) 
+    (wire 
+        (pts 
+            (xy 132.08 91.44) 
+            (xy 132.08 97.79)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 3bad847f-273f-4593-be10-bf28662ccc90)) 
+    (wire 
+        (pts 
+            (xy 55.245 91.44) 
+            (xy 76.2 91.44)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 3cfea5cd-5c56-4f96-8766-a55a7889286d)) 
+    (wire 
+        (pts 
+            (xy 116.84 39.37) 
+            (xy 116.84 38.1)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 3e68bdfd-6ab2-4384-9406-086fd085e28f)) 
+    (wire 
+        (pts 
+            (xy 90.17 39.37) 
+            (xy 116.84 39.37)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 403ade4a-e913-4404-8108-c16d600e8bd7)) 
+    (wire 
+        (pts 
+            (xy 101.6 147.32) 
+            (xy 105.41 147.32)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 49bb720f-4ca3-4d58-b878-737cac9eb760)) 
+    (wire 
+        (pts 
+            (xy 105.41 132.08) 
+            (xy 105.41 144.78)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 4cb3555b-cc52-4144-990e-4665208d84e5)) 
+    (wire 
+        (pts 
+            (xy 111.76 91.44) 
+            (xy 118.11 91.44)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 4ef11471-0154-48f0-9653-aec333860bc4)) 
+    (wire 
+        (pts 
+            (xy 147.32 105.41) 
+            (xy 147.32 116.84)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 63641825-ff42-43b0-837e-b44975699686)) 
+    (wire 
+        (pts 
+            (xy 111.76 83.82) 
+            (xy 118.11 83.82)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 648a8dc3-e1e2-4679-a66c-4b7f7156c095)) 
+    (wire 
+        (pts 
+            (xy 125.73 86.36) 
+            (xy 147.32 86.36)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 67c26efb-c325-40a8-9de5-b308a2899f5a)) 
+    (wire 
+        (pts 
+            (xy 55.245 147.32) 
+            (xy 69.85 147.32)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 69ab96ca-3db0-4c9b-82ef-16059058ff3c)) 
+    (wire 
+        (pts 
+            (xy 62.23 142.24) 
+            (xy 62.23 144.78)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 6cf13eaf-cd26-4cbd-867f-74e3d70c4199)) 
+    (wire 
+        (pts 
+            (xy 63.5 50.8) 
+            (xy 55.88 50.8)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 705f99c8-91f4-4fd9-a57a-75533ecce648)) 
+    (wire 
+        (pts 
+            (xy 69.85 142.24) 
+            (xy 69.85 147.32)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 719722f5-584f-4448-8d12-80db219c8dba)) 
+    (wire 
+        (pts 
+            (xy 105.41 144.78) 
+            (xy 101.6 144.78)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 73df5127-10ea-40aa-8ba6-7583045580ec)) 
+    (wire 
+        (pts 
+            (xy 114.3 96.52) 
+            (xy 111.76 96.52)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 76a9e13f-96e0-4ee1-a2dd-113ec9a8a626)) 
+    (wire 
+        (pts 
+            (xy 139.7 142.24) 
+            (xy 139.7 139.7)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 7831218c-0929-4dec-a94d-0da799907010)) 
+    (wire 
+        (pts 
+            (xy 125.73 83.82) 
+            (xy 154.94 83.82)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 7884464e-9e52-4f58-b785-8df45c26da15)) 
+    (wire 
+        (pts 
+            (xy 81.28 50.8) 
+            (xy 74.93 50.8)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 7be53ae2-2619-4ea9-8931-31e132763aef)) 
+    (wire 
+        (pts 
+            (xy 55.88 39.37) 
+            (xy 55.88 38.1)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 7db56e37-c1cd-4d62-864d-1c218900168e)) 
+    (wire 
+        (pts 
+            (xy 63.5 83.82) 
+            (xy 76.2 83.82)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 81edf067-f11e-420c-95bf-e561002cf303)) 
+    (wire 
+        (pts 
+            (xy 147.32 86.36) 
+            (xy 147.32 97.79)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 84ec89d1-cf34-4bb0-b2bd-864f39cd5a4c)) 
+    (wire 
+        (pts 
+            (xy 69.85 149.86) 
+            (xy 69.85 153.67)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 85428cb9-2edd-4226-b7d9-2fc7f823c281)) 
+    (wire 
+        (pts 
+            (xy 154.94 105.41) 
+            (xy 154.94 116.84)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 89cc6fd4-2c74-465f-a975-67fbdc2cda1a)) 
+    (wire 
+        (pts 
+            (xy 76.2 106.68) 
+            (xy 72.39 106.68)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 981e566a-d684-43de-8fc7-5206776a91e2)) 
+    (wire 
+        (pts 
+            (xy 105.41 147.32) 
+            (xy 105.41 153.67)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 9a68612f-aa7c-46a6-8133-614ad71c4240)) 
+    (wire 
+        (pts 
+            (xy 154.94 83.82) 
+            (xy 154.94 97.79)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 9bb81d22-59af-43b7-adb5-ae6ef6283999)) 
+    (wire 
+        (pts 
+            (xy 76.2 104.14) 
+            (xy 72.39 104.14)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 9d54b878-d417-4d55-8bb2-7146c0c14209)) 
+    (wire 
+        (pts 
+            (xy 139.7 149.86) 
+            (xy 139.7 153.67)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid 9fb9af48-d859-498b-ba0e-8b3cf95ee6f9)) 
+    (wire 
+        (pts 
+            (xy 111.76 88.9) 
+            (xy 118.11 88.9)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid a02a4c1d-1611-458e-9e08-e9a93179acf2)) 
+    (wire 
+        (pts 
+            (xy 72.39 111.76) 
+            (xy 76.2 111.76)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid a129988b-c58e-4f01-9369-32dadf85dd0a)) 
+    (wire 
+        (pts 
+            (xy 62.23 132.08) 
+            (xy 62.23 134.62)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid a4c0f386-28df-4c1e-b523-cbd2fcedb371)) 
+    (wire 
+        (pts 
+            (xy 139.7 88.9) 
+            (xy 139.7 97.79)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid a8715d5e-3ecd-400c-8f4d-a1e85bdd5a62)) 
+    (wire 
+        (pts 
+            (xy 72.39 104.14) 
+            (xy 72.39 86.36)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid a9d2316e-af92-496f-9461-5f713a5e35a9)) 
+    (wire 
+        (pts 
+            (xy 125.73 91.44) 
+            (xy 132.08 91.44)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid b1a7794b-b9fa-47d7-a3e8-69da30704135)) 
+    (wire 
+        (pts 
+            (xy 72.39 106.68) 
+            (xy 72.39 104.14)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid b4a1fd82-4af1-43c0-8d0a-bae41e19b45c)) 
+    (wire 
+        (pts 
+            (xy 82.55 39.37) 
+            (xy 55.88 39.37)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid b5d7e05e-3717-4404-bcf2-e4b9a68eb884)) 
+    (wire 
+        (pts 
+            (xy 116.84 50.8) 
+            (xy 116.84 39.37)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid b7362fe0-f794-4b97-9366-d3afdaa574ea)) 
+    (wire 
+        (pts 
+            (xy 76.2 149.86) 
+            (xy 69.85 149.86)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid c1fe1126-05c7-4336-ad45-3f0db84455e8)) 
+    (wire 
+        (pts 
+            (xy 69.85 147.32) 
+            (xy 76.2 147.32)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid c2b087a9-5b0e-4861-9185-f0d543052900)) 
+    (wire 
+        (pts 
+            (xy 104.14 55.88) 
+            (xy 104.14 58.42)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid d1f45a98-ca64-44be-b909-99087023f0df)) 
+    (wire 
+        (pts 
+            (xy 62.23 144.78) 
+            (xy 76.2 144.78)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid d1f908d1-6585-4601-888b-d9e17cb2c6db)) 
+    (wire 
+        (pts 
+            (xy 67.31 50.8) 
+            (xy 63.5 50.8)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid d5812cab-4a24-458f-aefe-e1bb20d40e65)) 
+    (wire 
+        (pts 
+            (xy 72.39 115.57) 
+            (xy 72.39 111.76)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid dd7234a1-dd45-442f-b53e-fbe02c5e9607)) 
+    (wire 
+        (pts 
+            (xy 69.85 132.08) 
+            (xy 69.85 134.62)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid e3d73da0-554b-4d3c-954b-d6d0d5b875cb)) 
+    (wire 
+        (pts 
+            (xy 58.42 86.36) 
+            (xy 58.42 77.47)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid e87fb4d8-76d0-4d06-a7cf-0c8ae364aef1)) 
+    (wire 
+        (pts 
+            (xy 76.2 86.36) 
+            (xy 72.39 86.36)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid efa07488-6a67-4bd6-b6f3-d9e39283a760)) 
+    (wire 
+        (pts 
+            (xy 139.7 105.41) 
+            (xy 139.7 116.84)) 
+        (stroke 
+            (width 0) 
+            (type default) 
+            (color 0 0 0 0)) 
+        (uuid f7acbfa7-d492-4def-892a-ac7f9d00864d)) 
+    (text "test-board:IO_V12" 
+        (at 32.385 94.615 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left bottom)) 
+        (uuid 6572527c-9314-4bc3-8025-65b91666b482)) 
+    (text "test-board:IO_U12" 
+        (at 32.385 92.075 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left bottom)) 
+        (uuid a841526d-d606-483f-b231-867d9d2bbc48)) 
+    (text "test-board:IO_U12" 
+        (at 32.385 145.415 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left bottom)) 
+        (uuid bdcef841-adbe-447a-b81b-7a9f473ac0f3)) 
+    (text "1V8_SYS" 
+        (at 49.53 31.75 0) 
+        (effects 
+            (font 
+                (size 2.0066 2.0066) 
+                (thickness 0.4013) bold) 
+            (justify left bottom)) 
+        (uuid be90122a-732b-4f13-b4ce-3598582237d3)) 
+    (text "test-board:IO_V12" 
+        (at 32.385 147.955 0) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left bottom)) 
+        (uuid d0e734fd-fd50-4db7-98b8-f69db6ae24f9)) 
+    (global_label "SCL" 
+        (shape input) 
+        (at 55.245 93.98 180) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right)) 
+        (uuid 05e0ec89-6b82-499b-863e-1cb2892b7f18) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (global_label "VDDLED" 
+        (shape input) 
+        (at 63.5 77.47 90) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left)) 
+        (uuid 07f51861-9a97-45e7-b542-753f2aedce50) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (global_label "VDDLED" 
+        (shape input) 
+        (at 116.84 38.1 90) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left)) 
+        (uuid 56fedeb4-fec8-4d67-8092-ac02621e6c66) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (global_label "VDD1" 
+        (shape input) 
+        (at 69.85 132.08 90) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left)) 
+        (uuid 6e19c653-8cee-4d54-9103-1c6dd2edef77) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (global_label "VDD1" 
+        (shape input) 
+        (at 58.42 77.47 90) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left)) 
+        (uuid 99dae0fe-279a-4c71-9f24-d12b9103b3b1) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (global_label "VDD1" 
+        (shape input) 
+        (at 105.41 132.08 90) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left)) 
+        (uuid 9c791fb2-f719-4316-b7d1-3e4aea6560cc) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (global_label "VDD1" 
+        (shape input) 
+        (at 55.88 38.1 90) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left)) 
+        (uuid d49da033-99a7-40c2-8204-390e37d7068b) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (global_label "SDA" 
+        (shape input) 
+        (at 55.245 91.44 180) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right)) 
+        (uuid d53e359a-be73-4661-981e-c2b50edc1a8f) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (global_label "VDD1" 
+        (shape input) 
+        (at 62.23 132.08 90) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left)) 
+        (uuid dc1eebaf-e44b-4bda-bed7-0fde67263579) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (global_label "SDA" 
+        (shape input) 
+        (at 55.245 144.78 180) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right)) 
+        (uuid df172654-d866-4b70-bbf9-6695f7b2765e) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (global_label "VDD1" 
+        (shape input) 
+        (at 139.7 139.7 90) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left)) 
+        (uuid e4a79719-e744-4494-a49f-4a4b96239d0c) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (global_label "SCL" 
+        (shape input) 
+        (at 55.245 147.32 180) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify right)) 
+        (uuid eb73bf8a-eebd-4a42-affe-e915c779e07f) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (global_label "VDD1" 
+        (shape input) 
+        (at 127 139.7 90) 
+        (fields_autoplaced) 
+        (effects 
+            (font 
+                (size 1.27 1.27)) 
+            (justify left)) 
+        (uuid eda50ab7-61ac-44d8-9629-2a3694e3f8f1) 
+        (property "Intersheet References" "${INTERSHEET_REFS}" 
+            (id 0) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:C_4u7_0402") 
+        (at 63.5 54.61 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-0000606e315f) 
+        (property "Reference" "C34" 
+            (id 0) 
+            (at 66.421 53.467 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "C_4u7_0402" 
+            (id 1) 
+            (at 63.5 58.42 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "lpddr4-testbed-footprints:0402-cap" 
+            (id 2) 
+            (at 68.58 49.53 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 63.5 54.61 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "MURATA" 
+            (id 4) 
+            (at 68.58 44.45 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "GRM155R61A475MEAAD" 
+            (id 5) 
+            (at 68.58 46.99 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "4u7" 
+            (id 6) 
+            (at 66.421 55.9562 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (pin "1" 
+            (uuid 99b76f49-f1b6-40c4-bbf8-a49278411737)) 
+        (pin "2" 
+            (uuid 80ae4803-a56b-4b6e-a9b4-3bf72cc1a58a))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:C_4u7_0402") 
+        (at 109.22 54.61 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-0000606e3d48) 
+        (property "Reference" "C37" 
+            (id 0) 
+            (at 112.141 53.467 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "C_4u7_0402" 
+            (id 1) 
+            (at 109.22 58.42 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "lpddr4-testbed-footprints:0402-cap" 
+            (id 2) 
+            (at 114.3 49.53 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 109.22 54.61 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "MURATA" 
+            (id 4) 
+            (at 114.3 44.45 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "GRM155R61A475MEAAD" 
+            (id 5) 
+            (at 114.3 46.99 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "4u7" 
+            (id 6) 
+            (at 112.141 55.9562 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (pin "1" 
+            (uuid e184d255-59cf-469a-8728-9b3c28c4b0c6)) 
+        (pin "2" 
+            (uuid e1e70073-dc51-4462-9fbb-b86d51a35fce))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:AT24CS01-antmicroMemory") 
+        (at 81.28 157.48 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-0000606e74fc) 
+        (property "Reference" "IC2" 
+            (id 0) 
+            (at 88.9 137.4394 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "AT24CS01" 
+            (id 1) 
+            (at 88.9 140.1318 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Footprint" "lpddr4-testbed-footprints:SOT-23-5" 
+            (id 2) 
+            (at 81.28 157.48 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 81.28 157.48 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Manufacturer" "Atmel" 
+            (id 4) 
+            (at 81.28 157.48 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "MPN" "AT24CS01-ST" 
+            (id 5) 
+            (at 81.28 157.48 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid e223c971-13d5-45f7-864e-cc473e6b54c5)) 
+        (pin "2" 
+            (uuid a1557cfe-aeb8-487a-8e6a-cc5efb2f729e)) 
+        (pin "3" 
+            (uuid ab88d94f-d2af-4443-a36f-81eaa6f50fb3)) 
+        (pin "4" 
+            (uuid d3011567-773e-406e-b4f3-8e11ec748758)) 
+        (pin "5" 
+            (uuid 0abc53d0-de9e-457b-85c2-0007ce37abf6))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:R_0R_0402") 
+        (at 86.36 39.37 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-0000606e94d2) 
+        (property "Reference" "R8" 
+            (id 0) 
+            (at 86.36 34.29 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "R_0R_0402" 
+            (id 1) 
+            (at 86.36 43.18 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "lpddr4-testbed-footprints:0402-res" 
+            (id 2) 
+            (at 91.44 34.29 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 86.36 39.37 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "PANASONIC" 
+            (id 4) 
+            (at 91.44 29.21 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "ERJ2GE0R00X" 
+            (id 5) 
+            (at 91.44 31.75 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "0R" 
+            (id 6) 
+            (at 86.36 36.83 0)) 
+        (property "DNP" "DNP" 
+            (id 7) 
+            (at 86.36 41.91 0)) 
+        (pin "1" 
+            (uuid 7ec62eef-2cf0-495b-a1c1-4e57337b1d3a)) 
+        (pin "2" 
+            (uuid e664331a-1607-4ec9-ab77-e2d211bf9956))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:GND") 
+        (at 63.5 58.42 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-0000606ef635) 
+        (property "Reference" "#PWR0106" 
+            (id 0) 
+            (at 63.5 64.77 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 63.627 62.8142 0)) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 63.5 58.42 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 63.5 58.42 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid a0079324-4b3b-40de-948f-329e485cb258))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:GND") 
+        (at 109.22 58.42 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-0000606f0d2b) 
+        (property "Reference" "#PWR0107" 
+            (id 0) 
+            (at 109.22 64.77 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 109.347 62.8142 0)) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 109.22 58.42 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 109.22 58.42 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid d22b46da-d687-4b96-b355-834c692244df))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:GND") 
+        (at 104.14 58.42 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-0000606f1415) 
+        (property "Reference" "#PWR0108" 
+            (id 0) 
+            (at 104.14 64.77 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 104.267 62.8142 0)) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 104.14 58.42 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 104.14 58.42 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid 5688fc23-95ad-4a29-a83e-e13e33141e8a))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:R_10k_0402") 
+        (at 62.23 138.43 270) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-0000606fe40c) 
+        (property "Reference" "R13" 
+            (id 0) 
+            (at 64.008 137.287 90) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "R_10k_0402" 
+            (id 1) 
+            (at 58.42 138.43 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "lpddr4-testbed-footprints:0402-res" 
+            (id 2) 
+            (at 67.31 143.51 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 62.23 138.43 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "VISHAY" 
+            (id 4) 
+            (at 72.39 143.51 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "CRCW040210K0FKEDHP" 
+            (id 5) 
+            (at 69.85 143.51 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "10k" 
+            (id 6) 
+            (at 64.008 139.7762 90) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (pin "1" 
+            (uuid 535e40aa-6ba8-4f9c-8148-f40079cf68e4)) 
+        (pin "2" 
+            (uuid 52b5f752-6c39-475a-81e4-5bc74b0af110))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:R_220R_0402") 
+        (at 121.92 83.82 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000060702673) 
+        (property "Reference" "R9" 
+            (id 0) 
+            (at 116.84 82.55 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "R_220R_0402" 
+            (id 1) 
+            (at 121.92 87.63 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "lpddr4-testbed-footprints:0402-res" 
+            (id 2) 
+            (at 127 78.74 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 121.92 83.82 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Panasonic" 
+            (id 4) 
+            (at 127 73.66 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "ERJ2GEJ221X" 
+            (id 5) 
+            (at 127 76.2 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "220R" 
+            (id 6) 
+            (at 128.27 82.55 0)) 
+        (pin "1" 
+            (uuid 1ec7759f-be37-4649-8b72-7c7efcd4fb09)) 
+        (pin "2" 
+            (uuid d9357808-6b1c-4dba-af02-66ca1368c44c))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:R_220R_0402") 
+        (at 121.92 86.36 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-00006070848e) 
+        (property "Reference" "R10" 
+            (id 0) 
+            (at 116.84 85.09 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "R_220R_0402" 
+            (id 1) 
+            (at 121.92 90.17 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "lpddr4-testbed-footprints:0402-res" 
+            (id 2) 
+            (at 127 81.28 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 121.92 86.36 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Panasonic" 
+            (id 4) 
+            (at 127 76.2 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "ERJ2GEJ221X" 
+            (id 5) 
+            (at 127 78.74 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "220R" 
+            (id 6) 
+            (at 128.27 85.09 0)) 
+        (pin "1" 
+            (uuid 35bf428b-f31d-4230-bc65-5f52379d2334)) 
+        (pin "2" 
+            (uuid 435a8de7-d8e5-46be-8dab-500285379fa3))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:R_220R_0402") 
+        (at 121.92 88.9 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-0000607094fc) 
+        (property "Reference" "R11" 
+            (id 0) 
+            (at 116.84 87.63 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "R_220R_0402" 
+            (id 1) 
+            (at 121.92 92.71 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "lpddr4-testbed-footprints:0402-res" 
+            (id 2) 
+            (at 127 83.82 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 121.92 88.9 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Panasonic" 
+            (id 4) 
+            (at 127 78.74 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "ERJ2GEJ221X" 
+            (id 5) 
+            (at 127 81.28 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "220R" 
+            (id 6) 
+            (at 128.27 87.63 0)) 
+        (pin "1" 
+            (uuid 35a11077-e4df-4a3f-ad7f-56eef86d9d8e)) 
+        (pin "2" 
+            (uuid 23a7fb65-16a2-4545-a045-77388f052b8a))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:KP-1608CGCK") 
+        (at 132.08 102.87 270) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-00006070a035) 
+        (property "Reference" "D4" 
+            (id 0) 
+            (at 129.54 95.25 90) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "KP-1608CGCK" 
+            (id 1) 
+            (at 129.54 106.68 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Footprint" "lpddr4-testbed-footprints:LED_0603" 
+            (id 2) 
+            (at 137.16 107.95 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "http://www.farnell.com/datasheets/2045956.pdf" 
+            (id 3) 
+            (at 139.7 107.95 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "KP-1608CGCK" 
+            (id 4) 
+            (at 144.78 107.95 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Manufacturer" "KINGBRIGHT" 
+            (id 5) 
+            (at 147.828 108.204 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (pin "1" 
+            (uuid 0d6df614-c406-4823-89fd-76616c151256)) 
+        (pin "2" 
+            (uuid b979980e-fe49-47bf-a359-1bf1cf1caabb))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:R_220R_0402") 
+        (at 121.92 91.44 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-00006070a03e) 
+        (property "Reference" "R12" 
+            (id 0) 
+            (at 116.84 90.17 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "R_220R_0402" 
+            (id 1) 
+            (at 121.92 95.25 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "lpddr4-testbed-footprints:0402-res" 
+            (id 2) 
+            (at 127 86.36 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 121.92 91.44 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Panasonic" 
+            (id 4) 
+            (at 127 81.28 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "ERJ2GEJ221X" 
+            (id 5) 
+            (at 127 83.82 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "220R" 
+            (id 6) 
+            (at 128.27 90.17 0)) 
+        (pin "1" 
+            (uuid bbb84fc7-1b0b-4596-b770-bac1116ee230)) 
+        (pin "2" 
+            (uuid f3ed9717-cd38-4118-9795-12da58982147))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:C_100n_0402") 
+        (at 127 146.05 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-00006070ea8e) 
+        (property "Reference" "C38" 
+            (id 0) 
+            (at 129.921 144.907 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "C_100n_0402" 
+            (id 1) 
+            (at 127 149.86 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "lpddr4-testbed-footprints:0402-cap" 
+            (id 2) 
+            (at 132.08 140.97 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 127 146.05 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Walsin" 
+            (id 4) 
+            (at 132.08 135.89 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "0402X104K6R3CT" 
+            (id 5) 
+            (at 132.08 138.43 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "100n" 
+            (id 6) 
+            (at 129.921 147.3962 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (pin "1" 
+            (uuid 9f2c549f-ad98-4d28-84e5-059c7a4b8016)) 
+        (pin "2" 
+            (uuid d9adb7f4-db67-4377-86f8-170fca95f2e6))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:KP-1608CGCK") 
+        (at 139.7 102.87 270) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-00006070fbc4) 
+        (property "Reference" "D3" 
+            (id 0) 
+            (at 137.16 95.25 90) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "KP-1608CGCK" 
+            (id 1) 
+            (at 137.16 106.68 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Footprint" "lpddr4-testbed-footprints:LED_0603" 
+            (id 2) 
+            (at 144.78 107.95 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "http://www.farnell.com/datasheets/2045956.pdf" 
+            (id 3) 
+            (at 147.32 107.95 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "KP-1608CGCK" 
+            (id 4) 
+            (at 152.4 107.95 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Manufacturer" "KINGBRIGHT" 
+            (id 5) 
+            (at 155.448 108.204 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (pin "1" 
+            (uuid 70741809-d2a8-4fe1-a386-61336cd2a33c)) 
+        (pin "2" 
+            (uuid b2b9c863-595a-4a90-a0d6-cf0b031893b1))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:KP-1608CGCK") 
+        (at 147.32 102.87 270) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-0000607100f6) 
+        (property "Reference" "D2" 
+            (id 0) 
+            (at 144.78 95.25 90) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "KP-1608CGCK" 
+            (id 1) 
+            (at 144.78 106.68 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Footprint" "lpddr4-testbed-footprints:LED_0603" 
+            (id 2) 
+            (at 152.4 107.95 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "http://www.farnell.com/datasheets/2045956.pdf" 
+            (id 3) 
+            (at 154.94 107.95 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "KP-1608CGCK" 
+            (id 4) 
+            (at 160.02 107.95 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Manufacturer" "KINGBRIGHT" 
+            (id 5) 
+            (at 163.068 108.204 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (pin "1" 
+            (uuid c3323208-e35c-4d47-bd30-e7b7ec5269b1)) 
+        (pin "2" 
+            (uuid f7d35ace-8d72-46de-90f5-9facbc957c48))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:KP-1608CGCK") 
+        (at 154.94 102.87 270) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000060710469) 
+        (property "Reference" "D1" 
+            (id 0) 
+            (at 152.4 95.25 90) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "KP-1608CGCK" 
+            (id 1) 
+            (at 152.4 106.68 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Footprint" "lpddr4-testbed-footprints:LED_0603" 
+            (id 2) 
+            (at 160.02 107.95 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "http://www.farnell.com/datasheets/2045956.pdf" 
+            (id 3) 
+            (at 162.56 107.95 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "KP-1608CGCK" 
+            (id 4) 
+            (at 167.64 107.95 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Manufacturer" "KINGBRIGHT" 
+            (id 5) 
+            (at 170.688 108.204 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (pin "1" 
+            (uuid d8f922be-65c6-4168-a3ec-4068da341b66)) 
+        (pin "2" 
+            (uuid f1896b10-0d67-47af-b8f2-f4314f69b263))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:GND") 
+        (at 132.08 116.84 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000060714be8) 
+        (property "Reference" "#PWR0109" 
+            (id 0) 
+            (at 132.08 123.19 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 132.207 121.2342 0)) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 132.08 116.84 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 132.08 116.84 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid 8843eb18-64ac-416d-80f5-7de3956e4d76))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:GND") 
+        (at 139.7 116.84 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-00006071585d) 
+        (property "Reference" "#PWR0110" 
+            (id 0) 
+            (at 139.7 123.19 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 139.827 121.2342 0)) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 139.7 116.84 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 139.7 116.84 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid 9e74b561-3e5a-4335-9362-f559f63a7e6d))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:GND") 
+        (at 147.32 116.84 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-0000607159cd) 
+        (property "Reference" "#PWR0111" 
+            (id 0) 
+            (at 147.32 123.19 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 147.447 121.2342 0)) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 147.32 116.84 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 147.32 116.84 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid 2a8a7b10-d3cc-46c3-893f-c8a63f4a6242))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:GND") 
+        (at 154.94 116.84 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000060715f89) 
+        (property "Reference" "#PWR0112" 
+            (id 0) 
+            (at 154.94 123.19 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 155.067 121.2342 0)) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 154.94 116.84 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 154.94 116.84 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid bb0d3283-0813-470c-a372-b0fcc7d94383))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:GND") 
+        (at 72.39 115.57 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-0000607170b4) 
+        (property "Reference" "#PWR0113" 
+            (id 0) 
+            (at 72.39 121.92 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 72.517 119.9642 0)) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 72.39 115.57 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 72.39 115.57 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid fb1d3e21-5fe5-478a-b5a0-c7808af32955))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:1285AS-H-2R2M=P2") 
+        (at 71.12 50.8 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-00006071b1e8) 
+        (property "Reference" "L1" 
+            (id 0) 
+            (at 71.12 43.053 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "1285AS-H-2R2M=P2" 
+            (id 1) 
+            (at 69.85 45.72 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Footprint" "lpddr4-testbed-footprints:0805-res" 
+            (id 2) 
+            (at 72.39 54.61 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 72.517 50.038 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Manufacturer" "Murata" 
+            (id 4) 
+            (at 71.12 53.34 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "MPN" "1285AS-H-2R2M=P2" 
+            (id 5) 
+            (at 69.85 52.07 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Val" "2.2uH" 
+            (id 6) 
+            (at 71.12 48.2346 0)) 
+        (pin "1" 
+            (uuid 68688e62-973b-4980-aad6-43a18520e560)) 
+        (pin "2" 
+            (uuid 83085c88-7006-40e5-ac1e-b2212f759fb1))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:TPS613221ADBVT-antmicroDCDCConverters") 
+        (at 86.36 53.34 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-00006071b97c) 
+        (property "Reference" "U2" 
+            (id 0) 
+            (at 92.71 43.18 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "TPS613221ADBVT" 
+            (id 1) 
+            (at 95.25 45.72 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Footprint" "lpddr4-testbed-footprints:SOT-23-5" 
+            (id 2) 
+            (at 87.63 63.5 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps61322.pdf" 
+            (id 3) 
+            (at 86.36 53.34 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Manufacturer" "Texas Instruments" 
+            (id 4) 
+            (at 86.36 53.34 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "MPN" "TPS613221ADBVT" 
+            (id 5) 
+            (at 86.36 53.34 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid 6d8bfaed-8526-46b2-ac04-bc404fc95f0a)) 
+        (pin "2" 
+            (uuid e5678b98-b5df-4c8f-bbfb-d0539683c4f5)) 
+        (pin "3" 
+            (uuid 378a4590-c3a1-4d10-a136-158169aa38c4)) 
+        (pin "4" 
+            (uuid 0e6b4146-86e1-4fef-b191-5bdabc426584)) 
+        (pin "5" 
+            (uuid 5e9978fc-4226-4512-9a5a-7e7aea1d9d63))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:R_10k_0402") 
+        (at 69.85 138.43 270) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000060737087) 
+        (property "Reference" "R14" 
+            (id 0) 
+            (at 71.628 137.287 90) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "R_10k_0402" 
+            (id 1) 
+            (at 66.04 138.43 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "lpddr4-testbed-footprints:0402-res" 
+            (id 2) 
+            (at 74.93 143.51 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 69.85 138.43 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "VISHAY" 
+            (id 4) 
+            (at 80.01 143.51 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "CRCW040210K0FKEDHP" 
+            (id 5) 
+            (at 77.47 143.51 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "10k" 
+            (id 6) 
+            (at 71.628 139.7762 90) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (pin "1" 
+            (uuid 78c253ab-cf77-47d1-9f74-f6da3802a62c)) 
+        (pin "2" 
+            (uuid e151df58-7098-45ef-ba09-f0920c59e8fe))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:GND") 
+        (at 69.85 153.67 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-0000607431a7) 
+        (property "Reference" "#PWR0114" 
+            (id 0) 
+            (at 69.85 160.02 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 69.977 158.0642 0)) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 69.85 153.67 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 69.85 153.67 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid 5ec7c7f2-c70f-485e-9bbc-4894a67e926f))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:TP_SMD1MM") 
+        (at 67.31 149.86 270) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-0000607450bc) 
+        (property "Reference" "TP3" 
+            (id 0) 
+            (at 66.04 153.67 90) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (property "Value" "TP_SMD1MM" 
+            (id 1) 
+            (at 64.77 149.86 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Footprint" "lpddr4-testbed-footprints:Testpoint_smd_1mm" 
+            (id 2) 
+            (at 72.39 154.94 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 74.93 154.94 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (pin "1" 
+            (uuid 492fd5b0-5fdb-4f7d-a677-3508405f9a10))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:GND") 
+        (at 105.41 153.67 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-00006074924f) 
+        (property "Reference" "#PWR0115" 
+            (id 0) 
+            (at 105.41 160.02 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 105.537 158.0642 0)) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 105.41 153.67 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 105.41 153.67 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid e6523284-7683-4e6a-950f-2dda98e80926))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:GND") 
+        (at 127 153.67 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-00006075d8b7) 
+        (property "Reference" "#PWR0116" 
+            (id 0) 
+            (at 127 160.02 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 127.127 158.0642 0)) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 127 153.67 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 127 153.67 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid e8bcfca3-30be-42ff-8a15-1e30a13ad01b))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:C_100n_0402") 
+        (at 139.7 146.05 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-00006076148d) 
+        (property "Reference" "C39" 
+            (id 0) 
+            (at 142.621 144.907 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left))) 
+        (property "Value" "C_100n_0402" 
+            (id 1) 
+            (at 139.7 149.86 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Footprint" "lpddr4-testbed-footprints:0402-cap" 
+            (id 2) 
+            (at 144.78 140.97 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 139.7 146.05 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Walsin" 
+            (id 4) 
+            (at 144.78 135.89 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "MPN" "0402X104K6R3CT" 
+            (id 5) 
+            (at 144.78 138.43 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Val" "100n" 
+            (id 6) 
+            (at 142.621 147.3962 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (pin "1" 
+            (uuid 321e3da0-4145-4bd1-be15-48690459106b)) 
+        (pin "2" 
+            (uuid f807415d-9d6f-4f6b-8377-87a690ba962a))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:GND") 
+        (at 139.7 153.67 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000060761493) 
+        (property "Reference" "#PWR0117" 
+            (id 0) 
+            (at 139.7 160.02 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Value" "GND" 
+            (id 1) 
+            (at 139.827 158.0642 0)) 
+        (property "Footprint" "" 
+            (id 2) 
+            (at 139.7 153.67 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 139.7 153.67 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid c6d5e6e1-028d-489a-a327-15488b442e62))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:TP_SMD1MM") 
+        (at 116.84 99.06 90) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000060765b95) 
+        (property "Reference" "TP2" 
+            (id 0) 
+            (at 121.92 99.06 90) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (property "Value" "TP_SMD1MM" 
+            (id 1) 
+            (at 119.38 99.06 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Footprint" "lpddr4-testbed-footprints:Testpoint_smd_1mm" 
+            (id 2) 
+            (at 111.76 93.98 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 109.22 93.98 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (pin "1" 
+            (uuid aaa12cda-4f27-4810-b87c-c8a90c20cc62))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:TP_SMD1MM") 
+        (at 116.84 96.52 90) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000060767927) 
+        (property "Reference" "TP1" 
+            (id 0) 
+            (at 121.92 96.52 90) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (property "Value" "TP_SMD1MM" 
+            (id 1) 
+            (at 119.38 96.52 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Footprint" "lpddr4-testbed-footprints:Testpoint_smd_1mm" 
+            (id 2) 
+            (at 111.76 91.44 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 109.22 91.44 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) 
+                (justify left) hide)) 
+        (pin "1" 
+            (uuid 141daed4-49ab-41f9-8889-9aea8f044bf2))) 
+    (symbol 
+        (lib_id "lpddr4-testbed:PCA6408APW") 
+        (at 93.98 97.79 0) 
+        (unit 1) 
+        (in_bom yes) 
+        (on_board yes) 
+        (uuid 00000000-0000-0000-0000-000060df635a) 
+        (property "Reference" "IC1" 
+            (id 0) 
+            (at 93.98 76.4794 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Value" "PCA6408APW" 
+            (id 1) 
+            (at 93.98 79.1718 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)))) 
+        (property "Footprint" "lpddr4-testbed-footprints:TSSOP-16" 
+            (id 2) 
+            (at 89.662 77.724 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Datasheet" "" 
+            (id 3) 
+            (at 81.28 81.28 0) 
+            (effects 
+                (font 
+                    (size 1.524 1.524)) hide)) 
+        (property "Manufacturer" "NXP" 
+            (id 4) 
+            (at 81.534 73.66 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "MPN" "PCA6408APW" 
+            (id 5) 
+            (at 84.836 76.454 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (pin "1" 
+            (uuid ff49978a-2bdc-4e04-91fb-12bc3ae5edd2)) 
+        (pin "10" 
+            (uuid 6cdff450-7e18-405f-b774-927a882d9bd5)) 
+        (pin "11" 
+            (uuid b362eb65-16bb-42c6-9629-21ad4273a123)) 
+        (pin "12" 
+            (uuid c63916dd-8fc3-40ba-b61a-4bb589b7e387)) 
+        (pin "13" 
+            (uuid 3ae4d80e-77e2-4446-b321-0b3c3fd76e2c)) 
+        (pin "14" 
+            (uuid 003439ed-b7a7-4f03-a188-b1f6363a6a8b)) 
+        (pin "15" 
+            (uuid 7ef53cfb-be75-44a1-8a9b-d1159c32313b)) 
+        (pin "16" 
+            (uuid 85e4b1a8-aba4-4103-9031-a42833a933cf)) 
+        (pin "2" 
+            (uuid 2eadee50-63da-4db1-a0c0-0290bc50c385)) 
+        (pin "3" 
+            (uuid 1029c632-17fe-424b-b8fc-27d370b0c61d)) 
+        (pin "4" 
+            (uuid f7725454-3dea-435a-bd3d-ca29d5a2e4ff)) 
+        (pin "5" 
+            (uuid 5b75998e-208f-4aa0-8011-0507a500d6f1)) 
+        (pin "6" 
+            (uuid 97d8bfff-68b8-4b62-b193-8ac7068bd5bd)) 
+        (pin "7" 
+            (uuid ef178176-fcb9-45f0-8134-48d6200fd572)) 
+        (pin "8" 
+            (uuid 3daedd5e-81ec-4fbb-b3f7-2812f66ea004)) 
+        (pin "9" 
+            (uuid 927113d1-c747-4bc1-9ea6-801721b75e02))))
