@@ -10889,10 +10889,10 @@
   (gr_line (start 100 82) (end 101.1 82) (layer "Edge.Cuts") (width 0.15) (tstamp de74a36a-ca4e-4561-b7c2-96bd5e8ff06d))
   (gr_line (start 135.3 75) (end 135.3 70) (layer "Edge.Cuts") (width 0.15) (tstamp efa97d58-8af1-4999-9b9b-d03052fb50e5))
   (gr_line (start 169.6 78) (end 169.600002 70.75) (layer "Edge.Cuts") (width 0.15) (tstamp f428a5fe-3e84-4781-b1d9-839c97a9da24))
-  (gr_text "LPDDR4 Testbed\nRev. 1.1.0  05/2021" (at 108.525 78.2) (layer "F.Cu") (tstamp e52c030d-8ce3-4b96-9936-9c0cf8858e21)
+  (gr_text "LPDDR4 Testbed\nRev. 1.2.0  12/2022" (at 108.525 78.2) (layer "F.Cu") (tstamp e52c030d-8ce3-4b96-9936-9c0cf8858e21)
     (effects (font (size 0.85 0.85) (thickness 0.18)) (justify left))
   )
-  (gr_text "LPDDR4 Testbed\nRev. 1.1.0  05/2021" (at 108.525 78.2) (layer "F.Mask") (tstamp 00000000-0000-0000-0000-00005fff5e5b)
+  (gr_text "LPDDR4 Testbed\nRev. 1.2.0  12/2022" (at 108.525 78.2) (layer "F.Mask") (tstamp 00000000-0000-0000-0000-00005fff5e5b)
     (effects (font (size 0.85 0.85) (thickness 0.18)) (justify left))
   )
 

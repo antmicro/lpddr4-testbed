@@ -6,7 +6,7 @@
 
   (title_block
     (title "LPDDR4 testbed")
-    (rev "1.1.0")
+    (rev "1.2.0")
   )
 
   (lib_symbols
