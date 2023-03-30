@@ -1,7 +1,7 @@
 LPDDR4 testbed
 ==============
 
-Copyright (c) 2020-2021 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2020-2023 [Antmicro](https://www.antmicro.com)
 
 [![View on opensource.antmicro.com](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/lpddr4-testbed)
 
@@ -29,6 +29,6 @@ directories:
 -   `lib` - contains the component libraries
 -   `img` - contains graphics for this README
 
-### License
+### Licensing
 
-[Apache-2.0](LICENSE)
+This project is published under the [Apache-2.0](LICENSE) license.
