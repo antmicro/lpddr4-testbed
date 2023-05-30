@@ -10,7 +10,7 @@
   )
 
   (lib_symbols
-    (symbol "lpddr4-testbed:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "antmicropower:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -44,6 +44,7 @@
         )
       )
     )
+
     (symbol "lpddr4-testbed:ddr4-sodimm-edge-connector" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at -7.62 87.63 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -5055,7 +5056,7 @@
     (pin "260" (uuid 6fde1fca-1fa3-4e2e-86c3-bc430c7fc7ef))
   )
 
-  (symbol (lib_id "lpddr4-testbed:GND") (at 148.59 231.775 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 148.59 231.775 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000600cf473)
     (property "Reference" "#PWR0101" (id 0) (at 148.59 238.125 0)
@@ -5071,7 +5072,7 @@
     (pin "1" (uuid dee0a391-f728-483d-8b99-ef064a212385))
   )
 
-  (symbol (lib_id "lpddr4-testbed:GND") (at 116.84 231.775 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 116.84 231.775 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000600f8128)
     (property "Reference" "#PWR0103" (id 0) (at 116.84 238.125 0)
@@ -5087,7 +5088,7 @@
     (pin "1" (uuid 7a9d9a14-7f8c-4a5c-80ea-17fc9a02e764))
   )
 
-  (symbol (lib_id "lpddr4-testbed:GND") (at 239.395 231.775 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 239.395 231.775 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006015ecea)
     (property "Reference" "#PWR0102" (id 0) (at 239.395 238.125 0)
@@ -5103,7 +5104,7 @@
     (pin "1" (uuid 4e58ca31-3331-4d9e-aa27-46f34d9c70da))
   )
 
-  (symbol (lib_id "lpddr4-testbed:GND") (at 267.97 231.775 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 267.97 231.775 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006032ae1d)
     (property "Reference" "#PWR0104" (id 0) (at 267.97 238.125 0)

@@ -11,14 +11,14 @@
   )
 
   (lib_symbols
-    (symbol "lpddr4-testbed:antmicro_logo" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "antmicroMechanicalParts:antmicro_logo" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "N" (id 0) (at 0 8.89 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "antmicro_logo" (id 1) (at 0 -5.08 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "lpddr4-testbed-footprints:antmicro-logo" (id 2) (at -2.54 6.35 0)
+      (property "Footprint" "antmicro-footprints:antmicro-logo" (id 2) (at -2.54 6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (id 3) (at 0 8.89 0)
@@ -30,14 +30,15 @@
         )
       )
     )
-    (symbol "lpddr4-testbed:oshw_logo" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+
+    (symbol "antmicroMechanicalParts:oshw_logo" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "N" (id 0) (at 0.508 1.016 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "oshw_logo" (id 1) (at 0.762 -3.81 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "lpddr4-testbed-footprints:oshw-logo" (id 2) (at 0.508 -6.096 0)
+      (property "Footprint" "antmicro-footprints:oshw-logo" (id 2) (at 0.508 -6.096 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (id 3) (at 0 0 0)
@@ -50,7 +51,6 @@
       )
     )
   )
-
 
   (image (at 66.195 268.97) (scale 0.4)
     (uuid 1cec5020-1875-43af-8177-92bd14f8cd31)
@@ -2099,7 +2099,7 @@
     (uuid f3988693-3a90-47b2-ac7a-e5c8b1ab9799)
   )
 
-  (symbol (lib_id "lpddr4-testbed:oshw_logo") (at 110.49 265.43 0) (unit 1)
+  (symbol (lib_id "antmicroMechanicalParts:oshw_logo") (at 110.49 265.43 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fff48fb)
     (property "Reference" "N2" (id 0) (at 115.4176 265.3538 0)
@@ -2108,7 +2108,7 @@
     (property "Value" "oshw_logo" (id 1) (at 115.4176 267.6652 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "lpddr4-testbed-footprints:oshw-logo" (id 2) (at 110.998 271.526 0)
+    (property "Footprint" "antmicro-footprints:oshw-logo" (id 2) (at 110.998 271.526 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 110.49 265.43 0)
@@ -2116,7 +2116,7 @@
     )
   )
 
-  (symbol (lib_id "lpddr4-testbed:antmicro_logo") (at 109.855 273.05 0) (unit 1)
+  (symbol (lib_id "antmicroMechanicalParts:antmicro_logo") (at 109.855 273.05 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fff4c1f)
     (property "Reference" "N1" (id 0) (at 115.2906 270.6878 0)
@@ -2125,7 +2125,7 @@
     (property "Value" "antmicro_logo" (id 1) (at 115.2906 272.9992 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "lpddr4-testbed-footprints:antmicro-logo_scaled_20mm" (id 2) (at 107.315 266.7 0)
+    (property "Footprint" "antmicro-footprints:antmicro-logo" (id 2) (at 107.315 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 109.855 264.16 0)
@@ -2343,121 +2343,121 @@
       (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd86523"
-      (reference "C1") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C1") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fdbc6a9"
-      (reference "C2") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C2") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe30728"
-      (reference "C3") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C3") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd8c758"
-      (reference "C4") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C4") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fdbc6ba"
-      (reference "C5") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C5") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe36b43"
-      (reference "C6") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C6") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd8cf69"
-      (reference "C7") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C7") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fdbc6c3"
-      (reference "C8") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C8") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe395d4"
-      (reference "C9") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C9") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd8d1a2"
-      (reference "C10") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C10") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fdbc6cc"
-      (reference "C11") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C11") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe395e5"
-      (reference "C12") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C12") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd9c652"
-      (reference "C13") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C13") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fdbc6ed"
-      (reference "C14") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C14") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5bf1b"
-      (reference "C15") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C15") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd9c663"
-      (reference "C16") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C16") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fdbc6fe"
-      (reference "C17") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C17") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5bf2c"
-      (reference "C18") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C18") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd9c66c"
-      (reference "C19") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C19") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5bf3d"
-      (reference "C20") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C20") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd9c675"
-      (reference "C21") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C21") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5bf4e"
-      (reference "C22") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C22") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5f066"
-      (reference "C23") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C23") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe0b8f2"
-      (reference "C24") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C24") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe0e056"
-      (reference "C25") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C25") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5f077"
-      (reference "C26") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C26") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe0e067"
-      (reference "C27") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C27") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5f088"
-      (reference "C28") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C28") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe11700"
-      (reference "C29") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C29") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5f099"
-      (reference "C30") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C30") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe56de6"
-      (reference "C31") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C31") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe7a7b0"
-      (reference "C32") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C32") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe7a7c1"
-      (reference "C33") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C33") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000606e315f"
-      (reference "C34") (unit 1) (value "C_4u7_0402") (footprint "lpddr4-testbed-footprints:0402-cap")
+      (reference "C34") (unit 1) (value "C_4u7_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005feb62fb"
-      (reference "C35") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C35") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005feb630c"
-      (reference "C36") (unit 1) (value "C_100n_0201") (footprint "lpddr4-testbed-footprints:0201-res")
+      (reference "C36") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:C_0201")
     )
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000606e3d48"
-      (reference "C37") (unit 1) (value "C_4u7_0402") (footprint "lpddr4-testbed-footprints:0402-cap")
+      (reference "C37") (unit 1) (value "C_4u7_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006070ea8e"
-      (reference "C38") (unit 1) (value "C_100n_0402") (footprint "lpddr4-testbed-footprints:0402-cap")
+      (reference "C38") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006076148d"
-      (reference "C39") (unit 1) (value "C_100n_0402") (footprint "lpddr4-testbed-footprints:0402-cap")
+      (reference "C39") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060710469"
       (reference "D1") (unit 1) (value "KP-1608CGCK") (footprint "lpddr4-testbed-footprints:LED_0603")
@@ -2487,52 +2487,52 @@
       (reference "L1") (unit 1) (value "1285AS-H-2R2M=P2") (footprint "lpddr4-testbed-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-00005fff4c1f"
-      (reference "N1") (unit 1) (value "antmicro_logo") (footprint "lpddr4-testbed-footprints:antmicro-logo_scaled_20mm")
+      (reference "N1") (unit 1) (value "antmicro_logo") (footprint "antmicro-footprints:antmicro-logo")
     )
     (path "/00000000-0000-0000-0000-00005fff48fb"
-      (reference "N2") (unit 1) (value "oshw_logo") (footprint "lpddr4-testbed-footprints:oshw-logo")
+      (reference "N2") (unit 1) (value "oshw_logo") (footprint "antmicro-footprints:oshw-logo")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd814a6"
-      (reference "R1") (unit 1) (value "R_10k_0402") (footprint "lpddr4-testbed-footprints:0402-res")
+      (reference "R1") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd86989"
-      (reference "R2") (unit 1) (value "R_0R_0402") (footprint "lpddr4-testbed-footprints:0402-res")
+      (reference "R2") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd7bafa"
-      (reference "R3") (unit 1) (value "R_10k_0402") (footprint "lpddr4-testbed-footprints:0402-res")
+      (reference "R3") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005ffc2792"
-      (reference "R4") (unit 1) (value "R_10k_0402") (footprint "lpddr4-testbed-footprints:0402-res")
+      (reference "R4") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005ffc8223"
-      (reference "R5") (unit 1) (value "R_10k_0402") (footprint "lpddr4-testbed-footprints:0402-res")
+      (reference "R5") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-0000600c5846"
-      (reference "R6") (unit 1) (value "R_240R_0402") (footprint "lpddr4-testbed-footprints:0402-res")
+      (reference "R6") (unit 1) (value "R_240R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-0000600be0df"
-      (reference "R7") (unit 1) (value "R_0R_0402") (footprint "lpddr4-testbed-footprints:0402-res")
+      (reference "R7") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000606e94d2"
-      (reference "R8") (unit 1) (value "R_0R_0402") (footprint "lpddr4-testbed-footprints:0402-res")
+      (reference "R8") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060702673"
-      (reference "R9") (unit 1) (value "R_220R_0402") (footprint "lpddr4-testbed-footprints:0402-res")
+      (reference "R9") (unit 1) (value "R_220R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006070848e"
-      (reference "R10") (unit 1) (value "R_220R_0402") (footprint "lpddr4-testbed-footprints:0402-res")
+      (reference "R10") (unit 1) (value "R_220R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000607094fc"
-      (reference "R11") (unit 1) (value "R_220R_0402") (footprint "lpddr4-testbed-footprints:0402-res")
+      (reference "R11") (unit 1) (value "R_220R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006070a03e"
-      (reference "R12") (unit 1) (value "R_220R_0402") (footprint "lpddr4-testbed-footprints:0402-res")
+      (reference "R12") (unit 1) (value "R_220R_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000606fe40c"
-      (reference "R13") (unit 1) (value "R_10k_0402") (footprint "lpddr4-testbed-footprints:0402-res")
+      (reference "R13") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060737087"
-      (reference "R14") (unit 1) (value "R_10k_0402") (footprint "lpddr4-testbed-footprints:0402-res")
+      (reference "R14") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060767927"
       (reference "TP1") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-testbed-footprints:Testpoint_smd_1mm")
@@ -2544,10 +2544,10 @@
       (reference "TP3") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-testbed-footprints:Testpoint_smd_1mm")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-000060819f73"
-      (reference "U1") (unit 1) (value "MT53E1G32D2NP-046") (footprint "lpddr4-testbed-footprints:BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm")
+      (reference "U1") (unit 1) (value "MT53E1G32D2NP-046") (footprint "antmicro-footprints:BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00006082254c"
-      (reference "U1") (unit 2) (value "MT53E1G32D2NP-046") (footprint "lpddr4-testbed-footprints:BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm")
+      (reference "U1") (unit 2) (value "MT53E1G32D2NP-046") (footprint "antmicro-footprints:BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm")
     )
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006071b97c"
       (reference "U2") (unit 1) (value "TPS613221ADBVT") (footprint "lpddr4-testbed-footprints:SOT-23-5")
