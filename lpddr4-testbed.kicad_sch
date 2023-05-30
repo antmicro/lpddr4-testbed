@@ -30,7 +30,6 @@
         )
       )
     )
-
     (symbol "antmicroMechanicalParts:oshw_logo" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "N" (id 0) (at 0.508 1.016 0)
         (effects (font (size 1.27 1.27)))
@@ -51,6 +50,7 @@
       )
     )
   )
+
 
   (image (at 66.195 268.97) (scale 0.4)
     (uuid 1cec5020-1875-43af-8177-92bd14f8cd31)
@@ -2125,7 +2125,7 @@
     (property "Value" "antmicro_logo" (id 1) (at 115.2906 272.9992 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "antmicro-footprints:antmicro-logo" (id 2) (at 107.315 266.7 0)
+    (property "Footprint" "antmicro-footprints:antmicro-logo_scaled_20mm" (id 2) (at 107.315 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 109.855 264.16 0)
@@ -2459,35 +2459,35 @@
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006076148d"
       (reference "C39") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060710469"
-      (reference "D1") (unit 1) (value "KP-1608CGCK") (footprint "lpddr4-testbed-footprints:LED_0603")
+    (path "/00000000-0000-0000-0000-0000606db5e6/f5c066cb-0b65-4141-b037-5d9434eb10bf"
+      (reference "D1") (unit 1) (value "LED_G_0603_KP-1608CGCK") (footprint "antmicro-footprints:LED_0603_1608Metric_G")
     )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000607100f6"
-      (reference "D2") (unit 1) (value "KP-1608CGCK") (footprint "lpddr4-testbed-footprints:LED_0603")
+    (path "/00000000-0000-0000-0000-0000606db5e6/e8ccee09-815b-4293-857b-4af514aa35d1"
+      (reference "D2") (unit 1) (value "LED_G_0603_KP-1608CGCK") (footprint "antmicro-footprints:LED_0603_1608Metric_G")
     )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006070fbc4"
-      (reference "D3") (unit 1) (value "KP-1608CGCK") (footprint "lpddr4-testbed-footprints:LED_0603")
+    (path "/00000000-0000-0000-0000-0000606db5e6/65d78578-4037-46e9-a5d5-c7e84b95e870"
+      (reference "D3") (unit 1) (value "LED_G_0603_KP-1608CGCK") (footprint "antmicro-footprints:LED_0603_1608Metric_G")
     )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006070a035"
-      (reference "D4") (unit 1) (value "KP-1608CGCK") (footprint "lpddr4-testbed-footprints:LED_0603")
+    (path "/00000000-0000-0000-0000-0000606db5e6/b4823387-7999-4d9a-82f5-027239277691"
+      (reference "D4") (unit 1) (value "LED_G_0603_KP-1608CGCK") (footprint "antmicro-footprints:LED_0603_1608Metric_G")
     )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060df635a"
-      (reference "IC1") (unit 1) (value "PCA6408APW") (footprint "lpddr4-testbed-footprints:TSSOP-16")
+    (path "/00000000-0000-0000-0000-0000606db5e6/a6d712cf-0d3a-438f-839b-c73baf84a038"
+      (reference "IC1") (unit 1) (value "PCA6408A_TSSOP") (footprint "antmicro-footprints:TSSOP-16_4.4x5mm_P0.65mm")
     )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000606e74fc"
-      (reference "IC2") (unit 1) (value "AT24CS01") (footprint "lpddr4-testbed-footprints:SOT-23-5")
+    (path "/00000000-0000-0000-0000-0000606db5e6/d0c57e51-b57a-4f24-aff5-9b18460245c1"
+      (reference "IC2") (unit 1) (value "AT24CS01_SOT23") (footprint "antmicro-footprints:SOT-23-5")
     )
-    (path "/00000000-0000-0000-0000-00005fdc4a05/00000000-0000-0000-0000-0000600ac6a9"
-      (reference "J1") (unit 1) (value "ddr4-sodimm-edge-connector") (footprint "lpddr4-testbed-footprints:SODIMM_DDR4_EDGE")
+    (path "/00000000-0000-0000-0000-00005fdc4a05/2f028d8c-89f4-4c25-99fe-1d228fb513c4"
+      (reference "J1") (unit 1) (value "Bus_DDR4_Edge_Conn") (footprint "antmicro-footprints:Bus_DDR4_Conn_Edge")
     )
-    (path "/00000000-0000-0000-0000-00005fdc4a05/00000000-0000-0000-0000-0000600b3548"
-      (reference "J1") (unit 2) (value "ddr4-sodimm-edge-connector") (footprint "lpddr4-testbed-footprints:SODIMM_DDR4_EDGE")
+    (path "/00000000-0000-0000-0000-00005fdc4a05/ef5e3531-2cb5-4a73-8680-84a758f618d4"
+      (reference "J1") (unit 2) (value "Bus_DDR4_Edge_Conn") (footprint "antmicro-footprints:Bus_DDR4_Conn_Edge")
     )
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006071b1e8"
       (reference "L1") (unit 1) (value "1285AS-H-2R2M=P2") (footprint "lpddr4-testbed-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-00005fff4c1f"
-      (reference "N1") (unit 1) (value "antmicro_logo") (footprint "antmicro-footprints:antmicro-logo")
+      (reference "N1") (unit 1) (value "antmicro_logo") (footprint "antmicro-footprints:antmicro-logo_scaled_20mm")
     )
     (path "/00000000-0000-0000-0000-00005fff48fb"
       (reference "N2") (unit 1) (value "oshw_logo") (footprint "antmicro-footprints:oshw-logo")
@@ -2534,14 +2534,14 @@
     (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060737087"
       (reference "R14") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060767927"
-      (reference "TP1") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-testbed-footprints:Testpoint_smd_1mm")
+    (path "/00000000-0000-0000-0000-0000606db5e6/6b30b341-d3b9-4e3a-b9bf-0775b70b2ce7"
+      (reference "TP1") (unit 1) (value "TP_0.75mm_SMD") (footprint "antmicro-footprints:TP_SMD_0.75mm")
     )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060765b95"
-      (reference "TP2") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-testbed-footprints:Testpoint_smd_1mm")
+    (path "/00000000-0000-0000-0000-0000606db5e6/f281abb1-6693-43f4-accc-853b4fbd9492"
+      (reference "TP2") (unit 1) (value "TP_0.75mm_SMD") (footprint "antmicro-footprints:TP_SMD_0.75mm")
     )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000607450bc"
-      (reference "TP3") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-testbed-footprints:Testpoint_smd_1mm")
+    (path "/00000000-0000-0000-0000-0000606db5e6/24f5c09f-f562-4b0e-a5b8-a42ca9183bcc"
+      (reference "TP3") (unit 1) (value "TP_0.75mm_SMD") (footprint "antmicro-footprints:TP_SMD_0.75mm")
     )
     (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-000060819f73"
       (reference "U1") (unit 1) (value "MT53E1G32D2NP-046") (footprint "antmicro-footprints:BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm")
