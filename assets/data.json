@@ -1,17 +1,17 @@
 {
     "id": "lpddr4-testbed",
     "componentIds": [
-        "yaego-cc0201krx6s5bb104",
+        "yageo-cc0201krx6s5bb104",
         "murata-grm155r61a475meaad",
-        "murata-grm155r61h104ke14d",
+        "walsin-0402x104k6r3ct",
         "kingbright-kp-1608cgck",
         "nxp-pca6408apw",
         "atmel-at24cs01-st",
         "murata-1285as-h-2r2m-p2",
-        "bourns-cr0402-fx-1002glf",
+        "vishay-crcw040210k0fkedhp",
         "panasonic-erj2ge0r00x",
-        "bourns-cr0402-fx-2400glf",
-        "bourns-cr0402-fx-2200glf",
+        "panasonic-erj2gej241x",
+        "panasonic-erj2gej221x",
         "micron-mt53e1g32d2np-046-wt-a",
         "texas-instruments-tps613221adbvt"
     ],
