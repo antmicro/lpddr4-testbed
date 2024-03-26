@@ -11,14 +11,14 @@
   )
 
   (lib_symbols
-    (symbol "antmicroMemoryConnectorsPCCardSockets:Edge_Conn_Bus_DDR4" (in_bom no) (on_board yes)
+    (symbol "lpddr4-testbed:Edge_Conn_Bus_DDR4" (in_bom no) (on_board yes)
       (property "Reference" "J" (at 36.83 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Value" "Edge_Conn_Bus_DDR4" (at 36.83 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Footprint" "antmicro-footprints:Edge_Conn_Bus_DDR4" (at 36.83 -5.08 0)
+      (property "Footprint" "lpddr4-testbed-footprints:Edge_Conn_Bus_DDR4" (at 36.83 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Datasheet" "" (at 36.83 -12.7 0)
@@ -1107,7 +1107,7 @@
       )
     )
 
-    (symbol "antmicropower:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "lpddr4-testbed:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1142,7 +1142,7 @@
       )
     )
 
-    (symbol "antmicropower:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (symbol "lpddr4-testbed:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "#FLG" (at 0 1.905 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -4734,7 +4734,7 @@
     )
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 149.225 231.775 0) (unit 1)
+  (symbol (lib_id "lpddr4-testbed:GND") (at 149.225 231.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000600cf473)
     (property "Reference" "#PWR0101" (at 149.225 238.125 0)
@@ -4759,7 +4759,7 @@
     )
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 117.475 231.775 0) (unit 1)
+  (symbol (lib_id "lpddr4-testbed:GND") (at 117.475 231.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000600f8128)
     (property "Reference" "#PWR0103" (at 117.475 238.125 0)
@@ -4784,7 +4784,7 @@
     )
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 239.395 231.775 0) (unit 1)
+  (symbol (lib_id "lpddr4-testbed:GND") (at 239.395 231.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006015ecea)
     (property "Reference" "#PWR0102" (at 239.395 238.125 0)
@@ -4809,7 +4809,7 @@
     )
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 270.51 231.775 0) (unit 1)
+  (symbol (lib_id "lpddr4-testbed:GND") (at 270.51 231.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006032ae1d)
     (property "Reference" "#PWR0104" (at 270.51 238.125 0)
@@ -4834,7 +4834,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroMemoryConnectorsPCCardSockets:Edge_Conn_Bus_DDR4") (at 121.92 63.5 0) (unit 1)
+  (symbol (lib_id "lpddr4-testbed:Edge_Conn_Bus_DDR4") (at 121.92 63.5 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f028d8c-89f4-4c25-99fe-1d228fb513c4)
     (property "Reference" "J1" (at 133.35 55.88 0)
@@ -4843,7 +4843,7 @@
     (property "Value" "Bus_DDR4_Edge_Conn" (at 133.35 58.42 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (property "Footprint" "antmicro-footprints:Edge_Conn_Bus_DDR4" (at 158.75 68.58 0)
+    (property "Footprint" "lpddr4-testbed-footprints:Edge_Conn_Bus_DDR4" (at 158.75 68.58 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2309413%7F6%7Fpdf%7FEnglish%7FENG_CD_2309413_6.pdf%7F2309413-1" (at 158.75 76.2 0)
@@ -5130,7 +5130,7 @@
     )
   )
 
-  (symbol (lib_id "antmicropower:PWR_FLAG") (at 107.95 179.705 0) (unit 1)
+  (symbol (lib_id "lpddr4-testbed:PWR_FLAG") (at 107.95 179.705 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81f5f605-3c45-4772-8195-8efe5a9d1bd8)
     (property "Reference" "#FLG0104" (at 107.95 177.8 0)
@@ -5155,7 +5155,7 @@
     )
   )
 
-  (symbol (lib_id "antmicropower:PWR_FLAG") (at 159.385 207.645 0) (unit 1)
+  (symbol (lib_id "lpddr4-testbed:PWR_FLAG") (at 159.385 207.645 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ade5c2e-37e6-432d-a325-cf17511cf824)
     (property "Reference" "#FLG0102" (at 159.385 205.74 0)
@@ -5180,7 +5180,7 @@
     )
   )
 
-  (symbol (lib_id "antmicropower:PWR_FLAG") (at 149.225 62.865 0) (unit 1)
+  (symbol (lib_id "lpddr4-testbed:PWR_FLAG") (at 149.225 62.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d35c1d8e-3391-4994-99a3-8b50fe96f22f)
     (property "Reference" "#FLG0103" (at 149.225 60.96 0)
@@ -5205,7 +5205,7 @@
     )
   )
 
-  (symbol (lib_id "antmicropower:PWR_FLAG") (at 159.385 220.345 0) (unit 1)
+  (symbol (lib_id "lpddr4-testbed:PWR_FLAG") (at 159.385 220.345 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d977df09-d6b1-4247-9ec4-289566b13e9a)
     (property "Reference" "#FLG0101" (at 159.385 218.44 0)
@@ -5230,7 +5230,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroMemoryConnectorsPCCardSockets:Edge_Conn_Bus_DDR4") (at 243.84 66.04 0) (unit 2)
+  (symbol (lib_id "lpddr4-testbed:Edge_Conn_Bus_DDR4") (at 243.84 66.04 0) (unit 2)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef5e3531-2cb5-4a73-8680-84a758f618d4)
     (property "Reference" "J1" (at 255.27 58.42 0)
@@ -5239,7 +5239,7 @@
     (property "Value" "Bus_DDR4_Edge_Conn" (at 255.27 60.96 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (property "Footprint" "antmicro-footprints:Edge_Conn_Bus_DDR4" (at 280.67 71.12 0)
+    (property "Footprint" "lpddr4-testbed-footprints:Edge_Conn_Bus_DDR4" (at 280.67 71.12 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2309413%7F6%7Fpdf%7FEnglish%7FENG_CD_2309413_6.pdf%7F2309413-1" (at 280.67 78.74 0)
