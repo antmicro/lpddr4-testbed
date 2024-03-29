@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name "lpddr4-testbed-rescue")(type "KiCad")(uri "${KIPRJMOD}/lpddr4-testbed-rescue.kicad_sym")(options "")(descr ""))
-  (lib (name "lpddr4-testbed")(type "KiCad")(uri "${KIPRJMOD}/lib/lpddr4-testbed.kicad_sym")(options "")(descr ""))
-)
